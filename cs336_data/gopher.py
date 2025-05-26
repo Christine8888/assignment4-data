@@ -21,6 +21,11 @@ class GopherFilter():
         self.filter_bullet_point = filter_bullet_point
         self.filter_stop_word = filter_stop_word
         self.verbose = verbose
+        # self.download_ntlk()
+    
+    def download_ntlk(self):
+        nltk.download('punkt_tab')
+        nltk.download('punkt')
 
     def filter(self, text: str) -> str:
         # clean whitespace from text
@@ -67,7 +72,7 @@ class GopherFilter():
     def word_alphabet_filter(tokenized: list[str]) -> bool:
         # 80% of words must have at least one alphabetic character
         alpha_count = sum(1 for word in tokenized if any(c.isalpha() for c in word))
-        print(alpha_count, len(tokenized))
+        # print(alpha_count, len(tokenized))
         alpha_frac = alpha_count / len(tokenized)
         return alpha_frac >= 0.8 and alpha_count >= 50 and alpha_count <= 100000
     

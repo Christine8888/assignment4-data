@@ -15,16 +15,34 @@ from typing import Tuple
 import random
 import re
 from cs336_data.gopher import GopherFilter
+import chardet
 
-BASE_DIR = "/Users/christineye/cs336/assignment4-data/data"
+#BASE_DIR = "/Users/christineye/cs336/assignment4-data/data"
+#BASE_DIR = "/home/c-cye/assignment4-data/cs336_data"
+BASE_DIR = "/data"
+NSFW_FILTER = "classifiers/dolma_fasttext_nsfw_jigsaw_model.bin"
+TOXIC_FILTER = "classifiers/dolma_fasttext_hatespeech_jigsaw_model.bin"
+LANGUAGE_FILTER = "classifiers/lid.176.bin"
 
 def html_to_txt(html: bytes) -> str:
     encoding = detect_encoding(html)
     if encoding is None:
         raise ValueError("Could not detect encoding")
-    html_str = html.decode(encoding)
-    
-    return extract_plain_text(html_str)
+    try:
+        html_str = html.decode(encoding)
+        return extract_plain_text(html_str)
+    except Exception as e:
+        try:
+            result = chardet.detect(html[:10000]) 
+            if result['encoding'] is not None:
+                html_str = html.decode(result['encoding'])
+                return extract_plain_text(html_str)
+            else:
+                print(f"Error decoding HTML: {result}")
+                return ""
+        except Exception as e:
+            print(f"Error decoding HTML: {e}")
+            return ""
 
 def warc_to_txt(warc_file: str, n_records: int = 10, record_id: int = 0):
     stream = GZipStream(FileStream(warc_file, 'rb'))
@@ -37,53 +55,71 @@ def warc_to_txt(warc_file: str, n_records: int = 10, record_id: int = 0):
         
         yield html_to_txt(record.reader.read())
 
-def mask_emails(text: str) -> str:
-    email_regex = r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b"
-    masked_text, count = re.subn(email_regex, "|||EMAIL_ADDRESS|||", text, flags = re.IGNORECASE)
-    return masked_text, count
+class PIIFilter():
+    def __init__(self):
+        self.email_regex = r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b"
+        self.phone_regex = r"(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}"
+        self.ipv4_regex = r"(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])"
 
-def mask_phone_numbers(text: str) -> str:
-    phone_regex = r"(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}"
-    masked_text, count = re.subn(phone_regex, "|||PHONE_NUMBER|||", text)
-    return masked_text, count
+        # compile regexes for speedup
+        self.email_regex = re.compile(self.email_regex, re.IGNORECASE)
+        self.phone_regex = re.compile(self.phone_regex)
+        self.ipv4_regex = re.compile(self.ipv4_regex)
 
-def mask_ips(text: str) -> str:
-    ipv4_regex = r"(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])"
-    masked_text, count = re.subn(ipv4_regex, "|||IP_ADDRESS|||", text)
-    return masked_text, count
+    def mask_emails(self, text: str) -> str:
+        masked_text, count = self.email_regex.subn("|||EMAIL_ADDRESS|||", text)
+        return masked_text, count
 
-def filter_fasttext(text: str, classifier_id: str) -> str:
+    def mask_phone_numbers(self, text: str) -> str:
+        masked_text, count = self.phone_regex.subn("|||PHONE_NUMBER|||", text)
+        return masked_text, count
+
+    def mask_ips(self, text: str) -> str:
+        masked_text, count = self.ipv4_regex.subn("|||IP_ADDRESS|||", text)
+        return masked_text, count
+
+def load_classifier(classifier_id: str) -> fasttext.FastText:
+    classifier_path = os.path.join(BASE_DIR, classifier_id)
+    return fasttext.load_model(classifier_path)
+
+def filter_fasttext(text: str, classifier: fasttext.FastText) -> str:
     # strip newlines
     text = text.replace("\n", " ")
-    
-    # load classifier
-    classifier_path = os.path.join(BASE_DIR, classifier_id)
-    classifier = fasttext.load_model(classifier_path)
     prediction = classifier.predict(text)
 
     label = prediction[0][0].replace("__label__", "")
     confidence = prediction[1][0]
     return label, confidence
 
-def detect_language(text: str, classifier_id: str = "classifiers/lid.176.bin") -> Tuple[str, float]:
-    return filter_fasttext(text, classifier_id)
+class LanguageDetector():
+    def __init__(self, classifier_id: str = LANGUAGE_FILTER):
+        self.classifier = load_classifier(classifier_id)
 
-def filter_nsfw(text: str, classifier_id: str = "classifiers/jigsaw_fasttext_bigrams_nsfw_final.bin") -> str:
-    return filter_fasttext(text, classifier_id)
+    def detect_language(self, text: str) -> Tuple[str, float]:
+        return filter_fasttext(text, self.classifier)
 
-def filter_toxic(text: str, classifier_id: str = "classifiers/jigsaw_fasttext_bigrams_hatespeech_final.bin") -> str:
-    return filter_fasttext(text, classifier_id)
+class NSFWDetector():
+    def __init__(self, classifier_id: str = NSFW_FILTER):
+        self.classifier = load_classifier(classifier_id)
 
-def filter_pii(text: str) -> str:
-    # strip newlines
-    text = text.replace("\n", " ")
+    def filter_nsfw(self, text: str) -> str:
+        return filter_fasttext(text, self.classifier)
+
+class ToxicDetector():
+    def __init__(self, classifier_id: str = TOXIC_FILTER):
+        self.classifier = load_classifier(classifier_id)
+
+    def filter_toxic(self, text: str) -> str:
+        return filter_fasttext(text, self.classifier)
 
 if __name__ == "__main__":
-    test_task = "gopher"
-    WARC_path = os.path.join(BASE_DIR, "CC/example.warc.gz")
+    test_task = "html_to_txt"
+    # WARC_path = os.path.join(BASE_DIR, "CC/example.warc.gz")
+    # WARC_path = os.path.join(BASE_DIR, "batch_0000.warc.gz")
+    WARC_path = "/data/CC/example.warc.gz"
 
     if test_task == "html_to_txt":
-        for txt in warc_to_txt(WARC_path, n_records = 1, record_id = 2):
+        for txt in warc_to_txt(WARC_path, n_records = 1, record_id = 2000):
             print(txt)
             print('content length: ', len(txt))
     

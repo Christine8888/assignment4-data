@@ -19,6 +19,10 @@ dependencies = [
     "nltk>=3.9.1",
     "fastwarc>=0.15.2",
     "tldextract>=5.3.0",
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.4.3",
+    "chardet>=5.2.0",
+    "matplotlib>=3.10.3",
 ]
 
 [tool.setuptools.packages.find]
@@ -42,6 +46,11 @@ line-length = 120
 [tool.ruff.lint.extend-per-file-ignores]
 # Also ignore `E402` in all `__init__.py` files.
 "__init__.py" = ["E402", "F401", "F403", "E501"]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
 
 [tool.ruff.lint]
 extend-select = ["UP"]
