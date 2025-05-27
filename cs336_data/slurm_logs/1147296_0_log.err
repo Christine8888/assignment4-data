@@ -1,0 +1,6 @@
+submitit WARNING (2025-05-26 21:36:00,580) - Bypassing signal SIGCONT
+submitit WARNING (2025-05-26 21:36:00,585) - Caught signal SIGUSR2 on ad12a3ca-01.cloud.together.ai: this job is timed-out.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+submitit WARNING (2025-05-26 21:38:00,786) - Bypassing signal SIGTERM
+submitit WARNING (2025-05-26 21:38:00,787) - Bypassing signal SIGCONT
+submitit WARNING (2025-05-26 21:38:00,787) - Bypassing signal SIGTERM

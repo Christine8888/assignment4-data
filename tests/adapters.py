@@ -6,7 +6,6 @@ import cs336_data.utils as utils
 from cs336_data.gopher import GopherFilter
 import cs336_data.dedup as dedup
 
-
 def run_extract_text_from_html_bytes(html_bytes: bytes) -> str | None:
     return utils.html_to_txt(html_bytes)
 
@@ -36,7 +35,14 @@ def run_classify_toxic_speech(text: str) -> tuple[Any, float]:
 
 
 def run_classify_quality(text: str) -> tuple[Any, float]:
-    raise NotImplementedError
+    result = utils.QualityFilter().filter_quality(text)
+    result = list(result)
+    # adapt to expected labels
+    if result[0] == "low-quality":
+        result[0] = "cc"
+    else:
+        result[0] = "wiki"
+    return tuple(result)
 
 
 def run_gopher_quality_filter(text: str) -> bool:
@@ -57,4 +63,5 @@ def run_minhash_deduplication(
     jaccard_threshold: float,
     output_directory: os.PathLike,
 ):
-    raise NotImplementedError
+    deduplicator = dedup.MinHashDedup(num_hashes, num_bands, ngrams, jaccard_threshold)
+    return deduplicator.minhash_dedup(input_files, output_directory)

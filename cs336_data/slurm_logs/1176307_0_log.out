@@ -1,0 +1,46 @@
+submitit INFO (2025-05-27 01:06:13,482) - Starting with JobEnvironment(job_id=1176307, hostname=ad12a3ca-04.cloud.together.ai, local_rank=0(1), node=0(1), global_rank=0(1))
+submitit INFO (2025-05-27 01:06:13,482) - Loading pickle: /home/c-cye/assignment4-data/cs336_data/slurm_logs/1176307_submitted.pkl
+Starting batch 60 with 40 files
+Skipping CC-MAIN-20250419230935-20250420020935-00409 because it already exists
+Skipping CC-MAIN-20250427053651-20250427083651-00458 because it already exists
+Skipping CC-MAIN-20250419230935-20250420020935-00734 because it already exists
+Skipping CC-MAIN-20250429231713-20250430021713-00787 because it already exists
+Skipping CC-MAIN-20250428173437-20250428203437-00914 because it already exists
+Skipping CC-MAIN-20250418151910-20250418181910-00714 because it already exists
+Skipping CC-MAIN-20250430220529-20250501010529-00834 because it already exists
+Skipping CC-MAIN-20250423231330-20250424021330-00316 because it already exists
+Skipping CC-MAIN-20250426162932-20250426192932-00426 because it already exists
+Skipping CC-MAIN-20250419195914-20250419225914-00432 because it already exists
+Skipping CC-MAIN-20250423070804-20250423100804-00759 because it already exists
+Skipping CC-MAIN-20250420053204-20250420083204-00593 because it already exists
+Skipping CC-MAIN-20250417135010-20250417165010-00409 because it already exists
+Skipping CC-MAIN-20250428010926-20250428040926-00886 because it already exists
+Skipping CC-MAIN-20250429032735-20250429062735-00637 because it already exists
+Skipping CC-MAIN-20250417232937-20250418022937-00695 because it already exists
+Skipping CC-MAIN-20250423035537-20250423065537-00421 because it already exists
+Skipping CC-MAIN-20250420181556-20250420211556-00918 because it already exists
+Skipping CC-MAIN-20250429032735-20250429062735-00850 because it already exists
+Skipping CC-MAIN-20250425105842-20250425135842-00327 because it already exists
+Skipping CC-MAIN-20250421100755-20250421130755-00132 because it already exists
+Skipping CC-MAIN-20250426095345-20250426125345-00452 because it already exists
+Skipping CC-MAIN-20250425173303-20250425203303-00654 because it already exists
+Skipping CC-MAIN-20250430184734-20250430214734-00599 because it already exists
+Skipping CC-MAIN-20250417232937-20250418022937-00063 because it already exists
+Skipping CC-MAIN-20250426131138-20250426161138-00437 because it already exists
+Skipping CC-MAIN-20250428105807-20250428135807-00878 because it already exists
+Skipping CC-MAIN-20250423035537-20250423065537-00667 because it already exists
+Skipping CC-MAIN-20250430153307-20250430183307-00115 because it already exists
+Skipping CC-MAIN-20250420150543-20250420180543-00814 because it already exists
+Skipping CC-MAIN-20250421225519-20250422015519-00126 because it already exists
+Skipping CC-MAIN-20250418024118-20250418054118-00673 because it already exists
+Skipping CC-MAIN-20250419005434-20250419035434-00061 because it already exists
+Skipping CC-MAIN-20250419102512-20250419132512-00742 because it already exists
+Skipping CC-MAIN-20250420053204-20250420083204-00265 because it already exists
+Skipping CC-MAIN-20250422213101-20250423003101-00470 because it already exists
+Skipping CC-MAIN-20250423070804-20250423100804-00241 because it already exists
+Skipping CC-MAIN-20250419195914-20250419225914-00528 because it already exists
+Skipping CC-MAIN-20250419040408-20250419070408-00367 because it already exists
+Skipping CC-MAIN-20250423035537-20250423065537-00509 because it already exists
+Batch 60 completed with 0 successful files
+submitit INFO (2025-05-27 01:06:13,604) - Job completed successfully
+submitit INFO (2025-05-27 01:06:13,607) - Exiting after successful completion

@@ -4,6 +4,9 @@ import os
 import re
 from unicodedata import normalize
 import mmh3
+from collections import defaultdict
+import shutil
+import random
 
 def exact_dedup(file_list, output_dir, hash_func = hashlib.md5):
     """
@@ -37,12 +40,13 @@ def exact_dedup(file_list, output_dir, hash_func = hashlib.md5):
                 f_out.write(''.join(output_lines)) # newlines are already in the file (?)
 
 class MinHashDedup():
-    def __init__(self, num_hashes = 100, num_bands = 10, ngrams = 3, jaccard_threshold = 0.5):
+    def __init__(self, num_hashes = 100, num_bands = 10, ngrams = 3, jaccard_threshold = 0.5, verbose = False):
         self.num_hashes = num_hashes
         self.num_bands = num_bands
         self.ngrams = ngrams
         self.jaccard_threshold = jaccard_threshold
         self.hashes = [i for i in range(self.num_hashes)] # mmh3 seeds
+        self.verbose = verbose
 
     def minhash_dedup(self, files: list[os.PathLike], output_directory: os.PathLike):
         # data structure
@@ -57,20 +61,21 @@ class MinHashDedup():
             with open(file, 'r') as f:
                 text = f.read()
             text = self.normalize_text(text)
-            minhashes = self._minhash(text, self.ngrams)
+            minhashes = self._minhash(text)
 
             # split minhashes into bands, use strings as keys
             for i in range(self.num_bands):
                 band = minhashes[i * band_size: (i + 1) * band_size]
-                bandstr = ''.join(str(h) for h in band)
+                bandstr = "".join(str(h) for h in band)
 
-                if bandstr in hashlist[band]:
+                if bandstr in hashlist[i]:
                     # candidate duplicate: matching in some band
-                    candidate_duplicates.add((band, bandstr))
-                    hashlist[band][bandstr].append(file)
+                    candidate_duplicates.add((i, bandstr))
+                    hashlist[i][bandstr].append(file)
                 else:
-                    hashlist[band][bandstr] = [file]
+                    hashlist[i][bandstr] = [file]
 
+        # construct pairs from buckets
         # deduplicate by pairs
         clusters = []
         for band, band_hash in candidate_duplicates:
@@ -79,14 +84,47 @@ class MinHashDedup():
                 for j in range(i + 1, len(candidate_files)):
                     file2 = candidate_files[j]
                     if self._jaccard(file1, file2) >= self.jaccard_threshold:
+                        if self.verbose:
+                            print('Found duplicate: ', file1, file2)
                         clusters.append((file1, file2))
         
         # save deduplicated files
-        self._save_deduplicated_files(clusters)
+        duplicate_groups = self._merge_clusters(clusters)
+        self._save_deduplicated_files(files, output_directory, duplicate_groups)
 
-    def _save_deduplicated_files(self, clusters):
-        pass
+    def _merge_clusters(self, clusters):
+        all_files = set()
+        uf = UnionFind()
+        for file1, file2 in clusters:
+            uf.union(file1, file2)
+            all_files.add(file1)
+            all_files.add(file2)
+
+        # group into clusters
+        final_clusters = defaultdict(list)
+        for file in all_files:
+            root = uf.find(file)
+            final_clusters[root].append(file)
+
+        duplicate_groups = [group for group in final_clusters.values() if len(group) > 1]
+        print('Found', len(duplicate_groups), 'duplicate clusters')
+        return duplicate_groups
     
+    def _save_deduplicated_files(self, files: list[os.PathLike], output_directory: os.PathLike, duplicate_groups: list[list[os.PathLike]]):
+        files_to_skip = set()
+        output_abs = os.path.abspath(output_directory)
+        
+        for group in duplicate_groups:
+            files_to_skip.update(group)
+            print(f'Removing {len(group)} duplicate files')
+            keep_file = random.choice(group)
+            shutil.copy(keep_file, os.path.join(output_directory, os.path.basename(keep_file)))
+
+        # copy all files to output directory
+        for file in files:
+            if file not in files_to_skip:
+                shutil.copy(file, os.path.join(output_directory, os.path.basename(file)))
+        
     def _jaccard(self, file1, file2):
         # read files
         with open(file1, 'r') as f1:
@@ -103,9 +141,9 @@ class MinHashDedup():
         intersection = len(set(ngrams1) & set(ngrams2))
         return intersection / len(set(ngrams1) | set(ngrams2))
 
-    def _minhash(self, text: str, ngrams: int):
+    def _minhash(self, text: str):
         # split text into ngrams
-        ngrams = [text[i:i+ngrams] for i in range(len(text) - ngrams + 1)]
+        ngrams = [text[i:i+self.ngrams] for i in range(len(text) - self.ngrams + 1)]
         minhashes = []
         for seed in self.hashes:
             hashes = [mmh3.hash(ngram, seed) for ngram in ngrams]
@@ -113,7 +151,6 @@ class MinHashDedup():
         
         return minhashes
         
-
     @staticmethod
     def normalize_text(text):
         # lowercase
@@ -125,3 +162,30 @@ class MinHashDedup():
         # remove accents, apply nfd unicode normalization
         text = normalize('NFD', text)
         return text
+
+class UnionFind:
+    def __init__(self):
+        self.parent = {}
+        self.rank = {}
+    
+    def find(self, x):
+        if x not in self.parent:
+            self.parent[x] = x
+            self.rank[x] = 0
+            return x
+        
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])  # path compression
+        return self.parent[x]
+    
+    def union(self, x, y):
+        px, py = self.find(x), self.find(y)
+        if px == py:
+            return
+        
+        # union by rank
+        if self.rank[px] < self.rank[py]:
+            px, py = py, px
+        self.parent[py] = px
+        if self.rank[px] == self.rank[py]:
+            self.rank[px] += 1

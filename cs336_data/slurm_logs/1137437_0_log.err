@@ -1,0 +1,2 @@
+submitit WARNING (2025-05-26 19:36:31,059) - Caught signal SIGUSR2 on ad12a3ca-01.cloud.together.ai: this job is timed-out.
+submitit WARNING (2025-05-26 19:36:31,070) - Bypassing signal SIGCONT

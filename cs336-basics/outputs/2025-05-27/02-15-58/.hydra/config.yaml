@@ -1,0 +1,7 @@
+paths:
+  train_bin: /data/c-cye/assignment4-data/train_filtered.bin
+  valid_bin: /data/paloma/tokenized_paloma_c4_100_domains_validation.bin
+  model_output: output/your_data
+training:
+  wandb_entity: christineye888
+  wandb_project: cs336-data2

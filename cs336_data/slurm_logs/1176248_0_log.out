@@ -1,0 +1,1644 @@
+submitit INFO (2025-05-27 01:06:05,554) - Starting with JobEnvironment(job_id=1176248, hostname=ad12a3ca-04.cloud.together.ai, local_rank=0(1), node=0(1), global_rank=0(1))
+submitit INFO (2025-05-27 01:06:05,554) - Loading pickle: /home/c-cye/assignment4-data/cs336_data/slurm_logs/1176248_submitted.pkl
+Starting batch 20 with 40 files
+Skipping CC-MAIN-20250426131138-20250426161138-00914 because it already exists
+Skipping CC-MAIN-20250428205407-20250428235407-00513 because it already exists
+Skipping CC-MAIN-20250426162932-20250426192932-00177 because it already exists
+Skipping CC-MAIN-20250423035537-20250423065537-00776 because it already exists
+Skipping CC-MAIN-20250426000738-20250426030738-00825 because it already exists
+Skipping CC-MAIN-20250426194420-20250426224420-00040 because it already exists
+Skipping CC-MAIN-20250428141617-20250428171617-00749 because it already exists
+Skipping CC-MAIN-20250423035537-20250423065537-00389 because it already exists
+Skipping CC-MAIN-20250422213101-20250423003101-00842 because it already exists
+Skipping CC-MAIN-20250427053651-20250427083651-00108 because it already exists
+Skipping CC-MAIN-20250418214300-20250419004300-00235 because it already exists
+Skipping CC-MAIN-20250430184734-20250430214734-00704 because it already exists
+Skipping CC-MAIN-20250430090213-20250430120213-00962 because it already exists
+Skipping CC-MAIN-20250425141546-20250425171546-00950 because it already exists
+Skipping CC-MAIN-20250421034813-20250421064813-00237 because it already exists
+Skipping CC-MAIN-20250430023220-20250430053220-00373 because it already exists
+Skipping CC-MAIN-20250423231330-20250424021330-00579 because it already exists
+Skipping CC-MAIN-20250428042413-20250428072413-00193 because it already exists
+Skipping CC-MAIN-20250420150543-20250420180543-00354 because it already exists
+Skipping CC-MAIN-20250426000738-20250426030738-00488 because it already exists
+Skipping CC-MAIN-20250430023220-20250430053220-00243 because it already exists
+Skipping CC-MAIN-20250420150543-20250420180543-00850 because it already exists
+Skipping CC-MAIN-20250424183510-20250424213510-00564 because it already exists
+Skipping CC-MAIN-20250424120459-20250424150459-00647 because it already exists
+Skipping CC-MAIN-20250429100507-20250429130507-00483 because it already exists
+Skipping CC-MAIN-20250418024118-20250418054118-00932 because it already exists
+Skipping CC-MAIN-20250428205407-20250428235407-00258 because it already exists
+Skipping CC-MAIN-20250429064605-20250429094605-00240 because it already exists
+Skipping CC-MAIN-20250426162932-20250426192932-00737 because it already exists
+Skipping CC-MAIN-20250420053204-20250420083204-00629 because it already exists
+Skipping CC-MAIN-20250419195914-20250419225914-00889 because it already exists
+Skipping CC-MAIN-20250422145809-20250422175809-00464 because it already exists
+Skipping CC-MAIN-20250421065628-20250421095628-00801 because it already exists
+Skipping CC-MAIN-20250421065628-20250421095628-00717 because it already exists
+Skipping CC-MAIN-20250424120459-20250424150459-00575 because it already exists
+Skipping CC-MAIN-20250423164554-20250423194554-00971 because it already exists
+Skipping CC-MAIN-20250418214300-20250419004300-00858 because it already exists
+Loaded filters successfully
+Processing record 0
+Stats: {'total_records': 0, 'after_language_filter': 0, 'after_gopher_filter': 0, 'after_nsfw_filter': 0, 'after_toxic_filter': 0, 'after_quality_filter': 0, 'after_dedup': 0}
+Processing record 100
+Stats: {'total_records': 99, 'after_language_filter': 23, 'after_gopher_filter': 10, 'after_nsfw_filter': 10, 'after_toxic_filter': 10, 'after_quality_filter': 0, 'after_dedup': 0}
+Processing record 200
+Stats: {'total_records': 199, 'after_language_filter': 53, 'after_gopher_filter': 23, 'after_nsfw_filter': 23, 'after_toxic_filter': 23, 'after_quality_filter': 2, 'after_dedup': 2}
+Processing record 300
+Stats: {'total_records': 299, 'after_language_filter': 81, 'after_gopher_filter': 36, 'after_nsfw_filter': 36, 'after_toxic_filter': 36, 'after_quality_filter': 3, 'after_dedup': 3}
+Processing record 400
+Stats: {'total_records': 399, 'after_language_filter': 113, 'after_gopher_filter': 53, 'after_nsfw_filter': 53, 'after_toxic_filter': 53, 'after_quality_filter': 6, 'after_dedup': 6}
+Processing record 500
+Stats: {'total_records': 499, 'after_language_filter': 149, 'after_gopher_filter': 68, 'after_nsfw_filter': 68, 'after_toxic_filter': 68, 'after_quality_filter': 9, 'after_dedup': 9}
+Processing record 600
+Stats: {'total_records': 599, 'after_language_filter': 180, 'after_gopher_filter': 85, 'after_nsfw_filter': 83, 'after_toxic_filter': 83, 'after_quality_filter': 12, 'after_dedup': 12}
+Processing record 700
+Stats: {'total_records': 699, 'after_language_filter': 206, 'after_gopher_filter': 101, 'after_nsfw_filter': 99, 'after_toxic_filter': 99, 'after_quality_filter': 13, 'after_dedup': 13}
+Processing record 800
+Stats: {'total_records': 799, 'after_language_filter': 233, 'after_gopher_filter': 111, 'after_nsfw_filter': 108, 'after_toxic_filter': 108, 'after_quality_filter': 15, 'after_dedup': 15}
+Processing record 900
+Stats: {'total_records': 899, 'after_language_filter': 254, 'after_gopher_filter': 124, 'after_nsfw_filter': 120, 'after_toxic_filter': 120, 'after_quality_filter': 19, 'after_dedup': 19}
+Processing record 1000
+Stats: {'total_records': 999, 'after_language_filter': 288, 'after_gopher_filter': 147, 'after_nsfw_filter': 143, 'after_toxic_filter': 143, 'after_quality_filter': 24, 'after_dedup': 24}
+Processing record 1100
+Stats: {'total_records': 1099, 'after_language_filter': 316, 'after_gopher_filter': 160, 'after_nsfw_filter': 156, 'after_toxic_filter': 156, 'after_quality_filter': 29, 'after_dedup': 29}
+Processing record 1200
+Stats: {'total_records': 1199, 'after_language_filter': 342, 'after_gopher_filter': 176, 'after_nsfw_filter': 171, 'after_toxic_filter': 171, 'after_quality_filter': 32, 'after_dedup': 32}
+Processing record 1300
+Stats: {'total_records': 1299, 'after_language_filter': 371, 'after_gopher_filter': 194, 'after_nsfw_filter': 189, 'after_toxic_filter': 189, 'after_quality_filter': 34, 'after_dedup': 34}
+Processing record 1400
+Stats: {'total_records': 1399, 'after_language_filter': 388, 'after_gopher_filter': 205, 'after_nsfw_filter': 200, 'after_toxic_filter': 199, 'after_quality_filter': 37, 'after_dedup': 37}
+Processing record 1500
+Stats: {'total_records': 1499, 'after_language_filter': 413, 'after_gopher_filter': 215, 'after_nsfw_filter': 210, 'after_toxic_filter': 209, 'after_quality_filter': 38, 'after_dedup': 38}
+Processing record 1600
+Stats: {'total_records': 1599, 'after_language_filter': 438, 'after_gopher_filter': 228, 'after_nsfw_filter': 223, 'after_toxic_filter': 222, 'after_quality_filter': 39, 'after_dedup': 39}
+Processing record 1700
+Stats: {'total_records': 1699, 'after_language_filter': 470, 'after_gopher_filter': 241, 'after_nsfw_filter': 236, 'after_toxic_filter': 235, 'after_quality_filter': 43, 'after_dedup': 43}
+Processing record 1800
+Stats: {'total_records': 1799, 'after_language_filter': 487, 'after_gopher_filter': 249, 'after_nsfw_filter': 244, 'after_toxic_filter': 243, 'after_quality_filter': 45, 'after_dedup': 45}
+Processing record 1900
+Stats: {'total_records': 1899, 'after_language_filter': 502, 'after_gopher_filter': 259, 'after_nsfw_filter': 254, 'after_toxic_filter': 252, 'after_quality_filter': 46, 'after_dedup': 46}
+Processing record 2000
+Stats: {'total_records': 1999, 'after_language_filter': 533, 'after_gopher_filter': 279, 'after_nsfw_filter': 274, 'after_toxic_filter': 272, 'after_quality_filter': 47, 'after_dedup': 47}
+Processing record 2100
+Stats: {'total_records': 2099, 'after_language_filter': 558, 'after_gopher_filter': 291, 'after_nsfw_filter': 286, 'after_toxic_filter': 284, 'after_quality_filter': 48, 'after_dedup': 48}
+Processing record 2200
+Stats: {'total_records': 2199, 'after_language_filter': 582, 'after_gopher_filter': 302, 'after_nsfw_filter': 297, 'after_toxic_filter': 295, 'after_quality_filter': 48, 'after_dedup': 48}
+Processing record 2300
+Stats: {'total_records': 2299, 'after_language_filter': 594, 'after_gopher_filter': 310, 'after_nsfw_filter': 305, 'after_toxic_filter': 303, 'after_quality_filter': 48, 'after_dedup': 48}
+Processing record 2400
+Stats: {'total_records': 2399, 'after_language_filter': 618, 'after_gopher_filter': 328, 'after_nsfw_filter': 321, 'after_toxic_filter': 319, 'after_quality_filter': 53, 'after_dedup': 53}
+Processing record 2500
+Stats: {'total_records': 2499, 'after_language_filter': 651, 'after_gopher_filter': 352, 'after_nsfw_filter': 343, 'after_toxic_filter': 341, 'after_quality_filter': 54, 'after_dedup': 54}
+Processing record 2600
+Stats: {'total_records': 2599, 'after_language_filter': 692, 'after_gopher_filter': 374, 'after_nsfw_filter': 365, 'after_toxic_filter': 363, 'after_quality_filter': 59, 'after_dedup': 59}
+Processing record 2700
+Stats: {'total_records': 2699, 'after_language_filter': 743, 'after_gopher_filter': 413, 'after_nsfw_filter': 403, 'after_toxic_filter': 401, 'after_quality_filter': 60, 'after_dedup': 60}
+Processing record 2800
+Stats: {'total_records': 2799, 'after_language_filter': 764, 'after_gopher_filter': 430, 'after_nsfw_filter': 420, 'after_toxic_filter': 418, 'after_quality_filter': 64, 'after_dedup': 64}
+Processing record 2900
+Stats: {'total_records': 2899, 'after_language_filter': 794, 'after_gopher_filter': 448, 'after_nsfw_filter': 436, 'after_toxic_filter': 434, 'after_quality_filter': 65, 'after_dedup': 65}
+Processing record 3000
+Stats: {'total_records': 2999, 'after_language_filter': 835, 'after_gopher_filter': 475, 'after_nsfw_filter': 463, 'after_toxic_filter': 461, 'after_quality_filter': 68, 'after_dedup': 68}
+Processing record 3100
+Stats: {'total_records': 3099, 'after_language_filter': 888, 'after_gopher_filter': 503, 'after_nsfw_filter': 491, 'after_toxic_filter': 489, 'after_quality_filter': 70, 'after_dedup': 70}
+Processing record 3200
+Stats: {'total_records': 3199, 'after_language_filter': 928, 'after_gopher_filter': 533, 'after_nsfw_filter': 521, 'after_toxic_filter': 519, 'after_quality_filter': 74, 'after_dedup': 74}
+Processing record 3300
+Stats: {'total_records': 3299, 'after_language_filter': 966, 'after_gopher_filter': 560, 'after_nsfw_filter': 548, 'after_toxic_filter': 546, 'after_quality_filter': 79, 'after_dedup': 79}
+Processing record 3400
+Stats: {'total_records': 3399, 'after_language_filter': 1004, 'after_gopher_filter': 582, 'after_nsfw_filter': 570, 'after_toxic_filter': 568, 'after_quality_filter': 83, 'after_dedup': 83}
+Processing record 3500
+Stats: {'total_records': 3499, 'after_language_filter': 1041, 'after_gopher_filter': 606, 'after_nsfw_filter': 593, 'after_toxic_filter': 591, 'after_quality_filter': 86, 'after_dedup': 86}
+Processing record 3600
+Stats: {'total_records': 3599, 'after_language_filter': 1074, 'after_gopher_filter': 626, 'after_nsfw_filter': 613, 'after_toxic_filter': 611, 'after_quality_filter': 87, 'after_dedup': 87}
+Processing record 3700
+Stats: {'total_records': 3699, 'after_language_filter': 1109, 'after_gopher_filter': 648, 'after_nsfw_filter': 635, 'after_toxic_filter': 633, 'after_quality_filter': 91, 'after_dedup': 91}
+Processing record 3800
+Stats: {'total_records': 3799, 'after_language_filter': 1150, 'after_gopher_filter': 675, 'after_nsfw_filter': 661, 'after_toxic_filter': 658, 'after_quality_filter': 92, 'after_dedup': 92}
+Processing record 3900
+Stats: {'total_records': 3899, 'after_language_filter': 1180, 'after_gopher_filter': 692, 'after_nsfw_filter': 678, 'after_toxic_filter': 675, 'after_quality_filter': 92, 'after_dedup': 92}
+Processing record 4000
+Stats: {'total_records': 3999, 'after_language_filter': 1224, 'after_gopher_filter': 717, 'after_nsfw_filter': 703, 'after_toxic_filter': 700, 'after_quality_filter': 96, 'after_dedup': 96}
+Processing record 4100
+Stats: {'total_records': 4099, 'after_language_filter': 1261, 'after_gopher_filter': 745, 'after_nsfw_filter': 731, 'after_toxic_filter': 728, 'after_quality_filter': 101, 'after_dedup': 101}
+Processing record 4200
+Stats: {'total_records': 4199, 'after_language_filter': 1299, 'after_gopher_filter': 771, 'after_nsfw_filter': 756, 'after_toxic_filter': 753, 'after_quality_filter': 104, 'after_dedup': 104}
+Processing record 4300
+Stats: {'total_records': 4299, 'after_language_filter': 1332, 'after_gopher_filter': 793, 'after_nsfw_filter': 778, 'after_toxic_filter': 775, 'after_quality_filter': 106, 'after_dedup': 106}
+Processing record 4400
+Stats: {'total_records': 4399, 'after_language_filter': 1388, 'after_gopher_filter': 827, 'after_nsfw_filter': 812, 'after_toxic_filter': 809, 'after_quality_filter': 107, 'after_dedup': 107}
+Processing record 4500
+Stats: {'total_records': 4499, 'after_language_filter': 1440, 'after_gopher_filter': 861, 'after_nsfw_filter': 846, 'after_toxic_filter': 843, 'after_quality_filter': 108, 'after_dedup': 108}
+Processing record 4600
+Stats: {'total_records': 4599, 'after_language_filter': 1502, 'after_gopher_filter': 884, 'after_nsfw_filter': 869, 'after_toxic_filter': 866, 'after_quality_filter': 112, 'after_dedup': 112}
+Processing record 4700
+Stats: {'total_records': 4699, 'after_language_filter': 1558, 'after_gopher_filter': 922, 'after_nsfw_filter': 907, 'after_toxic_filter': 904, 'after_quality_filter': 121, 'after_dedup': 121}
+Processing record 4800
+Stats: {'total_records': 4799, 'after_language_filter': 1607, 'after_gopher_filter': 957, 'after_nsfw_filter': 942, 'after_toxic_filter': 939, 'after_quality_filter': 124, 'after_dedup': 124}
+Processing record 4900
+Stats: {'total_records': 4899, 'after_language_filter': 1659, 'after_gopher_filter': 989, 'after_nsfw_filter': 974, 'after_toxic_filter': 971, 'after_quality_filter': 127, 'after_dedup': 127}
+Processing record 5000
+Stats: {'total_records': 4999, 'after_language_filter': 1699, 'after_gopher_filter': 1010, 'after_nsfw_filter': 995, 'after_toxic_filter': 992, 'after_quality_filter': 131, 'after_dedup': 131}
+Processing record 5100
+Stats: {'total_records': 5099, 'after_language_filter': 1744, 'after_gopher_filter': 1038, 'after_nsfw_filter': 1021, 'after_toxic_filter': 1018, 'after_quality_filter': 135, 'after_dedup': 135}
+Processing record 5200
+Stats: {'total_records': 5199, 'after_language_filter': 1805, 'after_gopher_filter': 1073, 'after_nsfw_filter': 1056, 'after_toxic_filter': 1053, 'after_quality_filter': 137, 'after_dedup': 137}
+Processing record 5300
+Stats: {'total_records': 5299, 'after_language_filter': 1844, 'after_gopher_filter': 1097, 'after_nsfw_filter': 1080, 'after_toxic_filter': 1077, 'after_quality_filter': 138, 'after_dedup': 138}
+Processing record 5400
+Stats: {'total_records': 5399, 'after_language_filter': 1896, 'after_gopher_filter': 1127, 'after_nsfw_filter': 1110, 'after_toxic_filter': 1107, 'after_quality_filter': 139, 'after_dedup': 139}
+Processing record 5500
+Stats: {'total_records': 5499, 'after_language_filter': 1943, 'after_gopher_filter': 1148, 'after_nsfw_filter': 1131, 'after_toxic_filter': 1128, 'after_quality_filter': 144, 'after_dedup': 144}
+Processing record 5600
+Stats: {'total_records': 5599, 'after_language_filter': 1986, 'after_gopher_filter': 1175, 'after_nsfw_filter': 1158, 'after_toxic_filter': 1155, 'after_quality_filter': 148, 'after_dedup': 148}
+Processing record 5700
+Stats: {'total_records': 5699, 'after_language_filter': 2023, 'after_gopher_filter': 1195, 'after_nsfw_filter': 1178, 'after_toxic_filter': 1175, 'after_quality_filter': 152, 'after_dedup': 152}
+Processing record 5800
+Stats: {'total_records': 5799, 'after_language_filter': 2066, 'after_gopher_filter': 1221, 'after_nsfw_filter': 1203, 'after_toxic_filter': 1200, 'after_quality_filter': 155, 'after_dedup': 155}
+Processing record 5900
+Stats: {'total_records': 5899, 'after_language_filter': 2114, 'after_gopher_filter': 1249, 'after_nsfw_filter': 1231, 'after_toxic_filter': 1228, 'after_quality_filter': 158, 'after_dedup': 158}
+Processing record 6000
+Stats: {'total_records': 5999, 'after_language_filter': 2171, 'after_gopher_filter': 1281, 'after_nsfw_filter': 1262, 'after_toxic_filter': 1259, 'after_quality_filter': 161, 'after_dedup': 161}
+Processing record 6100
+Stats: {'total_records': 6099, 'after_language_filter': 2214, 'after_gopher_filter': 1308, 'after_nsfw_filter': 1289, 'after_toxic_filter': 1285, 'after_quality_filter': 165, 'after_dedup': 165}
+Processing record 6200
+Stats: {'total_records': 6199, 'after_language_filter': 2251, 'after_gopher_filter': 1338, 'after_nsfw_filter': 1319, 'after_toxic_filter': 1315, 'after_quality_filter': 168, 'after_dedup': 168}
+Processing record 6300
+Stats: {'total_records': 6299, 'after_language_filter': 2286, 'after_gopher_filter': 1364, 'after_nsfw_filter': 1345, 'after_toxic_filter': 1341, 'after_quality_filter': 170, 'after_dedup': 170}
+Processing record 6400
+Stats: {'total_records': 6399, 'after_language_filter': 2325, 'after_gopher_filter': 1392, 'after_nsfw_filter': 1373, 'after_toxic_filter': 1369, 'after_quality_filter': 172, 'after_dedup': 172}
+Processing record 6500
+Stats: {'total_records': 6499, 'after_language_filter': 2377, 'after_gopher_filter': 1427, 'after_nsfw_filter': 1408, 'after_toxic_filter': 1404, 'after_quality_filter': 173, 'after_dedup': 173}
+Processing record 6600
+Stats: {'total_records': 6599, 'after_language_filter': 2426, 'after_gopher_filter': 1462, 'after_nsfw_filter': 1443, 'after_toxic_filter': 1439, 'after_quality_filter': 182, 'after_dedup': 182}
+Processing record 6700
+Stats: {'total_records': 6699, 'after_language_filter': 2445, 'after_gopher_filter': 1475, 'after_nsfw_filter': 1456, 'after_toxic_filter': 1452, 'after_quality_filter': 183, 'after_dedup': 183}
+Processing record 6800
+Stats: {'total_records': 6799, 'after_language_filter': 2504, 'after_gopher_filter': 1506, 'after_nsfw_filter': 1487, 'after_toxic_filter': 1483, 'after_quality_filter': 189, 'after_dedup': 189}
+Processing record 6900
+Stats: {'total_records': 6899, 'after_language_filter': 2551, 'after_gopher_filter': 1541, 'after_nsfw_filter': 1522, 'after_toxic_filter': 1518, 'after_quality_filter': 191, 'after_dedup': 191}
+Processing record 7000
+Stats: {'total_records': 6999, 'after_language_filter': 2590, 'after_gopher_filter': 1565, 'after_nsfw_filter': 1545, 'after_toxic_filter': 1540, 'after_quality_filter': 194, 'after_dedup': 194}
+Processing record 7100
+Stats: {'total_records': 7099, 'after_language_filter': 2635, 'after_gopher_filter': 1601, 'after_nsfw_filter': 1581, 'after_toxic_filter': 1576, 'after_quality_filter': 196, 'after_dedup': 196}
+Processing record 7200
+Stats: {'total_records': 7199, 'after_language_filter': 2681, 'after_gopher_filter': 1633, 'after_nsfw_filter': 1613, 'after_toxic_filter': 1608, 'after_quality_filter': 199, 'after_dedup': 199}
+Processing record 7300
+Stats: {'total_records': 7299, 'after_language_filter': 2726, 'after_gopher_filter': 1656, 'after_nsfw_filter': 1636, 'after_toxic_filter': 1631, 'after_quality_filter': 200, 'after_dedup': 200}
+Processing record 7400
+Stats: {'total_records': 7399, 'after_language_filter': 2764, 'after_gopher_filter': 1682, 'after_nsfw_filter': 1662, 'after_toxic_filter': 1657, 'after_quality_filter': 203, 'after_dedup': 203}
+Processing record 7500
+Stats: {'total_records': 7499, 'after_language_filter': 2808, 'after_gopher_filter': 1711, 'after_nsfw_filter': 1690, 'after_toxic_filter': 1684, 'after_quality_filter': 209, 'after_dedup': 209}
+Processing record 7600
+Stats: {'total_records': 7599, 'after_language_filter': 2852, 'after_gopher_filter': 1747, 'after_nsfw_filter': 1724, 'after_toxic_filter': 1717, 'after_quality_filter': 209, 'after_dedup': 209}
+Processing record 7700
+Stats: {'total_records': 7699, 'after_language_filter': 2896, 'after_gopher_filter': 1775, 'after_nsfw_filter': 1752, 'after_toxic_filter': 1745, 'after_quality_filter': 212, 'after_dedup': 212}
+Processing record 7800
+Stats: {'total_records': 7799, 'after_language_filter': 2950, 'after_gopher_filter': 1814, 'after_nsfw_filter': 1790, 'after_toxic_filter': 1783, 'after_quality_filter': 220, 'after_dedup': 220}
+Processing record 7900
+Stats: {'total_records': 7899, 'after_language_filter': 2991, 'after_gopher_filter': 1839, 'after_nsfw_filter': 1815, 'after_toxic_filter': 1808, 'after_quality_filter': 221, 'after_dedup': 221}
+Processing record 8000
+Stats: {'total_records': 7999, 'after_language_filter': 3029, 'after_gopher_filter': 1867, 'after_nsfw_filter': 1843, 'after_toxic_filter': 1836, 'after_quality_filter': 225, 'after_dedup': 225}
+Processing record 8100
+Stats: {'total_records': 8099, 'after_language_filter': 3057, 'after_gopher_filter': 1884, 'after_nsfw_filter': 1860, 'after_toxic_filter': 1853, 'after_quality_filter': 225, 'after_dedup': 225}
+Processing record 8200
+Stats: {'total_records': 8199, 'after_language_filter': 3100, 'after_gopher_filter': 1919, 'after_nsfw_filter': 1895, 'after_toxic_filter': 1888, 'after_quality_filter': 227, 'after_dedup': 227}
+Processing record 8300
+Stats: {'total_records': 8299, 'after_language_filter': 3134, 'after_gopher_filter': 1943, 'after_nsfw_filter': 1919, 'after_toxic_filter': 1911, 'after_quality_filter': 234, 'after_dedup': 234}
+Processing record 8400
+Stats: {'total_records': 8399, 'after_language_filter': 3172, 'after_gopher_filter': 1970, 'after_nsfw_filter': 1946, 'after_toxic_filter': 1938, 'after_quality_filter': 235, 'after_dedup': 235}
+Processing record 8500
+Stats: {'total_records': 8499, 'after_language_filter': 3226, 'after_gopher_filter': 2011, 'after_nsfw_filter': 1986, 'after_toxic_filter': 1978, 'after_quality_filter': 239, 'after_dedup': 239}
+Processing record 8600
+Stats: {'total_records': 8599, 'after_language_filter': 3271, 'after_gopher_filter': 2043, 'after_nsfw_filter': 2018, 'after_toxic_filter': 2010, 'after_quality_filter': 244, 'after_dedup': 244}
+Processing record 8700
+Stats: {'total_records': 8699, 'after_language_filter': 3318, 'after_gopher_filter': 2067, 'after_nsfw_filter': 2041, 'after_toxic_filter': 2033, 'after_quality_filter': 247, 'after_dedup': 247}
+Processing record 8800
+Stats: {'total_records': 8799, 'after_language_filter': 3361, 'after_gopher_filter': 2094, 'after_nsfw_filter': 2068, 'after_toxic_filter': 2060, 'after_quality_filter': 253, 'after_dedup': 253}
+Processing record 8900
+Stats: {'total_records': 8899, 'after_language_filter': 3409, 'after_gopher_filter': 2123, 'after_nsfw_filter': 2097, 'after_toxic_filter': 2089, 'after_quality_filter': 259, 'after_dedup': 259}
+Processing record 9000
+Stats: {'total_records': 8999, 'after_language_filter': 3441, 'after_gopher_filter': 2146, 'after_nsfw_filter': 2120, 'after_toxic_filter': 2112, 'after_quality_filter': 265, 'after_dedup': 265}
+Processing record 9100
+Stats: {'total_records': 9099, 'after_language_filter': 3480, 'after_gopher_filter': 2168, 'after_nsfw_filter': 2141, 'after_toxic_filter': 2133, 'after_quality_filter': 268, 'after_dedup': 268}
+Processing record 9200
+Stats: {'total_records': 9199, 'after_language_filter': 3523, 'after_gopher_filter': 2197, 'after_nsfw_filter': 2170, 'after_toxic_filter': 2162, 'after_quality_filter': 272, 'after_dedup': 272}
+Processing record 9300
+Stats: {'total_records': 9299, 'after_language_filter': 3566, 'after_gopher_filter': 2225, 'after_nsfw_filter': 2198, 'after_toxic_filter': 2190, 'after_quality_filter': 274, 'after_dedup': 274}
+Processing record 9400
+Stats: {'total_records': 9399, 'after_language_filter': 3602, 'after_gopher_filter': 2248, 'after_nsfw_filter': 2221, 'after_toxic_filter': 2213, 'after_quality_filter': 278, 'after_dedup': 278}
+Processing record 9500
+Stats: {'total_records': 9499, 'after_language_filter': 3645, 'after_gopher_filter': 2277, 'after_nsfw_filter': 2250, 'after_toxic_filter': 2242, 'after_quality_filter': 282, 'after_dedup': 282}
+Processing record 9600
+Stats: {'total_records': 9599, 'after_language_filter': 3676, 'after_gopher_filter': 2303, 'after_nsfw_filter': 2276, 'after_toxic_filter': 2268, 'after_quality_filter': 286, 'after_dedup': 286}
+Processing record 9700
+Stats: {'total_records': 9699, 'after_language_filter': 3704, 'after_gopher_filter': 2324, 'after_nsfw_filter': 2297, 'after_toxic_filter': 2289, 'after_quality_filter': 286, 'after_dedup': 286}
+Processing record 9800
+Stats: {'total_records': 9799, 'after_language_filter': 3721, 'after_gopher_filter': 2333, 'after_nsfw_filter': 2306, 'after_toxic_filter': 2297, 'after_quality_filter': 286, 'after_dedup': 286}
+Processing record 9900
+Stats: {'total_records': 9899, 'after_language_filter': 3754, 'after_gopher_filter': 2356, 'after_nsfw_filter': 2329, 'after_toxic_filter': 2320, 'after_quality_filter': 287, 'after_dedup': 287}
+Processing record 10000
+Stats: {'total_records': 9999, 'after_language_filter': 3796, 'after_gopher_filter': 2385, 'after_nsfw_filter': 2358, 'after_toxic_filter': 2349, 'after_quality_filter': 292, 'after_dedup': 292}
+Processing record 10100
+Stats: {'total_records': 10099, 'after_language_filter': 3837, 'after_gopher_filter': 2412, 'after_nsfw_filter': 2385, 'after_toxic_filter': 2376, 'after_quality_filter': 299, 'after_dedup': 299}
+Processing record 10200
+Stats: {'total_records': 10199, 'after_language_filter': 3885, 'after_gopher_filter': 2432, 'after_nsfw_filter': 2405, 'after_toxic_filter': 2396, 'after_quality_filter': 301, 'after_dedup': 301}
+Processing record 10300
+Stats: {'total_records': 10299, 'after_language_filter': 3938, 'after_gopher_filter': 2467, 'after_nsfw_filter': 2440, 'after_toxic_filter': 2431, 'after_quality_filter': 304, 'after_dedup': 304}
+Processing record 10400
+Stats: {'total_records': 10399, 'after_language_filter': 3983, 'after_gopher_filter': 2498, 'after_nsfw_filter': 2471, 'after_toxic_filter': 2462, 'after_quality_filter': 306, 'after_dedup': 306}
+Processing record 10500
+Stats: {'total_records': 10499, 'after_language_filter': 4017, 'after_gopher_filter': 2525, 'after_nsfw_filter': 2498, 'after_toxic_filter': 2489, 'after_quality_filter': 310, 'after_dedup': 310}
+Processing record 10600
+Stats: {'total_records': 10599, 'after_language_filter': 4057, 'after_gopher_filter': 2550, 'after_nsfw_filter': 2523, 'after_toxic_filter': 2514, 'after_quality_filter': 312, 'after_dedup': 312}
+Processing record 10700
+Stats: {'total_records': 10699, 'after_language_filter': 4104, 'after_gopher_filter': 2574, 'after_nsfw_filter': 2547, 'after_toxic_filter': 2538, 'after_quality_filter': 315, 'after_dedup': 315}
+Processing record 10800
+Stats: {'total_records': 10799, 'after_language_filter': 4151, 'after_gopher_filter': 2607, 'after_nsfw_filter': 2580, 'after_toxic_filter': 2571, 'after_quality_filter': 317, 'after_dedup': 317}
+Processing record 10900
+Stats: {'total_records': 10899, 'after_language_filter': 4183, 'after_gopher_filter': 2630, 'after_nsfw_filter': 2603, 'after_toxic_filter': 2594, 'after_quality_filter': 319, 'after_dedup': 319}
+Processing record 11000
+Stats: {'total_records': 10999, 'after_language_filter': 4217, 'after_gopher_filter': 2650, 'after_nsfw_filter': 2623, 'after_toxic_filter': 2614, 'after_quality_filter': 320, 'after_dedup': 320}
+Processing record 11100
+Stats: {'total_records': 11099, 'after_language_filter': 4251, 'after_gopher_filter': 2676, 'after_nsfw_filter': 2649, 'after_toxic_filter': 2640, 'after_quality_filter': 321, 'after_dedup': 321}
+Processing record 11200
+Stats: {'total_records': 11199, 'after_language_filter': 4289, 'after_gopher_filter': 2705, 'after_nsfw_filter': 2678, 'after_toxic_filter': 2669, 'after_quality_filter': 323, 'after_dedup': 323}
+Processing record 11300
+Stats: {'total_records': 11299, 'after_language_filter': 4318, 'after_gopher_filter': 2726, 'after_nsfw_filter': 2699, 'after_toxic_filter': 2690, 'after_quality_filter': 326, 'after_dedup': 326}
+Processing record 11400
+Stats: {'total_records': 11399, 'after_language_filter': 4368, 'after_gopher_filter': 2760, 'after_nsfw_filter': 2733, 'after_toxic_filter': 2724, 'after_quality_filter': 327, 'after_dedup': 327}
+Processing record 11500
+Stats: {'total_records': 11499, 'after_language_filter': 4409, 'after_gopher_filter': 2792, 'after_nsfw_filter': 2765, 'after_toxic_filter': 2756, 'after_quality_filter': 327, 'after_dedup': 327}
+Processing record 11600
+Stats: {'total_records': 11599, 'after_language_filter': 4452, 'after_gopher_filter': 2822, 'after_nsfw_filter': 2795, 'after_toxic_filter': 2786, 'after_quality_filter': 330, 'after_dedup': 330}
+Processing record 11700
+Stats: {'total_records': 11699, 'after_language_filter': 4496, 'after_gopher_filter': 2850, 'after_nsfw_filter': 2823, 'after_toxic_filter': 2814, 'after_quality_filter': 339, 'after_dedup': 339}
+Processing record 11800
+Stats: {'total_records': 11799, 'after_language_filter': 4540, 'after_gopher_filter': 2874, 'after_nsfw_filter': 2846, 'after_toxic_filter': 2837, 'after_quality_filter': 346, 'after_dedup': 346}
+Processing record 11900
+Stats: {'total_records': 11899, 'after_language_filter': 4589, 'after_gopher_filter': 2907, 'after_nsfw_filter': 2879, 'after_toxic_filter': 2869, 'after_quality_filter': 348, 'after_dedup': 348}
+Processing record 12000
+Stats: {'total_records': 11999, 'after_language_filter': 4620, 'after_gopher_filter': 2925, 'after_nsfw_filter': 2897, 'after_toxic_filter': 2887, 'after_quality_filter': 351, 'after_dedup': 351}
+Processing record 12100
+Stats: {'total_records': 12099, 'after_language_filter': 4660, 'after_gopher_filter': 2948, 'after_nsfw_filter': 2920, 'after_toxic_filter': 2910, 'after_quality_filter': 352, 'after_dedup': 352}
+Processing record 12200
+Stats: {'total_records': 12199, 'after_language_filter': 4705, 'after_gopher_filter': 2981, 'after_nsfw_filter': 2953, 'after_toxic_filter': 2943, 'after_quality_filter': 363, 'after_dedup': 363}
+Processing record 12300
+Stats: {'total_records': 12299, 'after_language_filter': 4745, 'after_gopher_filter': 3003, 'after_nsfw_filter': 2975, 'after_toxic_filter': 2965, 'after_quality_filter': 368, 'after_dedup': 368}
+Processing record 12400
+Stats: {'total_records': 12399, 'after_language_filter': 4795, 'after_gopher_filter': 3031, 'after_nsfw_filter': 3003, 'after_toxic_filter': 2993, 'after_quality_filter': 370, 'after_dedup': 370}
+Processing record 12500
+Stats: {'total_records': 12499, 'after_language_filter': 4841, 'after_gopher_filter': 3061, 'after_nsfw_filter': 3033, 'after_toxic_filter': 3023, 'after_quality_filter': 373, 'after_dedup': 373}
+Processing record 12600
+Stats: {'total_records': 12599, 'after_language_filter': 4902, 'after_gopher_filter': 3101, 'after_nsfw_filter': 3073, 'after_toxic_filter': 3063, 'after_quality_filter': 377, 'after_dedup': 377}
+Processing record 12700
+Stats: {'total_records': 12699, 'after_language_filter': 4940, 'after_gopher_filter': 3124, 'after_nsfw_filter': 3096, 'after_toxic_filter': 3086, 'after_quality_filter': 378, 'after_dedup': 378}
+Processing record 12800
+Stats: {'total_records': 12799, 'after_language_filter': 4970, 'after_gopher_filter': 3145, 'after_nsfw_filter': 3116, 'after_toxic_filter': 3105, 'after_quality_filter': 380, 'after_dedup': 380}
+Processing record 12900
+Stats: {'total_records': 12899, 'after_language_filter': 5007, 'after_gopher_filter': 3169, 'after_nsfw_filter': 3140, 'after_toxic_filter': 3129, 'after_quality_filter': 382, 'after_dedup': 382}
+Processing record 13000
+Stats: {'total_records': 12999, 'after_language_filter': 5054, 'after_gopher_filter': 3203, 'after_nsfw_filter': 3174, 'after_toxic_filter': 3163, 'after_quality_filter': 385, 'after_dedup': 385}
+Processing record 13100
+Stats: {'total_records': 13099, 'after_language_filter': 5090, 'after_gopher_filter': 3225, 'after_nsfw_filter': 3195, 'after_toxic_filter': 3184, 'after_quality_filter': 387, 'after_dedup': 387}
+Processing record 13200
+Stats: {'total_records': 13199, 'after_language_filter': 5138, 'after_gopher_filter': 3260, 'after_nsfw_filter': 3230, 'after_toxic_filter': 3219, 'after_quality_filter': 388, 'after_dedup': 388}
+Processing record 13300
+Stats: {'total_records': 13299, 'after_language_filter': 5172, 'after_gopher_filter': 3285, 'after_nsfw_filter': 3255, 'after_toxic_filter': 3244, 'after_quality_filter': 390, 'after_dedup': 390}
+Processing record 13400
+Stats: {'total_records': 13399, 'after_language_filter': 5203, 'after_gopher_filter': 3307, 'after_nsfw_filter': 3276, 'after_toxic_filter': 3265, 'after_quality_filter': 391, 'after_dedup': 391}
+Processing record 13500
+Stats: {'total_records': 13499, 'after_language_filter': 5244, 'after_gopher_filter': 3323, 'after_nsfw_filter': 3292, 'after_toxic_filter': 3281, 'after_quality_filter': 392, 'after_dedup': 392}
+Processing record 13600
+Stats: {'total_records': 13599, 'after_language_filter': 5285, 'after_gopher_filter': 3352, 'after_nsfw_filter': 3321, 'after_toxic_filter': 3310, 'after_quality_filter': 393, 'after_dedup': 393}
+Processing record 13700
+Stats: {'total_records': 13699, 'after_language_filter': 5326, 'after_gopher_filter': 3382, 'after_nsfw_filter': 3350, 'after_toxic_filter': 3339, 'after_quality_filter': 396, 'after_dedup': 396}
+Processing record 13800
+Stats: {'total_records': 13799, 'after_language_filter': 5358, 'after_gopher_filter': 3407, 'after_nsfw_filter': 3375, 'after_toxic_filter': 3364, 'after_quality_filter': 397, 'after_dedup': 397}
+Processing record 13900
+Stats: {'total_records': 13899, 'after_language_filter': 5391, 'after_gopher_filter': 3432, 'after_nsfw_filter': 3400, 'after_toxic_filter': 3388, 'after_quality_filter': 399, 'after_dedup': 399}
+Processing record 14000
+Stats: {'total_records': 13999, 'after_language_filter': 5435, 'after_gopher_filter': 3460, 'after_nsfw_filter': 3428, 'after_toxic_filter': 3416, 'after_quality_filter': 400, 'after_dedup': 400}
+Processing record 14100
+Stats: {'total_records': 14099, 'after_language_filter': 5472, 'after_gopher_filter': 3488, 'after_nsfw_filter': 3456, 'after_toxic_filter': 3444, 'after_quality_filter': 401, 'after_dedup': 401}
+Processing record 14200
+Stats: {'total_records': 14199, 'after_language_filter': 5508, 'after_gopher_filter': 3509, 'after_nsfw_filter': 3477, 'after_toxic_filter': 3465, 'after_quality_filter': 404, 'after_dedup': 404}
+Processing record 14300
+Stats: {'total_records': 14299, 'after_language_filter': 5545, 'after_gopher_filter': 3529, 'after_nsfw_filter': 3497, 'after_toxic_filter': 3485, 'after_quality_filter': 404, 'after_dedup': 404}
+Processing record 14400
+Stats: {'total_records': 14399, 'after_language_filter': 5592, 'after_gopher_filter': 3563, 'after_nsfw_filter': 3531, 'after_toxic_filter': 3519, 'after_quality_filter': 405, 'after_dedup': 405}
+Processing record 14500
+Stats: {'total_records': 14499, 'after_language_filter': 5632, 'after_gopher_filter': 3589, 'after_nsfw_filter': 3557, 'after_toxic_filter': 3544, 'after_quality_filter': 408, 'after_dedup': 408}
+Processing record 14600
+Stats: {'total_records': 14599, 'after_language_filter': 5679, 'after_gopher_filter': 3622, 'after_nsfw_filter': 3590, 'after_toxic_filter': 3577, 'after_quality_filter': 410, 'after_dedup': 410}
+Processing record 14700
+Stats: {'total_records': 14699, 'after_language_filter': 5727, 'after_gopher_filter': 3656, 'after_nsfw_filter': 3624, 'after_toxic_filter': 3611, 'after_quality_filter': 416, 'after_dedup': 416}
+Processing record 14800
+Stats: {'total_records': 14799, 'after_language_filter': 5771, 'after_gopher_filter': 3682, 'after_nsfw_filter': 3649, 'after_toxic_filter': 3636, 'after_quality_filter': 419, 'after_dedup': 419}
+Processing record 14900
+Stats: {'total_records': 14899, 'after_language_filter': 5828, 'after_gopher_filter': 3728, 'after_nsfw_filter': 3695, 'after_toxic_filter': 3682, 'after_quality_filter': 427, 'after_dedup': 427}
+Processing record 15000
+Stats: {'total_records': 14999, 'after_language_filter': 5887, 'after_gopher_filter': 3767, 'after_nsfw_filter': 3733, 'after_toxic_filter': 3719, 'after_quality_filter': 429, 'after_dedup': 429}
+Processing record 15100
+Stats: {'total_records': 15099, 'after_language_filter': 5928, 'after_gopher_filter': 3793, 'after_nsfw_filter': 3759, 'after_toxic_filter': 3745, 'after_quality_filter': 433, 'after_dedup': 433}
+Processing record 15200
+Stats: {'total_records': 15199, 'after_language_filter': 5965, 'after_gopher_filter': 3812, 'after_nsfw_filter': 3778, 'after_toxic_filter': 3764, 'after_quality_filter': 435, 'after_dedup': 435}
+Processing record 15300
+Stats: {'total_records': 15299, 'after_language_filter': 6007, 'after_gopher_filter': 3838, 'after_nsfw_filter': 3804, 'after_toxic_filter': 3790, 'after_quality_filter': 437, 'after_dedup': 437}
+Processing record 15400
+Stats: {'total_records': 15399, 'after_language_filter': 6044, 'after_gopher_filter': 3860, 'after_nsfw_filter': 3826, 'after_toxic_filter': 3812, 'after_quality_filter': 440, 'after_dedup': 440}
+Processing record 15500
+Stats: {'total_records': 15499, 'after_language_filter': 6114, 'after_gopher_filter': 3908, 'after_nsfw_filter': 3874, 'after_toxic_filter': 3860, 'after_quality_filter': 447, 'after_dedup': 447}
+Processing record 15600
+Stats: {'total_records': 15599, 'after_language_filter': 6199, 'after_gopher_filter': 3974, 'after_nsfw_filter': 3940, 'after_toxic_filter': 3926, 'after_quality_filter': 455, 'after_dedup': 455}
+Processing record 15700
+Stats: {'total_records': 15699, 'after_language_filter': 6249, 'after_gopher_filter': 4004, 'after_nsfw_filter': 3970, 'after_toxic_filter': 3956, 'after_quality_filter': 460, 'after_dedup': 460}
+Processing record 15800
+Stats: {'total_records': 15799, 'after_language_filter': 6295, 'after_gopher_filter': 4029, 'after_nsfw_filter': 3995, 'after_toxic_filter': 3981, 'after_quality_filter': 463, 'after_dedup': 463}
+Processing record 15900
+Stats: {'total_records': 15899, 'after_language_filter': 6344, 'after_gopher_filter': 4063, 'after_nsfw_filter': 4029, 'after_toxic_filter': 4015, 'after_quality_filter': 465, 'after_dedup': 465}
+Processing record 16000
+Stats: {'total_records': 15999, 'after_language_filter': 6381, 'after_gopher_filter': 4087, 'after_nsfw_filter': 4053, 'after_toxic_filter': 4039, 'after_quality_filter': 466, 'after_dedup': 466}
+Processing record 16100
+Stats: {'total_records': 16099, 'after_language_filter': 6425, 'after_gopher_filter': 4120, 'after_nsfw_filter': 4086, 'after_toxic_filter': 4072, 'after_quality_filter': 471, 'after_dedup': 471}
+Processing record 16200
+Stats: {'total_records': 16199, 'after_language_filter': 6468, 'after_gopher_filter': 4148, 'after_nsfw_filter': 4114, 'after_toxic_filter': 4100, 'after_quality_filter': 472, 'after_dedup': 472}
+Processing record 16300
+Stats: {'total_records': 16299, 'after_language_filter': 6513, 'after_gopher_filter': 4178, 'after_nsfw_filter': 4144, 'after_toxic_filter': 4130, 'after_quality_filter': 477, 'after_dedup': 477}
+Processing record 16400
+Stats: {'total_records': 16399, 'after_language_filter': 6543, 'after_gopher_filter': 4196, 'after_nsfw_filter': 4162, 'after_toxic_filter': 4148, 'after_quality_filter': 478, 'after_dedup': 478}
+Processing record 16500
+Stats: {'total_records': 16499, 'after_language_filter': 6575, 'after_gopher_filter': 4221, 'after_nsfw_filter': 4186, 'after_toxic_filter': 4172, 'after_quality_filter': 478, 'after_dedup': 478}
+Processing record 16600
+Stats: {'total_records': 16599, 'after_language_filter': 6609, 'after_gopher_filter': 4238, 'after_nsfw_filter': 4203, 'after_toxic_filter': 4188, 'after_quality_filter': 478, 'after_dedup': 478}
+Processing record 16700
+Stats: {'total_records': 16699, 'after_language_filter': 6664, 'after_gopher_filter': 4282, 'after_nsfw_filter': 4247, 'after_toxic_filter': 4232, 'after_quality_filter': 487, 'after_dedup': 487}
+Processing record 16800
+Stats: {'total_records': 16799, 'after_language_filter': 6728, 'after_gopher_filter': 4329, 'after_nsfw_filter': 4294, 'after_toxic_filter': 4279, 'after_quality_filter': 500, 'after_dedup': 500}
+Processing record 16900
+Stats: {'total_records': 16899, 'after_language_filter': 6777, 'after_gopher_filter': 4369, 'after_nsfw_filter': 4334, 'after_toxic_filter': 4319, 'after_quality_filter': 503, 'after_dedup': 503}
+Processing record 17000
+Stats: {'total_records': 16999, 'after_language_filter': 6820, 'after_gopher_filter': 4405, 'after_nsfw_filter': 4370, 'after_toxic_filter': 4355, 'after_quality_filter': 509, 'after_dedup': 509}
+Processing record 17100
+Stats: {'total_records': 17099, 'after_language_filter': 6865, 'after_gopher_filter': 4439, 'after_nsfw_filter': 4404, 'after_toxic_filter': 4389, 'after_quality_filter': 516, 'after_dedup': 516}
+Processing record 17200
+Stats: {'total_records': 17199, 'after_language_filter': 6898, 'after_gopher_filter': 4465, 'after_nsfw_filter': 4430, 'after_toxic_filter': 4415, 'after_quality_filter': 518, 'after_dedup': 518}
+Processing record 17300
+Stats: {'total_records': 17299, 'after_language_filter': 6953, 'after_gopher_filter': 4502, 'after_nsfw_filter': 4467, 'after_toxic_filter': 4452, 'after_quality_filter': 524, 'after_dedup': 524}
+Processing record 17400
+Stats: {'total_records': 17399, 'after_language_filter': 6993, 'after_gopher_filter': 4530, 'after_nsfw_filter': 4494, 'after_toxic_filter': 4479, 'after_quality_filter': 526, 'after_dedup': 526}
+Processing record 17500
+Stats: {'total_records': 17499, 'after_language_filter': 7034, 'after_gopher_filter': 4562, 'after_nsfw_filter': 4525, 'after_toxic_filter': 4510, 'after_quality_filter': 527, 'after_dedup': 527}
+Processing record 17600
+Stats: {'total_records': 17599, 'after_language_filter': 7077, 'after_gopher_filter': 4590, 'after_nsfw_filter': 4552, 'after_toxic_filter': 4537, 'after_quality_filter': 533, 'after_dedup': 533}
+Processing record 17700
+Stats: {'total_records': 17699, 'after_language_filter': 7114, 'after_gopher_filter': 4618, 'after_nsfw_filter': 4580, 'after_toxic_filter': 4565, 'after_quality_filter': 540, 'after_dedup': 540}
+Processing record 17800
+Stats: {'total_records': 17799, 'after_language_filter': 7150, 'after_gopher_filter': 4644, 'after_nsfw_filter': 4606, 'after_toxic_filter': 4591, 'after_quality_filter': 544, 'after_dedup': 544}
+Processing record 17900
+Stats: {'total_records': 17899, 'after_language_filter': 7201, 'after_gopher_filter': 4682, 'after_nsfw_filter': 4644, 'after_toxic_filter': 4629, 'after_quality_filter': 548, 'after_dedup': 548}
+Processing record 18000
+Stats: {'total_records': 17999, 'after_language_filter': 7243, 'after_gopher_filter': 4711, 'after_nsfw_filter': 4672, 'after_toxic_filter': 4657, 'after_quality_filter': 549, 'after_dedup': 549}
+Processing record 18100
+Stats: {'total_records': 18099, 'after_language_filter': 7291, 'after_gopher_filter': 4745, 'after_nsfw_filter': 4706, 'after_toxic_filter': 4691, 'after_quality_filter': 552, 'after_dedup': 552}
+Processing record 18200
+Stats: {'total_records': 18199, 'after_language_filter': 7343, 'after_gopher_filter': 4780, 'after_nsfw_filter': 4741, 'after_toxic_filter': 4726, 'after_quality_filter': 560, 'after_dedup': 560}
+Processing record 18300
+Stats: {'total_records': 18299, 'after_language_filter': 7394, 'after_gopher_filter': 4822, 'after_nsfw_filter': 4783, 'after_toxic_filter': 4768, 'after_quality_filter': 572, 'after_dedup': 572}
+Processing record 18400
+Stats: {'total_records': 18399, 'after_language_filter': 7443, 'after_gopher_filter': 4857, 'after_nsfw_filter': 4818, 'after_toxic_filter': 4803, 'after_quality_filter': 577, 'after_dedup': 577}
+Processing record 18500
+Stats: {'total_records': 18499, 'after_language_filter': 7489, 'after_gopher_filter': 4895, 'after_nsfw_filter': 4856, 'after_toxic_filter': 4841, 'after_quality_filter': 582, 'after_dedup': 582}
+Processing record 18600
+Stats: {'total_records': 18599, 'after_language_filter': 7534, 'after_gopher_filter': 4928, 'after_nsfw_filter': 4889, 'after_toxic_filter': 4874, 'after_quality_filter': 588, 'after_dedup': 588}
+Processing record 18700
+Stats: {'total_records': 18699, 'after_language_filter': 7580, 'after_gopher_filter': 4964, 'after_nsfw_filter': 4925, 'after_toxic_filter': 4910, 'after_quality_filter': 593, 'after_dedup': 593}
+Processing record 18800
+Stats: {'total_records': 18799, 'after_language_filter': 7618, 'after_gopher_filter': 4984, 'after_nsfw_filter': 4945, 'after_toxic_filter': 4930, 'after_quality_filter': 595, 'after_dedup': 595}
+Processing record 18900
+Stats: {'total_records': 18899, 'after_language_filter': 7665, 'after_gopher_filter': 5016, 'after_nsfw_filter': 4977, 'after_toxic_filter': 4962, 'after_quality_filter': 598, 'after_dedup': 598}
+Processing record 19000
+Stats: {'total_records': 18999, 'after_language_filter': 7708, 'after_gopher_filter': 5051, 'after_nsfw_filter': 5011, 'after_toxic_filter': 4996, 'after_quality_filter': 601, 'after_dedup': 601}
+Processing record 19100
+Stats: {'total_records': 19099, 'after_language_filter': 7750, 'after_gopher_filter': 5083, 'after_nsfw_filter': 5042, 'after_toxic_filter': 5027, 'after_quality_filter': 603, 'after_dedup': 603}
+Processing record 19200
+Stats: {'total_records': 19199, 'after_language_filter': 7788, 'after_gopher_filter': 5112, 'after_nsfw_filter': 5071, 'after_toxic_filter': 5056, 'after_quality_filter': 605, 'after_dedup': 605}
+Processing record 19300
+Stats: {'total_records': 19299, 'after_language_filter': 7837, 'after_gopher_filter': 5146, 'after_nsfw_filter': 5105, 'after_toxic_filter': 5090, 'after_quality_filter': 612, 'after_dedup': 612}
+Processing record 19400
+Stats: {'total_records': 19399, 'after_language_filter': 7864, 'after_gopher_filter': 5166, 'after_nsfw_filter': 5125, 'after_toxic_filter': 5110, 'after_quality_filter': 614, 'after_dedup': 614}
+Processing record 19500
+Stats: {'total_records': 19499, 'after_language_filter': 7899, 'after_gopher_filter': 5191, 'after_nsfw_filter': 5150, 'after_toxic_filter': 5135, 'after_quality_filter': 618, 'after_dedup': 618}
+Processing record 19600
+Stats: {'total_records': 19599, 'after_language_filter': 7937, 'after_gopher_filter': 5222, 'after_nsfw_filter': 5181, 'after_toxic_filter': 5166, 'after_quality_filter': 624, 'after_dedup': 624}
+Processing record 19700
+Stats: {'total_records': 19699, 'after_language_filter': 7980, 'after_gopher_filter': 5251, 'after_nsfw_filter': 5210, 'after_toxic_filter': 5195, 'after_quality_filter': 628, 'after_dedup': 628}
+Processing record 19800
+Stats: {'total_records': 19799, 'after_language_filter': 8011, 'after_gopher_filter': 5272, 'after_nsfw_filter': 5231, 'after_toxic_filter': 5216, 'after_quality_filter': 629, 'after_dedup': 629}
+Processing record 19900
+Stats: {'total_records': 19899, 'after_language_filter': 8055, 'after_gopher_filter': 5309, 'after_nsfw_filter': 5268, 'after_toxic_filter': 5253, 'after_quality_filter': 635, 'after_dedup': 635}
+Processing record 20000
+Stats: {'total_records': 19999, 'after_language_filter': 8106, 'after_gopher_filter': 5345, 'after_nsfw_filter': 5304, 'after_toxic_filter': 5289, 'after_quality_filter': 643, 'after_dedup': 643}
+Processing record 20100
+Stats: {'total_records': 20099, 'after_language_filter': 8147, 'after_gopher_filter': 5373, 'after_nsfw_filter': 5332, 'after_toxic_filter': 5317, 'after_quality_filter': 647, 'after_dedup': 647}
+Processing record 20200
+Stats: {'total_records': 20199, 'after_language_filter': 8198, 'after_gopher_filter': 5414, 'after_nsfw_filter': 5373, 'after_toxic_filter': 5358, 'after_quality_filter': 649, 'after_dedup': 649}
+Processing record 20300
+Stats: {'total_records': 20299, 'after_language_filter': 8250, 'after_gopher_filter': 5438, 'after_nsfw_filter': 5397, 'after_toxic_filter': 5381, 'after_quality_filter': 650, 'after_dedup': 650}
+Processing record 20400
+Stats: {'total_records': 20399, 'after_language_filter': 8294, 'after_gopher_filter': 5468, 'after_nsfw_filter': 5427, 'after_toxic_filter': 5411, 'after_quality_filter': 653, 'after_dedup': 653}
+Processing record 20500
+Stats: {'total_records': 20499, 'after_language_filter': 8343, 'after_gopher_filter': 5505, 'after_nsfw_filter': 5464, 'after_toxic_filter': 5448, 'after_quality_filter': 656, 'after_dedup': 656}
+Processing record 20600
+Stats: {'total_records': 20599, 'after_language_filter': 8387, 'after_gopher_filter': 5536, 'after_nsfw_filter': 5495, 'after_toxic_filter': 5479, 'after_quality_filter': 659, 'after_dedup': 659}
+Processing record 20700
+Stats: {'total_records': 20699, 'after_language_filter': 8442, 'after_gopher_filter': 5580, 'after_nsfw_filter': 5539, 'after_toxic_filter': 5523, 'after_quality_filter': 663, 'after_dedup': 663}
+Processing record 20800
+Stats: {'total_records': 20799, 'after_language_filter': 8481, 'after_gopher_filter': 5609, 'after_nsfw_filter': 5568, 'after_toxic_filter': 5552, 'after_quality_filter': 667, 'after_dedup': 667}
+Processing record 20900
+Stats: {'total_records': 20899, 'after_language_filter': 8527, 'after_gopher_filter': 5640, 'after_nsfw_filter': 5599, 'after_toxic_filter': 5583, 'after_quality_filter': 670, 'after_dedup': 670}
+Processing record 21000
+Stats: {'total_records': 20999, 'after_language_filter': 8577, 'after_gopher_filter': 5679, 'after_nsfw_filter': 5638, 'after_toxic_filter': 5622, 'after_quality_filter': 675, 'after_dedup': 675}
+Processing record 21100
+Stats: {'total_records': 21099, 'after_language_filter': 8612, 'after_gopher_filter': 5706, 'after_nsfw_filter': 5664, 'after_toxic_filter': 5648, 'after_quality_filter': 678, 'after_dedup': 678}
+Processing record 21200
+Stats: {'total_records': 21199, 'after_language_filter': 8653, 'after_gopher_filter': 5736, 'after_nsfw_filter': 5694, 'after_toxic_filter': 5678, 'after_quality_filter': 684, 'after_dedup': 684}
+Processing record 21300
+Stats: {'total_records': 21299, 'after_language_filter': 8685, 'after_gopher_filter': 5759, 'after_nsfw_filter': 5717, 'after_toxic_filter': 5701, 'after_quality_filter': 686, 'after_dedup': 686}
+Processing record 21400
+Stats: {'total_records': 21399, 'after_language_filter': 8718, 'after_gopher_filter': 5786, 'after_nsfw_filter': 5744, 'after_toxic_filter': 5728, 'after_quality_filter': 689, 'after_dedup': 689}
+Processing record 21500
+Stats: {'total_records': 21499, 'after_language_filter': 8750, 'after_gopher_filter': 5810, 'after_nsfw_filter': 5768, 'after_toxic_filter': 5752, 'after_quality_filter': 697, 'after_dedup': 697}
+Processing record 21600
+Stats: {'total_records': 21599, 'after_language_filter': 8775, 'after_gopher_filter': 5830, 'after_nsfw_filter': 5788, 'after_toxic_filter': 5772, 'after_quality_filter': 701, 'after_dedup': 701}
+Processing record 21700
+Stats: {'total_records': 21699, 'after_language_filter': 8811, 'after_gopher_filter': 5859, 'after_nsfw_filter': 5817, 'after_toxic_filter': 5801, 'after_quality_filter': 705, 'after_dedup': 705}
+Processing record 21800
+Stats: {'total_records': 21799, 'after_language_filter': 8841, 'after_gopher_filter': 5880, 'after_nsfw_filter': 5838, 'after_toxic_filter': 5822, 'after_quality_filter': 708, 'after_dedup': 708}
+Processing record 21900
+Stats: {'total_records': 21899, 'after_language_filter': 8892, 'after_gopher_filter': 5921, 'after_nsfw_filter': 5879, 'after_toxic_filter': 5863, 'after_quality_filter': 710, 'after_dedup': 710}
+Processing record 22000
+Stats: {'total_records': 21999, 'after_language_filter': 8933, 'after_gopher_filter': 5947, 'after_nsfw_filter': 5905, 'after_toxic_filter': 5889, 'after_quality_filter': 716, 'after_dedup': 716}
+Processing record 22100
+Stats: {'total_records': 22099, 'after_language_filter': 8975, 'after_gopher_filter': 5972, 'after_nsfw_filter': 5930, 'after_toxic_filter': 5914, 'after_quality_filter': 721, 'after_dedup': 721}
+Processing record 22200
+Stats: {'total_records': 22199, 'after_language_filter': 9010, 'after_gopher_filter': 5996, 'after_nsfw_filter': 5954, 'after_toxic_filter': 5938, 'after_quality_filter': 724, 'after_dedup': 724}
+Processing record 22300
+Stats: {'total_records': 22299, 'after_language_filter': 9056, 'after_gopher_filter': 6024, 'after_nsfw_filter': 5982, 'after_toxic_filter': 5966, 'after_quality_filter': 727, 'after_dedup': 727}
+Processing record 22400
+Stats: {'total_records': 22399, 'after_language_filter': 9085, 'after_gopher_filter': 6042, 'after_nsfw_filter': 6000, 'after_toxic_filter': 5984, 'after_quality_filter': 729, 'after_dedup': 729}
+Processing record 22500
+Stats: {'total_records': 22499, 'after_language_filter': 9118, 'after_gopher_filter': 6066, 'after_nsfw_filter': 6024, 'after_toxic_filter': 6008, 'after_quality_filter': 735, 'after_dedup': 735}
+Processing record 22600
+Stats: {'total_records': 22599, 'after_language_filter': 9172, 'after_gopher_filter': 6107, 'after_nsfw_filter': 6065, 'after_toxic_filter': 6049, 'after_quality_filter': 742, 'after_dedup': 742}
+Processing record 22700
+Stats: {'total_records': 22699, 'after_language_filter': 9221, 'after_gopher_filter': 6140, 'after_nsfw_filter': 6098, 'after_toxic_filter': 6082, 'after_quality_filter': 748, 'after_dedup': 748}
+Processing record 22800
+Stats: {'total_records': 22799, 'after_language_filter': 9257, 'after_gopher_filter': 6167, 'after_nsfw_filter': 6125, 'after_toxic_filter': 6109, 'after_quality_filter': 752, 'after_dedup': 752}
+Processing record 22900
+Stats: {'total_records': 22899, 'after_language_filter': 9302, 'after_gopher_filter': 6193, 'after_nsfw_filter': 6151, 'after_toxic_filter': 6135, 'after_quality_filter': 753, 'after_dedup': 753}
+Processing record 23000
+Stats: {'total_records': 22999, 'after_language_filter': 9348, 'after_gopher_filter': 6226, 'after_nsfw_filter': 6184, 'after_toxic_filter': 6168, 'after_quality_filter': 755, 'after_dedup': 755}
+Processing record 23100
+Stats: {'total_records': 23099, 'after_language_filter': 9384, 'after_gopher_filter': 6253, 'after_nsfw_filter': 6211, 'after_toxic_filter': 6195, 'after_quality_filter': 756, 'after_dedup': 756}
+Processing record 23200
+Stats: {'total_records': 23199, 'after_language_filter': 9419, 'after_gopher_filter': 6278, 'after_nsfw_filter': 6236, 'after_toxic_filter': 6220, 'after_quality_filter': 759, 'after_dedup': 759}
+Processing record 23300
+Stats: {'total_records': 23299, 'after_language_filter': 9452, 'after_gopher_filter': 6301, 'after_nsfw_filter': 6259, 'after_toxic_filter': 6242, 'after_quality_filter': 763, 'after_dedup': 763}
+Processing record 23400
+Stats: {'total_records': 23399, 'after_language_filter': 9495, 'after_gopher_filter': 6333, 'after_nsfw_filter': 6291, 'after_toxic_filter': 6274, 'after_quality_filter': 767, 'after_dedup': 767}
+Processing record 23500
+Stats: {'total_records': 23499, 'after_language_filter': 9531, 'after_gopher_filter': 6351, 'after_nsfw_filter': 6309, 'after_toxic_filter': 6292, 'after_quality_filter': 768, 'after_dedup': 768}
+Processing record 23600
+Stats: {'total_records': 23599, 'after_language_filter': 9576, 'after_gopher_filter': 6385, 'after_nsfw_filter': 6343, 'after_toxic_filter': 6326, 'after_quality_filter': 775, 'after_dedup': 775}
+Processing record 23700
+Stats: {'total_records': 23699, 'after_language_filter': 9623, 'after_gopher_filter': 6422, 'after_nsfw_filter': 6380, 'after_toxic_filter': 6363, 'after_quality_filter': 777, 'after_dedup': 777}
+Processing record 23800
+Stats: {'total_records': 23799, 'after_language_filter': 9661, 'after_gopher_filter': 6447, 'after_nsfw_filter': 6405, 'after_toxic_filter': 6388, 'after_quality_filter': 779, 'after_dedup': 779}
+Processing record 23900
+Stats: {'total_records': 23899, 'after_language_filter': 9700, 'after_gopher_filter': 6476, 'after_nsfw_filter': 6434, 'after_toxic_filter': 6417, 'after_quality_filter': 782, 'after_dedup': 782}
+Processing record 24000
+Stats: {'total_records': 23999, 'after_language_filter': 9744, 'after_gopher_filter': 6509, 'after_nsfw_filter': 6467, 'after_toxic_filter': 6450, 'after_quality_filter': 794, 'after_dedup': 794}
+Processing record 24100
+Stats: {'total_records': 24099, 'after_language_filter': 9790, 'after_gopher_filter': 6537, 'after_nsfw_filter': 6495, 'after_toxic_filter': 6477, 'after_quality_filter': 797, 'after_dedup': 797}
+Processing record 24200
+Stats: {'total_records': 24199, 'after_language_filter': 9829, 'after_gopher_filter': 6566, 'after_nsfw_filter': 6524, 'after_toxic_filter': 6506, 'after_quality_filter': 799, 'after_dedup': 799}
+Processing record 24300
+Stats: {'total_records': 24299, 'after_language_filter': 9878, 'after_gopher_filter': 6604, 'after_nsfw_filter': 6562, 'after_toxic_filter': 6544, 'after_quality_filter': 803, 'after_dedup': 803}
+Processing record 24400
+Stats: {'total_records': 24399, 'after_language_filter': 9917, 'after_gopher_filter': 6637, 'after_nsfw_filter': 6595, 'after_toxic_filter': 6577, 'after_quality_filter': 806, 'after_dedup': 806}
+Processing record 24500
+Stats: {'total_records': 24499, 'after_language_filter': 9978, 'after_gopher_filter': 6683, 'after_nsfw_filter': 6641, 'after_toxic_filter': 6623, 'after_quality_filter': 812, 'after_dedup': 812}
+Processing record 24600
+Stats: {'total_records': 24599, 'after_language_filter': 10018, 'after_gopher_filter': 6708, 'after_nsfw_filter': 6666, 'after_toxic_filter': 6648, 'after_quality_filter': 815, 'after_dedup': 815}
+Processing record 24700
+Stats: {'total_records': 24699, 'after_language_filter': 10066, 'after_gopher_filter': 6744, 'after_nsfw_filter': 6702, 'after_toxic_filter': 6684, 'after_quality_filter': 819, 'after_dedup': 819}
+Processing record 24800
+Stats: {'total_records': 24799, 'after_language_filter': 10106, 'after_gopher_filter': 6768, 'after_nsfw_filter': 6726, 'after_toxic_filter': 6708, 'after_quality_filter': 823, 'after_dedup': 823}
+Processing record 24900
+Stats: {'total_records': 24899, 'after_language_filter': 10180, 'after_gopher_filter': 6813, 'after_nsfw_filter': 6771, 'after_toxic_filter': 6753, 'after_quality_filter': 831, 'after_dedup': 831}
+Processing record 25000
+Stats: {'total_records': 24999, 'after_language_filter': 10223, 'after_gopher_filter': 6845, 'after_nsfw_filter': 6803, 'after_toxic_filter': 6785, 'after_quality_filter': 838, 'after_dedup': 838}
+Processing record 25100
+Stats: {'total_records': 25099, 'after_language_filter': 10261, 'after_gopher_filter': 6870, 'after_nsfw_filter': 6828, 'after_toxic_filter': 6810, 'after_quality_filter': 843, 'after_dedup': 843}
+Processing record 25200
+Stats: {'total_records': 25199, 'after_language_filter': 10300, 'after_gopher_filter': 6897, 'after_nsfw_filter': 6855, 'after_toxic_filter': 6837, 'after_quality_filter': 850, 'after_dedup': 850}
+Processing record 25300
+Stats: {'total_records': 25299, 'after_language_filter': 10337, 'after_gopher_filter': 6925, 'after_nsfw_filter': 6883, 'after_toxic_filter': 6865, 'after_quality_filter': 851, 'after_dedup': 851}
+Processing record 25400
+Stats: {'total_records': 25399, 'after_language_filter': 10385, 'after_gopher_filter': 6962, 'after_nsfw_filter': 6920, 'after_toxic_filter': 6902, 'after_quality_filter': 856, 'after_dedup': 856}
+Processing record 25500
+Stats: {'total_records': 25499, 'after_language_filter': 10425, 'after_gopher_filter': 6994, 'after_nsfw_filter': 6952, 'after_toxic_filter': 6934, 'after_quality_filter': 863, 'after_dedup': 863}
+Processing record 25600
+Stats: {'total_records': 25599, 'after_language_filter': 10470, 'after_gopher_filter': 7030, 'after_nsfw_filter': 6988, 'after_toxic_filter': 6970, 'after_quality_filter': 867, 'after_dedup': 867}
+Processing record 25700
+Stats: {'total_records': 25699, 'after_language_filter': 10525, 'after_gopher_filter': 7072, 'after_nsfw_filter': 7030, 'after_toxic_filter': 7012, 'after_quality_filter': 870, 'after_dedup': 870}
+Processing record 25800
+Stats: {'total_records': 25799, 'after_language_filter': 10585, 'after_gopher_filter': 7122, 'after_nsfw_filter': 7080, 'after_toxic_filter': 7062, 'after_quality_filter': 874, 'after_dedup': 874}
+Processing record 25900
+Stats: {'total_records': 25899, 'after_language_filter': 10621, 'after_gopher_filter': 7149, 'after_nsfw_filter': 7107, 'after_toxic_filter': 7089, 'after_quality_filter': 878, 'after_dedup': 878}
+Processing record 26000
+Stats: {'total_records': 25999, 'after_language_filter': 10641, 'after_gopher_filter': 7163, 'after_nsfw_filter': 7121, 'after_toxic_filter': 7103, 'after_quality_filter': 880, 'after_dedup': 880}
+Processing record 26100
+Stats: {'total_records': 26099, 'after_language_filter': 10666, 'after_gopher_filter': 7179, 'after_nsfw_filter': 7137, 'after_toxic_filter': 7119, 'after_quality_filter': 881, 'after_dedup': 881}
+Processing record 26200
+Stats: {'total_records': 26199, 'after_language_filter': 10704, 'after_gopher_filter': 7210, 'after_nsfw_filter': 7168, 'after_toxic_filter': 7150, 'after_quality_filter': 886, 'after_dedup': 886}
+Processing record 26300
+Stats: {'total_records': 26299, 'after_language_filter': 10733, 'after_gopher_filter': 7225, 'after_nsfw_filter': 7183, 'after_toxic_filter': 7164, 'after_quality_filter': 887, 'after_dedup': 887}
+{'total_records': 26308, 'after_language_filter': 10736, 'after_gopher_filter': 7227, 'after_nsfw_filter': 7185, 'after_toxic_filter': 7166, 'after_quality_filter': 887, 'after_dedup': 887}
+Batch 20: Completed CC-MAIN-20250426194420-20250426224420-00241
+Loaded filters successfully
+Processing record 0
+Stats: {'total_records': 0, 'after_language_filter': 0, 'after_gopher_filter': 0, 'after_nsfw_filter': 0, 'after_toxic_filter': 0, 'after_quality_filter': 0, 'after_dedup': 0}
+Processing record 100
+Stats: {'total_records': 99, 'after_language_filter': 20, 'after_gopher_filter': 11, 'after_nsfw_filter': 11, 'after_toxic_filter': 11, 'after_quality_filter': 3, 'after_dedup': 3}
+Processing record 200
+Stats: {'total_records': 199, 'after_language_filter': 47, 'after_gopher_filter': 16, 'after_nsfw_filter': 16, 'after_toxic_filter': 16, 'after_quality_filter': 4, 'after_dedup': 4}
+Processing record 300
+Stats: {'total_records': 299, 'after_language_filter': 76, 'after_gopher_filter': 30, 'after_nsfw_filter': 30, 'after_toxic_filter': 30, 'after_quality_filter': 7, 'after_dedup': 7}
+Processing record 400
+Stats: {'total_records': 399, 'after_language_filter': 110, 'after_gopher_filter': 48, 'after_nsfw_filter': 48, 'after_toxic_filter': 47, 'after_quality_filter': 9, 'after_dedup': 9}
+Processing record 500
+Stats: {'total_records': 499, 'after_language_filter': 137, 'after_gopher_filter': 60, 'after_nsfw_filter': 60, 'after_toxic_filter': 59, 'after_quality_filter': 12, 'after_dedup': 12}
+Processing record 600
+Stats: {'total_records': 599, 'after_language_filter': 162, 'after_gopher_filter': 69, 'after_nsfw_filter': 68, 'after_toxic_filter': 67, 'after_quality_filter': 12, 'after_dedup': 12}
+Processing record 700
+Stats: {'total_records': 699, 'after_language_filter': 182, 'after_gopher_filter': 79, 'after_nsfw_filter': 78, 'after_toxic_filter': 77, 'after_quality_filter': 13, 'after_dedup': 13}
+Processing record 800
+Stats: {'total_records': 799, 'after_language_filter': 208, 'after_gopher_filter': 88, 'after_nsfw_filter': 87, 'after_toxic_filter': 86, 'after_quality_filter': 14, 'after_dedup': 14}
+Processing record 900
+Stats: {'total_records': 899, 'after_language_filter': 227, 'after_gopher_filter': 99, 'after_nsfw_filter': 98, 'after_toxic_filter': 97, 'after_quality_filter': 16, 'after_dedup': 16}
+Processing record 1000
+Stats: {'total_records': 999, 'after_language_filter': 255, 'after_gopher_filter': 114, 'after_nsfw_filter': 112, 'after_toxic_filter': 111, 'after_quality_filter': 18, 'after_dedup': 18}
+Processing record 1100
+Stats: {'total_records': 1099, 'after_language_filter': 277, 'after_gopher_filter': 124, 'after_nsfw_filter': 122, 'after_toxic_filter': 121, 'after_quality_filter': 18, 'after_dedup': 18}
+Processing record 1200
+Stats: {'total_records': 1199, 'after_language_filter': 304, 'after_gopher_filter': 139, 'after_nsfw_filter': 137, 'after_toxic_filter': 136, 'after_quality_filter': 20, 'after_dedup': 20}
+Processing record 1300
+Stats: {'total_records': 1299, 'after_language_filter': 333, 'after_gopher_filter': 155, 'after_nsfw_filter': 153, 'after_toxic_filter': 152, 'after_quality_filter': 25, 'after_dedup': 25}
+Processing record 1400
+Stats: {'total_records': 1399, 'after_language_filter': 361, 'after_gopher_filter': 174, 'after_nsfw_filter': 172, 'after_toxic_filter': 171, 'after_quality_filter': 28, 'after_dedup': 28}
+Processing record 1500
+Stats: {'total_records': 1499, 'after_language_filter': 383, 'after_gopher_filter': 188, 'after_nsfw_filter': 186, 'after_toxic_filter': 185, 'after_quality_filter': 31, 'after_dedup': 31}
+Processing record 1600
+Stats: {'total_records': 1599, 'after_language_filter': 408, 'after_gopher_filter': 200, 'after_nsfw_filter': 198, 'after_toxic_filter': 197, 'after_quality_filter': 34, 'after_dedup': 34}
+Processing record 1700
+Stats: {'total_records': 1699, 'after_language_filter': 431, 'after_gopher_filter': 214, 'after_nsfw_filter': 212, 'after_toxic_filter': 211, 'after_quality_filter': 37, 'after_dedup': 37}
+Processing record 1800
+Stats: {'total_records': 1799, 'after_language_filter': 458, 'after_gopher_filter': 223, 'after_nsfw_filter': 220, 'after_toxic_filter': 219, 'after_quality_filter': 37, 'after_dedup': 37}
+Processing record 1900
+Stats: {'total_records': 1899, 'after_language_filter': 477, 'after_gopher_filter': 230, 'after_nsfw_filter': 227, 'after_toxic_filter': 226, 'after_quality_filter': 39, 'after_dedup': 39}
+Processing record 2000
+Stats: {'total_records': 1999, 'after_language_filter': 508, 'after_gopher_filter': 247, 'after_nsfw_filter': 244, 'after_toxic_filter': 243, 'after_quality_filter': 42, 'after_dedup': 42}
+Processing record 2100
+Stats: {'total_records': 2099, 'after_language_filter': 534, 'after_gopher_filter': 264, 'after_nsfw_filter': 261, 'after_toxic_filter': 260, 'after_quality_filter': 42, 'after_dedup': 42}
+Processing record 2200
+Stats: {'total_records': 2199, 'after_language_filter': 562, 'after_gopher_filter': 280, 'after_nsfw_filter': 277, 'after_toxic_filter': 276, 'after_quality_filter': 45, 'after_dedup': 45}
+Processing record 2300
+Stats: {'total_records': 2299, 'after_language_filter': 583, 'after_gopher_filter': 290, 'after_nsfw_filter': 287, 'after_toxic_filter': 286, 'after_quality_filter': 47, 'after_dedup': 47}
+Processing record 2400
+Stats: {'total_records': 2399, 'after_language_filter': 592, 'after_gopher_filter': 293, 'after_nsfw_filter': 290, 'after_toxic_filter': 289, 'after_quality_filter': 47, 'after_dedup': 47}
+Processing record 2500
+Stats: {'total_records': 2499, 'after_language_filter': 623, 'after_gopher_filter': 307, 'after_nsfw_filter': 304, 'after_toxic_filter': 303, 'after_quality_filter': 51, 'after_dedup': 51}
+Processing record 2600
+Stats: {'total_records': 2599, 'after_language_filter': 659, 'after_gopher_filter': 334, 'after_nsfw_filter': 331, 'after_toxic_filter': 330, 'after_quality_filter': 54, 'after_dedup': 54}
+Processing record 2700
+Stats: {'total_records': 2699, 'after_language_filter': 709, 'after_gopher_filter': 371, 'after_nsfw_filter': 368, 'after_toxic_filter': 367, 'after_quality_filter': 58, 'after_dedup': 58}
+Processing record 2800
+Stats: {'total_records': 2799, 'after_language_filter': 758, 'after_gopher_filter': 401, 'after_nsfw_filter': 398, 'after_toxic_filter': 397, 'after_quality_filter': 61, 'after_dedup': 61}
+Processing record 2900
+Stats: {'total_records': 2899, 'after_language_filter': 795, 'after_gopher_filter': 430, 'after_nsfw_filter': 427, 'after_toxic_filter': 426, 'after_quality_filter': 66, 'after_dedup': 66}
+Processing record 3000
+Stats: {'total_records': 2999, 'after_language_filter': 836, 'after_gopher_filter': 456, 'after_nsfw_filter': 453, 'after_toxic_filter': 452, 'after_quality_filter': 67, 'after_dedup': 67}
+Processing record 3100
+Stats: {'total_records': 3099, 'after_language_filter': 882, 'after_gopher_filter': 481, 'after_nsfw_filter': 478, 'after_toxic_filter': 477, 'after_quality_filter': 70, 'after_dedup': 70}
+Processing record 3200
+Stats: {'total_records': 3199, 'after_language_filter': 932, 'after_gopher_filter': 508, 'after_nsfw_filter': 505, 'after_toxic_filter': 504, 'after_quality_filter': 75, 'after_dedup': 75}
+Processing record 3300
+Stats: {'total_records': 3299, 'after_language_filter': 977, 'after_gopher_filter': 538, 'after_nsfw_filter': 535, 'after_toxic_filter': 534, 'after_quality_filter': 76, 'after_dedup': 76}
+Processing record 3400
+Stats: {'total_records': 3399, 'after_language_filter': 1017, 'after_gopher_filter': 557, 'after_nsfw_filter': 554, 'after_toxic_filter': 553, 'after_quality_filter': 82, 'after_dedup': 82}
+Processing record 3500
+Stats: {'total_records': 3499, 'after_language_filter': 1053, 'after_gopher_filter': 582, 'after_nsfw_filter': 579, 'after_toxic_filter': 577, 'after_quality_filter': 85, 'after_dedup': 85}
+Processing record 3600
+Stats: {'total_records': 3599, 'after_language_filter': 1085, 'after_gopher_filter': 604, 'after_nsfw_filter': 601, 'after_toxic_filter': 599, 'after_quality_filter': 89, 'after_dedup': 89}
+Processing record 3700
+Stats: {'total_records': 3699, 'after_language_filter': 1126, 'after_gopher_filter': 629, 'after_nsfw_filter': 626, 'after_toxic_filter': 624, 'after_quality_filter': 91, 'after_dedup': 91}
+Processing record 3800
+Stats: {'total_records': 3799, 'after_language_filter': 1170, 'after_gopher_filter': 657, 'after_nsfw_filter': 654, 'after_toxic_filter': 652, 'after_quality_filter': 93, 'after_dedup': 93}
+Processing record 3900
+Stats: {'total_records': 3899, 'after_language_filter': 1206, 'after_gopher_filter': 676, 'after_nsfw_filter': 672, 'after_toxic_filter': 670, 'after_quality_filter': 96, 'after_dedup': 96}
+Processing record 4000
+Stats: {'total_records': 3999, 'after_language_filter': 1247, 'after_gopher_filter': 703, 'after_nsfw_filter': 698, 'after_toxic_filter': 696, 'after_quality_filter': 99, 'after_dedup': 99}
+Processing record 4100
+Stats: {'total_records': 4099, 'after_language_filter': 1278, 'after_gopher_filter': 723, 'after_nsfw_filter': 718, 'after_toxic_filter': 715, 'after_quality_filter': 99, 'after_dedup': 99}
+Processing record 4200
+Stats: {'total_records': 4199, 'after_language_filter': 1321, 'after_gopher_filter': 757, 'after_nsfw_filter': 752, 'after_toxic_filter': 749, 'after_quality_filter': 107, 'after_dedup': 107}
+Processing record 4300
+Stats: {'total_records': 4299, 'after_language_filter': 1363, 'after_gopher_filter': 789, 'after_nsfw_filter': 784, 'after_toxic_filter': 781, 'after_quality_filter': 112, 'after_dedup': 112}
+Processing record 4400
+Stats: {'total_records': 4399, 'after_language_filter': 1404, 'after_gopher_filter': 819, 'after_nsfw_filter': 814, 'after_toxic_filter': 811, 'after_quality_filter': 114, 'after_dedup': 114}
+Processing record 4500
+Stats: {'total_records': 4499, 'after_language_filter': 1455, 'after_gopher_filter': 858, 'after_nsfw_filter': 853, 'after_toxic_filter': 850, 'after_quality_filter': 117, 'after_dedup': 117}
+Processing record 4600
+Stats: {'total_records': 4599, 'after_language_filter': 1510, 'after_gopher_filter': 888, 'after_nsfw_filter': 883, 'after_toxic_filter': 880, 'after_quality_filter': 122, 'after_dedup': 122}
+Processing record 4700
+Stats: {'total_records': 4699, 'after_language_filter': 1555, 'after_gopher_filter': 917, 'after_nsfw_filter': 912, 'after_toxic_filter': 909, 'after_quality_filter': 123, 'after_dedup': 123}
+Processing record 4800
+Stats: {'total_records': 4799, 'after_language_filter': 1621, 'after_gopher_filter': 950, 'after_nsfw_filter': 945, 'after_toxic_filter': 942, 'after_quality_filter': 126, 'after_dedup': 126}
+Processing record 4900
+Stats: {'total_records': 4899, 'after_language_filter': 1669, 'after_gopher_filter': 978, 'after_nsfw_filter': 973, 'after_toxic_filter': 970, 'after_quality_filter': 129, 'after_dedup': 129}
+Processing record 5000
+Stats: {'total_records': 4999, 'after_language_filter': 1721, 'after_gopher_filter': 1011, 'after_nsfw_filter': 1005, 'after_toxic_filter': 1002, 'after_quality_filter': 132, 'after_dedup': 132}
+Processing record 5100
+Stats: {'total_records': 5099, 'after_language_filter': 1756, 'after_gopher_filter': 1027, 'after_nsfw_filter': 1021, 'after_toxic_filter': 1018, 'after_quality_filter': 132, 'after_dedup': 132}
+Processing record 5200
+Stats: {'total_records': 5199, 'after_language_filter': 1806, 'after_gopher_filter': 1051, 'after_nsfw_filter': 1045, 'after_toxic_filter': 1041, 'after_quality_filter': 135, 'after_dedup': 135}
+Processing record 5300
+Stats: {'total_records': 5299, 'after_language_filter': 1855, 'after_gopher_filter': 1089, 'after_nsfw_filter': 1083, 'after_toxic_filter': 1079, 'after_quality_filter': 140, 'after_dedup': 140}
+Processing record 5400
+Stats: {'total_records': 5399, 'after_language_filter': 1931, 'after_gopher_filter': 1145, 'after_nsfw_filter': 1139, 'after_toxic_filter': 1135, 'after_quality_filter': 146, 'after_dedup': 146}
+Processing record 5500
+Stats: {'total_records': 5499, 'after_language_filter': 1978, 'after_gopher_filter': 1182, 'after_nsfw_filter': 1176, 'after_toxic_filter': 1172, 'after_quality_filter': 148, 'after_dedup': 148}
+Processing record 5600
+Stats: {'total_records': 5599, 'after_language_filter': 2038, 'after_gopher_filter': 1215, 'after_nsfw_filter': 1209, 'after_toxic_filter': 1205, 'after_quality_filter': 150, 'after_dedup': 150}
+Processing record 5700
+Stats: {'total_records': 5699, 'after_language_filter': 2093, 'after_gopher_filter': 1249, 'after_nsfw_filter': 1242, 'after_toxic_filter': 1238, 'after_quality_filter': 155, 'after_dedup': 155}
+Processing record 5800
+Stats: {'total_records': 5799, 'after_language_filter': 2137, 'after_gopher_filter': 1283, 'after_nsfw_filter': 1275, 'after_toxic_filter': 1271, 'after_quality_filter': 157, 'after_dedup': 157}
+Processing record 5900
+Stats: {'total_records': 5899, 'after_language_filter': 2176, 'after_gopher_filter': 1308, 'after_nsfw_filter': 1300, 'after_toxic_filter': 1295, 'after_quality_filter': 158, 'after_dedup': 158}
+Processing record 6000
+Stats: {'total_records': 5999, 'after_language_filter': 2201, 'after_gopher_filter': 1323, 'after_nsfw_filter': 1315, 'after_toxic_filter': 1310, 'after_quality_filter': 160, 'after_dedup': 160}
+Processing record 6100
+Stats: {'total_records': 6099, 'after_language_filter': 2236, 'after_gopher_filter': 1347, 'after_nsfw_filter': 1339, 'after_toxic_filter': 1334, 'after_quality_filter': 161, 'after_dedup': 161}
+Processing record 6200
+Stats: {'total_records': 6199, 'after_language_filter': 2286, 'after_gopher_filter': 1370, 'after_nsfw_filter': 1362, 'after_toxic_filter': 1357, 'after_quality_filter': 163, 'after_dedup': 163}
+Processing record 6300
+Stats: {'total_records': 6299, 'after_language_filter': 2338, 'after_gopher_filter': 1406, 'after_nsfw_filter': 1398, 'after_toxic_filter': 1393, 'after_quality_filter': 170, 'after_dedup': 170}
+Processing record 6400
+Stats: {'total_records': 6399, 'after_language_filter': 2381, 'after_gopher_filter': 1435, 'after_nsfw_filter': 1427, 'after_toxic_filter': 1422, 'after_quality_filter': 172, 'after_dedup': 172}
+Processing record 6500
+Stats: {'total_records': 6499, 'after_language_filter': 2422, 'after_gopher_filter': 1460, 'after_nsfw_filter': 1452, 'after_toxic_filter': 1446, 'after_quality_filter': 173, 'after_dedup': 173}
+Processing record 6600
+Stats: {'total_records': 6599, 'after_language_filter': 2472, 'after_gopher_filter': 1495, 'after_nsfw_filter': 1487, 'after_toxic_filter': 1481, 'after_quality_filter': 178, 'after_dedup': 178}
+Processing record 6700
+Stats: {'total_records': 6699, 'after_language_filter': 2510, 'after_gopher_filter': 1518, 'after_nsfw_filter': 1510, 'after_toxic_filter': 1504, 'after_quality_filter': 180, 'after_dedup': 180}
+Processing record 6800
+Stats: {'total_records': 6799, 'after_language_filter': 2546, 'after_gopher_filter': 1546, 'after_nsfw_filter': 1538, 'after_toxic_filter': 1532, 'after_quality_filter': 182, 'after_dedup': 182}
+Processing record 6900
+Stats: {'total_records': 6899, 'after_language_filter': 2607, 'after_gopher_filter': 1582, 'after_nsfw_filter': 1574, 'after_toxic_filter': 1568, 'after_quality_filter': 188, 'after_dedup': 188}
+Processing record 7000
+Stats: {'total_records': 6999, 'after_language_filter': 2632, 'after_gopher_filter': 1598, 'after_nsfw_filter': 1590, 'after_toxic_filter': 1583, 'after_quality_filter': 189, 'after_dedup': 189}
+Processing record 7100
+Stats: {'total_records': 7099, 'after_language_filter': 2667, 'after_gopher_filter': 1620, 'after_nsfw_filter': 1612, 'after_toxic_filter': 1605, 'after_quality_filter': 189, 'after_dedup': 189}
+Processing record 7200
+Stats: {'total_records': 7199, 'after_language_filter': 2713, 'after_gopher_filter': 1649, 'after_nsfw_filter': 1641, 'after_toxic_filter': 1634, 'after_quality_filter': 193, 'after_dedup': 193}
+Processing record 7300
+Stats: {'total_records': 7299, 'after_language_filter': 2752, 'after_gopher_filter': 1672, 'after_nsfw_filter': 1664, 'after_toxic_filter': 1654, 'after_quality_filter': 197, 'after_dedup': 197}
+Processing record 7400
+Stats: {'total_records': 7399, 'after_language_filter': 2793, 'after_gopher_filter': 1700, 'after_nsfw_filter': 1692, 'after_toxic_filter': 1682, 'after_quality_filter': 199, 'after_dedup': 199}
+Processing record 7500
+Stats: {'total_records': 7499, 'after_language_filter': 2836, 'after_gopher_filter': 1732, 'after_nsfw_filter': 1723, 'after_toxic_filter': 1713, 'after_quality_filter': 200, 'after_dedup': 200}
+Processing record 7600
+Stats: {'total_records': 7599, 'after_language_filter': 2882, 'after_gopher_filter': 1761, 'after_nsfw_filter': 1752, 'after_toxic_filter': 1742, 'after_quality_filter': 200, 'after_dedup': 200}
+Processing record 7700
+Stats: {'total_records': 7699, 'after_language_filter': 2916, 'after_gopher_filter': 1776, 'after_nsfw_filter': 1767, 'after_toxic_filter': 1757, 'after_quality_filter': 201, 'after_dedup': 201}
+Processing record 7800
+Stats: {'total_records': 7799, 'after_language_filter': 2950, 'after_gopher_filter': 1803, 'after_nsfw_filter': 1793, 'after_toxic_filter': 1783, 'after_quality_filter': 204, 'after_dedup': 204}
+Processing record 7900
+Stats: {'total_records': 7899, 'after_language_filter': 2991, 'after_gopher_filter': 1837, 'after_nsfw_filter': 1825, 'after_toxic_filter': 1815, 'after_quality_filter': 207, 'after_dedup': 207}
+Processing record 8000
+Stats: {'total_records': 7999, 'after_language_filter': 3036, 'after_gopher_filter': 1872, 'after_nsfw_filter': 1860, 'after_toxic_filter': 1850, 'after_quality_filter': 210, 'after_dedup': 210}
+Processing record 8100
+Stats: {'total_records': 8099, 'after_language_filter': 3094, 'after_gopher_filter': 1909, 'after_nsfw_filter': 1897, 'after_toxic_filter': 1886, 'after_quality_filter': 216, 'after_dedup': 216}
+Processing record 8200
+Stats: {'total_records': 8199, 'after_language_filter': 3136, 'after_gopher_filter': 1938, 'after_nsfw_filter': 1925, 'after_toxic_filter': 1914, 'after_quality_filter': 223, 'after_dedup': 223}
+Processing record 8300
+Stats: {'total_records': 8299, 'after_language_filter': 3169, 'after_gopher_filter': 1962, 'after_nsfw_filter': 1949, 'after_toxic_filter': 1938, 'after_quality_filter': 224, 'after_dedup': 224}
+Processing record 8400
+Stats: {'total_records': 8399, 'after_language_filter': 3208, 'after_gopher_filter': 1992, 'after_nsfw_filter': 1979, 'after_toxic_filter': 1968, 'after_quality_filter': 225, 'after_dedup': 225}
+Processing record 8500
+Stats: {'total_records': 8499, 'after_language_filter': 3267, 'after_gopher_filter': 2040, 'after_nsfw_filter': 2027, 'after_toxic_filter': 2016, 'after_quality_filter': 230, 'after_dedup': 230}
+Processing record 8600
+Stats: {'total_records': 8599, 'after_language_filter': 3304, 'after_gopher_filter': 2067, 'after_nsfw_filter': 2054, 'after_toxic_filter': 2043, 'after_quality_filter': 233, 'after_dedup': 233}
+Processing record 8700
+Stats: {'total_records': 8699, 'after_language_filter': 3348, 'after_gopher_filter': 2097, 'after_nsfw_filter': 2084, 'after_toxic_filter': 2073, 'after_quality_filter': 235, 'after_dedup': 235}
+Processing record 8800
+Stats: {'total_records': 8799, 'after_language_filter': 3380, 'after_gopher_filter': 2119, 'after_nsfw_filter': 2106, 'after_toxic_filter': 2095, 'after_quality_filter': 239, 'after_dedup': 239}
+Processing record 8900
+Stats: {'total_records': 8899, 'after_language_filter': 3427, 'after_gopher_filter': 2149, 'after_nsfw_filter': 2136, 'after_toxic_filter': 2125, 'after_quality_filter': 240, 'after_dedup': 240}
+Processing record 9000
+Stats: {'total_records': 8999, 'after_language_filter': 3472, 'after_gopher_filter': 2180, 'after_nsfw_filter': 2167, 'after_toxic_filter': 2156, 'after_quality_filter': 243, 'after_dedup': 243}
+Processing record 9100
+Stats: {'total_records': 9099, 'after_language_filter': 3508, 'after_gopher_filter': 2211, 'after_nsfw_filter': 2198, 'after_toxic_filter': 2187, 'after_quality_filter': 247, 'after_dedup': 247}
+Processing record 9200
+Stats: {'total_records': 9199, 'after_language_filter': 3540, 'after_gopher_filter': 2228, 'after_nsfw_filter': 2215, 'after_toxic_filter': 2204, 'after_quality_filter': 251, 'after_dedup': 251}
+Processing record 9300
+Stats: {'total_records': 9299, 'after_language_filter': 3571, 'after_gopher_filter': 2250, 'after_nsfw_filter': 2237, 'after_toxic_filter': 2226, 'after_quality_filter': 252, 'after_dedup': 252}
+Processing record 9400
+Stats: {'total_records': 9399, 'after_language_filter': 3609, 'after_gopher_filter': 2276, 'after_nsfw_filter': 2261, 'after_toxic_filter': 2250, 'after_quality_filter': 255, 'after_dedup': 255}
+Processing record 9500
+Stats: {'total_records': 9499, 'after_language_filter': 3661, 'after_gopher_filter': 2304, 'after_nsfw_filter': 2289, 'after_toxic_filter': 2278, 'after_quality_filter': 258, 'after_dedup': 258}
+Processing record 9600
+Stats: {'total_records': 9599, 'after_language_filter': 3688, 'after_gopher_filter': 2321, 'after_nsfw_filter': 2306, 'after_toxic_filter': 2295, 'after_quality_filter': 260, 'after_dedup': 260}
+Processing record 9700
+Stats: {'total_records': 9699, 'after_language_filter': 3710, 'after_gopher_filter': 2335, 'after_nsfw_filter': 2319, 'after_toxic_filter': 2308, 'after_quality_filter': 260, 'after_dedup': 260}
+Processing record 9800
+Stats: {'total_records': 9799, 'after_language_filter': 3746, 'after_gopher_filter': 2364, 'after_nsfw_filter': 2348, 'after_toxic_filter': 2337, 'after_quality_filter': 265, 'after_dedup': 265}
+Processing record 9900
+Stats: {'total_records': 9899, 'after_language_filter': 3774, 'after_gopher_filter': 2382, 'after_nsfw_filter': 2366, 'after_toxic_filter': 2355, 'after_quality_filter': 266, 'after_dedup': 266}
+Processing record 10000
+Stats: {'total_records': 9999, 'after_language_filter': 3796, 'after_gopher_filter': 2397, 'after_nsfw_filter': 2381, 'after_toxic_filter': 2370, 'after_quality_filter': 268, 'after_dedup': 268}
+Processing record 10100
+Stats: {'total_records': 10099, 'after_language_filter': 3825, 'after_gopher_filter': 2416, 'after_nsfw_filter': 2400, 'after_toxic_filter': 2389, 'after_quality_filter': 269, 'after_dedup': 269}
+Processing record 10200
+Stats: {'total_records': 10199, 'after_language_filter': 3874, 'after_gopher_filter': 2446, 'after_nsfw_filter': 2430, 'after_toxic_filter': 2419, 'after_quality_filter': 271, 'after_dedup': 271}
+Processing record 10300
+Stats: {'total_records': 10299, 'after_language_filter': 3920, 'after_gopher_filter': 2478, 'after_nsfw_filter': 2461, 'after_toxic_filter': 2450, 'after_quality_filter': 276, 'after_dedup': 276}
+Processing record 10400
+Stats: {'total_records': 10399, 'after_language_filter': 3965, 'after_gopher_filter': 2503, 'after_nsfw_filter': 2486, 'after_toxic_filter': 2475, 'after_quality_filter': 278, 'after_dedup': 278}
+Processing record 10500
+Stats: {'total_records': 10499, 'after_language_filter': 4013, 'after_gopher_filter': 2541, 'after_nsfw_filter': 2524, 'after_toxic_filter': 2513, 'after_quality_filter': 282, 'after_dedup': 282}
+Processing record 10600
+Stats: {'total_records': 10599, 'after_language_filter': 4054, 'after_gopher_filter': 2569, 'after_nsfw_filter': 2551, 'after_toxic_filter': 2540, 'after_quality_filter': 285, 'after_dedup': 285}
+Processing record 10700
+Stats: {'total_records': 10699, 'after_language_filter': 4079, 'after_gopher_filter': 2588, 'after_nsfw_filter': 2570, 'after_toxic_filter': 2559, 'after_quality_filter': 289, 'after_dedup': 289}
+Processing record 10800
+Stats: {'total_records': 10799, 'after_language_filter': 4116, 'after_gopher_filter': 2614, 'after_nsfw_filter': 2595, 'after_toxic_filter': 2584, 'after_quality_filter': 289, 'after_dedup': 289}
+Processing record 10900
+Stats: {'total_records': 10899, 'after_language_filter': 4166, 'after_gopher_filter': 2640, 'after_nsfw_filter': 2621, 'after_toxic_filter': 2610, 'after_quality_filter': 292, 'after_dedup': 292}
+Processing record 11000
+Stats: {'total_records': 10999, 'after_language_filter': 4205, 'after_gopher_filter': 2668, 'after_nsfw_filter': 2648, 'after_toxic_filter': 2637, 'after_quality_filter': 296, 'after_dedup': 296}
+Processing record 11100
+Stats: {'total_records': 11099, 'after_language_filter': 4232, 'after_gopher_filter': 2691, 'after_nsfw_filter': 2671, 'after_toxic_filter': 2660, 'after_quality_filter': 297, 'after_dedup': 297}
+Processing record 11200
+Stats: {'total_records': 11199, 'after_language_filter': 4278, 'after_gopher_filter': 2719, 'after_nsfw_filter': 2699, 'after_toxic_filter': 2688, 'after_quality_filter': 300, 'after_dedup': 300}
+Processing record 11300
+Stats: {'total_records': 11299, 'after_language_filter': 4318, 'after_gopher_filter': 2744, 'after_nsfw_filter': 2724, 'after_toxic_filter': 2712, 'after_quality_filter': 301, 'after_dedup': 301}
+Processing record 11400
+Stats: {'total_records': 11399, 'after_language_filter': 4351, 'after_gopher_filter': 2767, 'after_nsfw_filter': 2747, 'after_toxic_filter': 2735, 'after_quality_filter': 301, 'after_dedup': 301}
+Processing record 11500
+Stats: {'total_records': 11499, 'after_language_filter': 4394, 'after_gopher_filter': 2796, 'after_nsfw_filter': 2776, 'after_toxic_filter': 2764, 'after_quality_filter': 304, 'after_dedup': 304}
+Processing record 11600
+Stats: {'total_records': 11599, 'after_language_filter': 4430, 'after_gopher_filter': 2823, 'after_nsfw_filter': 2803, 'after_toxic_filter': 2791, 'after_quality_filter': 305, 'after_dedup': 305}
+Processing record 11700
+Stats: {'total_records': 11699, 'after_language_filter': 4477, 'after_gopher_filter': 2858, 'after_nsfw_filter': 2838, 'after_toxic_filter': 2826, 'after_quality_filter': 305, 'after_dedup': 305}
+Processing record 11800
+Stats: {'total_records': 11799, 'after_language_filter': 4520, 'after_gopher_filter': 2888, 'after_nsfw_filter': 2867, 'after_toxic_filter': 2855, 'after_quality_filter': 310, 'after_dedup': 310}
+Processing record 11900
+Stats: {'total_records': 11899, 'after_language_filter': 4566, 'after_gopher_filter': 2919, 'after_nsfw_filter': 2898, 'after_toxic_filter': 2886, 'after_quality_filter': 318, 'after_dedup': 318}
+Processing record 12000
+Stats: {'total_records': 11999, 'after_language_filter': 4617, 'after_gopher_filter': 2946, 'after_nsfw_filter': 2925, 'after_toxic_filter': 2913, 'after_quality_filter': 323, 'after_dedup': 323}
+Processing record 12100
+Stats: {'total_records': 12099, 'after_language_filter': 4649, 'after_gopher_filter': 2969, 'after_nsfw_filter': 2948, 'after_toxic_filter': 2936, 'after_quality_filter': 327, 'after_dedup': 327}
+Processing record 12200
+Stats: {'total_records': 12199, 'after_language_filter': 4690, 'after_gopher_filter': 2993, 'after_nsfw_filter': 2971, 'after_toxic_filter': 2959, 'after_quality_filter': 334, 'after_dedup': 334}
+Processing record 12300
+Stats: {'total_records': 12299, 'after_language_filter': 4726, 'after_gopher_filter': 3021, 'after_nsfw_filter': 2998, 'after_toxic_filter': 2986, 'after_quality_filter': 334, 'after_dedup': 334}
+Processing record 12400
+Stats: {'total_records': 12399, 'after_language_filter': 4769, 'after_gopher_filter': 3052, 'after_nsfw_filter': 3028, 'after_toxic_filter': 3016, 'after_quality_filter': 338, 'after_dedup': 338}
+Processing record 12500
+Stats: {'total_records': 12499, 'after_language_filter': 4812, 'after_gopher_filter': 3077, 'after_nsfw_filter': 3053, 'after_toxic_filter': 3041, 'after_quality_filter': 342, 'after_dedup': 342}
+Processing record 12600
+Stats: {'total_records': 12599, 'after_language_filter': 4846, 'after_gopher_filter': 3104, 'after_nsfw_filter': 3080, 'after_toxic_filter': 3068, 'after_quality_filter': 345, 'after_dedup': 345}
+Processing record 12700
+Stats: {'total_records': 12699, 'after_language_filter': 4886, 'after_gopher_filter': 3131, 'after_nsfw_filter': 3107, 'after_toxic_filter': 3095, 'after_quality_filter': 346, 'after_dedup': 346}
+Processing record 12800
+Stats: {'total_records': 12799, 'after_language_filter': 4929, 'after_gopher_filter': 3156, 'after_nsfw_filter': 3132, 'after_toxic_filter': 3120, 'after_quality_filter': 349, 'after_dedup': 349}
+Processing record 12900
+Stats: {'total_records': 12899, 'after_language_filter': 4966, 'after_gopher_filter': 3182, 'after_nsfw_filter': 3158, 'after_toxic_filter': 3146, 'after_quality_filter': 351, 'after_dedup': 351}
+Processing record 13000
+Stats: {'total_records': 12999, 'after_language_filter': 4996, 'after_gopher_filter': 3201, 'after_nsfw_filter': 3176, 'after_toxic_filter': 3163, 'after_quality_filter': 356, 'after_dedup': 356}
+Processing record 13100
+Stats: {'total_records': 13099, 'after_language_filter': 5038, 'after_gopher_filter': 3225, 'after_nsfw_filter': 3200, 'after_toxic_filter': 3187, 'after_quality_filter': 359, 'after_dedup': 359}
+Processing record 13200
+Stats: {'total_records': 13199, 'after_language_filter': 5080, 'after_gopher_filter': 3248, 'after_nsfw_filter': 3223, 'after_toxic_filter': 3210, 'after_quality_filter': 359, 'after_dedup': 359}
+Processing record 13300
+Stats: {'total_records': 13299, 'after_language_filter': 5111, 'after_gopher_filter': 3269, 'after_nsfw_filter': 3244, 'after_toxic_filter': 3231, 'after_quality_filter': 361, 'after_dedup': 361}
+Processing record 13400
+Stats: {'total_records': 13399, 'after_language_filter': 5156, 'after_gopher_filter': 3300, 'after_nsfw_filter': 3275, 'after_toxic_filter': 3262, 'after_quality_filter': 364, 'after_dedup': 364}
+Processing record 13500
+Stats: {'total_records': 13499, 'after_language_filter': 5195, 'after_gopher_filter': 3325, 'after_nsfw_filter': 3300, 'after_toxic_filter': 3287, 'after_quality_filter': 368, 'after_dedup': 368}
+Processing record 13600
+Stats: {'total_records': 13599, 'after_language_filter': 5239, 'after_gopher_filter': 3359, 'after_nsfw_filter': 3334, 'after_toxic_filter': 3321, 'after_quality_filter': 374, 'after_dedup': 374}
+Processing record 13700
+Stats: {'total_records': 13699, 'after_language_filter': 5290, 'after_gopher_filter': 3382, 'after_nsfw_filter': 3357, 'after_toxic_filter': 3344, 'after_quality_filter': 376, 'after_dedup': 376}
+Processing record 13800
+Stats: {'total_records': 13799, 'after_language_filter': 5330, 'after_gopher_filter': 3413, 'after_nsfw_filter': 3387, 'after_toxic_filter': 3374, 'after_quality_filter': 379, 'after_dedup': 379}
+Processing record 13900
+Stats: {'total_records': 13899, 'after_language_filter': 5379, 'after_gopher_filter': 3446, 'after_nsfw_filter': 3420, 'after_toxic_filter': 3407, 'after_quality_filter': 382, 'after_dedup': 382}
+Processing record 14000
+Stats: {'total_records': 13999, 'after_language_filter': 5405, 'after_gopher_filter': 3465, 'after_nsfw_filter': 3439, 'after_toxic_filter': 3426, 'after_quality_filter': 383, 'after_dedup': 383}
+Processing record 14100
+Stats: {'total_records': 14099, 'after_language_filter': 5439, 'after_gopher_filter': 3490, 'after_nsfw_filter': 3463, 'after_toxic_filter': 3450, 'after_quality_filter': 387, 'after_dedup': 387}
+Processing record 14200
+Stats: {'total_records': 14199, 'after_language_filter': 5488, 'after_gopher_filter': 3526, 'after_nsfw_filter': 3499, 'after_toxic_filter': 3485, 'after_quality_filter': 391, 'after_dedup': 391}
+Processing record 14300
+Stats: {'total_records': 14299, 'after_language_filter': 5551, 'after_gopher_filter': 3575, 'after_nsfw_filter': 3548, 'after_toxic_filter': 3534, 'after_quality_filter': 397, 'after_dedup': 397}
+Processing record 14400
+Stats: {'total_records': 14399, 'after_language_filter': 5593, 'after_gopher_filter': 3610, 'after_nsfw_filter': 3582, 'after_toxic_filter': 3567, 'after_quality_filter': 400, 'after_dedup': 400}
+Processing record 14500
+Stats: {'total_records': 14499, 'after_language_filter': 5633, 'after_gopher_filter': 3639, 'after_nsfw_filter': 3611, 'after_toxic_filter': 3596, 'after_quality_filter': 400, 'after_dedup': 400}
+Processing record 14600
+Stats: {'total_records': 14599, 'after_language_filter': 5688, 'after_gopher_filter': 3677, 'after_nsfw_filter': 3649, 'after_toxic_filter': 3634, 'after_quality_filter': 403, 'after_dedup': 403}
+Processing record 14700
+Stats: {'total_records': 14699, 'after_language_filter': 5724, 'after_gopher_filter': 3706, 'after_nsfw_filter': 3678, 'after_toxic_filter': 3663, 'after_quality_filter': 407, 'after_dedup': 407}
+Processing record 14800
+Stats: {'total_records': 14799, 'after_language_filter': 5765, 'after_gopher_filter': 3731, 'after_nsfw_filter': 3703, 'after_toxic_filter': 3688, 'after_quality_filter': 411, 'after_dedup': 411}
+Processing record 14900
+Stats: {'total_records': 14899, 'after_language_filter': 5812, 'after_gopher_filter': 3764, 'after_nsfw_filter': 3736, 'after_toxic_filter': 3721, 'after_quality_filter': 420, 'after_dedup': 420}
+Processing record 15000
+Stats: {'total_records': 14999, 'after_language_filter': 5843, 'after_gopher_filter': 3790, 'after_nsfw_filter': 3762, 'after_toxic_filter': 3746, 'after_quality_filter': 424, 'after_dedup': 424}
+Processing record 15100
+Stats: {'total_records': 15099, 'after_language_filter': 5895, 'after_gopher_filter': 3819, 'after_nsfw_filter': 3791, 'after_toxic_filter': 3775, 'after_quality_filter': 428, 'after_dedup': 428}
+Processing record 15200
+Stats: {'total_records': 15199, 'after_language_filter': 5950, 'after_gopher_filter': 3850, 'after_nsfw_filter': 3822, 'after_toxic_filter': 3805, 'after_quality_filter': 430, 'after_dedup': 430}
+Processing record 15300
+Stats: {'total_records': 15299, 'after_language_filter': 5993, 'after_gopher_filter': 3879, 'after_nsfw_filter': 3851, 'after_toxic_filter': 3834, 'after_quality_filter': 431, 'after_dedup': 431}
+Processing record 15400
+Stats: {'total_records': 15399, 'after_language_filter': 6044, 'after_gopher_filter': 3917, 'after_nsfw_filter': 3889, 'after_toxic_filter': 3872, 'after_quality_filter': 437, 'after_dedup': 437}
+Processing record 15500
+Stats: {'total_records': 15499, 'after_language_filter': 6077, 'after_gopher_filter': 3937, 'after_nsfw_filter': 3909, 'after_toxic_filter': 3892, 'after_quality_filter': 440, 'after_dedup': 440}
+Processing record 15600
+Stats: {'total_records': 15599, 'after_language_filter': 6119, 'after_gopher_filter': 3967, 'after_nsfw_filter': 3939, 'after_toxic_filter': 3922, 'after_quality_filter': 442, 'after_dedup': 442}
+Processing record 15700
+Stats: {'total_records': 15699, 'after_language_filter': 6151, 'after_gopher_filter': 3988, 'after_nsfw_filter': 3960, 'after_toxic_filter': 3943, 'after_quality_filter': 444, 'after_dedup': 444}
+Processing record 15800
+Stats: {'total_records': 15799, 'after_language_filter': 6234, 'after_gopher_filter': 4053, 'after_nsfw_filter': 4025, 'after_toxic_filter': 4007, 'after_quality_filter': 447, 'after_dedup': 447}
+Processing record 15900
+Stats: {'total_records': 15899, 'after_language_filter': 6307, 'after_gopher_filter': 4107, 'after_nsfw_filter': 4079, 'after_toxic_filter': 4061, 'after_quality_filter': 454, 'after_dedup': 454}
+Processing record 16000
+Stats: {'total_records': 15999, 'after_language_filter': 6341, 'after_gopher_filter': 4132, 'after_nsfw_filter': 4103, 'after_toxic_filter': 4085, 'after_quality_filter': 459, 'after_dedup': 459}
+Processing record 16100
+Stats: {'total_records': 16099, 'after_language_filter': 6380, 'after_gopher_filter': 4158, 'after_nsfw_filter': 4129, 'after_toxic_filter': 4111, 'after_quality_filter': 462, 'after_dedup': 462}
+Processing record 16200
+Stats: {'total_records': 16199, 'after_language_filter': 6421, 'after_gopher_filter': 4181, 'after_nsfw_filter': 4152, 'after_toxic_filter': 4134, 'after_quality_filter': 466, 'after_dedup': 466}
+Processing record 16300
+Stats: {'total_records': 16299, 'after_language_filter': 6449, 'after_gopher_filter': 4200, 'after_nsfw_filter': 4171, 'after_toxic_filter': 4152, 'after_quality_filter': 468, 'after_dedup': 468}
+Processing record 16400
+Stats: {'total_records': 16399, 'after_language_filter': 6487, 'after_gopher_filter': 4224, 'after_nsfw_filter': 4195, 'after_toxic_filter': 4176, 'after_quality_filter': 469, 'after_dedup': 469}
+Processing record 16500
+Stats: {'total_records': 16499, 'after_language_filter': 6525, 'after_gopher_filter': 4252, 'after_nsfw_filter': 4223, 'after_toxic_filter': 4204, 'after_quality_filter': 469, 'after_dedup': 469}
+Processing record 16600
+Stats: {'total_records': 16599, 'after_language_filter': 6555, 'after_gopher_filter': 4273, 'after_nsfw_filter': 4244, 'after_toxic_filter': 4225, 'after_quality_filter': 469, 'after_dedup': 469}
+Processing record 16700
+Stats: {'total_records': 16699, 'after_language_filter': 6587, 'after_gopher_filter': 4299, 'after_nsfw_filter': 4269, 'after_toxic_filter': 4250, 'after_quality_filter': 472, 'after_dedup': 472}
+Processing record 16800
+Stats: {'total_records': 16799, 'after_language_filter': 6619, 'after_gopher_filter': 4322, 'after_nsfw_filter': 4291, 'after_toxic_filter': 4272, 'after_quality_filter': 474, 'after_dedup': 474}
+Processing record 16900
+Stats: {'total_records': 16899, 'after_language_filter': 6674, 'after_gopher_filter': 4358, 'after_nsfw_filter': 4327, 'after_toxic_filter': 4308, 'after_quality_filter': 480, 'after_dedup': 480}
+Processing record 17000
+Stats: {'total_records': 16999, 'after_language_filter': 6724, 'after_gopher_filter': 4397, 'after_nsfw_filter': 4366, 'after_toxic_filter': 4347, 'after_quality_filter': 486, 'after_dedup': 486}
+Processing record 17100
+Stats: {'total_records': 17099, 'after_language_filter': 6779, 'after_gopher_filter': 4426, 'after_nsfw_filter': 4395, 'after_toxic_filter': 4376, 'after_quality_filter': 492, 'after_dedup': 492}
+Processing record 17200
+Stats: {'total_records': 17199, 'after_language_filter': 6822, 'after_gopher_filter': 4456, 'after_nsfw_filter': 4425, 'after_toxic_filter': 4406, 'after_quality_filter': 497, 'after_dedup': 497}
+Processing record 17300
+Stats: {'total_records': 17299, 'after_language_filter': 6854, 'after_gopher_filter': 4482, 'after_nsfw_filter': 4450, 'after_toxic_filter': 4431, 'after_quality_filter': 502, 'after_dedup': 502}
+Processing record 17400
+Stats: {'total_records': 17399, 'after_language_filter': 6905, 'after_gopher_filter': 4524, 'after_nsfw_filter': 4492, 'after_toxic_filter': 4473, 'after_quality_filter': 508, 'after_dedup': 508}
+Processing record 17500
+Stats: {'total_records': 17499, 'after_language_filter': 6948, 'after_gopher_filter': 4554, 'after_nsfw_filter': 4522, 'after_toxic_filter': 4503, 'after_quality_filter': 512, 'after_dedup': 512}
+Processing record 17600
+Stats: {'total_records': 17599, 'after_language_filter': 6984, 'after_gopher_filter': 4582, 'after_nsfw_filter': 4550, 'after_toxic_filter': 4531, 'after_quality_filter': 515, 'after_dedup': 515}
+Processing record 17700
+Stats: {'total_records': 17699, 'after_language_filter': 7024, 'after_gopher_filter': 4607, 'after_nsfw_filter': 4575, 'after_toxic_filter': 4556, 'after_quality_filter': 518, 'after_dedup': 518}
+Processing record 17800
+Stats: {'total_records': 17799, 'after_language_filter': 7079, 'after_gopher_filter': 4650, 'after_nsfw_filter': 4618, 'after_toxic_filter': 4599, 'after_quality_filter': 522, 'after_dedup': 522}
+Processing record 17900
+Stats: {'total_records': 17899, 'after_language_filter': 7114, 'after_gopher_filter': 4675, 'after_nsfw_filter': 4642, 'after_toxic_filter': 4623, 'after_quality_filter': 525, 'after_dedup': 525}
+Processing record 18000
+Stats: {'total_records': 17999, 'after_language_filter': 7139, 'after_gopher_filter': 4694, 'after_nsfw_filter': 4661, 'after_toxic_filter': 4642, 'after_quality_filter': 527, 'after_dedup': 527}
+Processing record 18100
+Stats: {'total_records': 18099, 'after_language_filter': 7181, 'after_gopher_filter': 4723, 'after_nsfw_filter': 4690, 'after_toxic_filter': 4671, 'after_quality_filter': 532, 'after_dedup': 532}
+Processing record 18200
+Stats: {'total_records': 18199, 'after_language_filter': 7226, 'after_gopher_filter': 4758, 'after_nsfw_filter': 4725, 'after_toxic_filter': 4706, 'after_quality_filter': 535, 'after_dedup': 535}
+Processing record 18300
+Stats: {'total_records': 18299, 'after_language_filter': 7264, 'after_gopher_filter': 4785, 'after_nsfw_filter': 4752, 'after_toxic_filter': 4733, 'after_quality_filter': 536, 'after_dedup': 536}
+Processing record 18400
+Stats: {'total_records': 18399, 'after_language_filter': 7308, 'after_gopher_filter': 4818, 'after_nsfw_filter': 4785, 'after_toxic_filter': 4766, 'after_quality_filter': 540, 'after_dedup': 540}
+Processing record 18500
+Stats: {'total_records': 18499, 'after_language_filter': 7355, 'after_gopher_filter': 4858, 'after_nsfw_filter': 4825, 'after_toxic_filter': 4806, 'after_quality_filter': 544, 'after_dedup': 544}
+Processing record 18600
+Stats: {'total_records': 18599, 'after_language_filter': 7392, 'after_gopher_filter': 4880, 'after_nsfw_filter': 4847, 'after_toxic_filter': 4828, 'after_quality_filter': 548, 'after_dedup': 548}
+Processing record 18700
+Stats: {'total_records': 18699, 'after_language_filter': 7435, 'after_gopher_filter': 4914, 'after_nsfw_filter': 4881, 'after_toxic_filter': 4862, 'after_quality_filter': 554, 'after_dedup': 554}
+Processing record 18800
+Stats: {'total_records': 18799, 'after_language_filter': 7476, 'after_gopher_filter': 4941, 'after_nsfw_filter': 4908, 'after_toxic_filter': 4889, 'after_quality_filter': 557, 'after_dedup': 557}
+Processing record 18900
+Stats: {'total_records': 18899, 'after_language_filter': 7523, 'after_gopher_filter': 4974, 'after_nsfw_filter': 4941, 'after_toxic_filter': 4922, 'after_quality_filter': 564, 'after_dedup': 564}
+Processing record 19000
+Stats: {'total_records': 18999, 'after_language_filter': 7561, 'after_gopher_filter': 5004, 'after_nsfw_filter': 4971, 'after_toxic_filter': 4952, 'after_quality_filter': 566, 'after_dedup': 566}
+Processing record 19100
+Stats: {'total_records': 19099, 'after_language_filter': 7612, 'after_gopher_filter': 5039, 'after_nsfw_filter': 5006, 'after_toxic_filter': 4987, 'after_quality_filter': 568, 'after_dedup': 568}
+Processing record 19200
+Stats: {'total_records': 19199, 'after_language_filter': 7655, 'after_gopher_filter': 5073, 'after_nsfw_filter': 5040, 'after_toxic_filter': 5021, 'after_quality_filter': 572, 'after_dedup': 572}
+Processing record 19300
+Stats: {'total_records': 19299, 'after_language_filter': 7688, 'after_gopher_filter': 5088, 'after_nsfw_filter': 5055, 'after_toxic_filter': 5036, 'after_quality_filter': 573, 'after_dedup': 573}
+Processing record 19400
+Stats: {'total_records': 19399, 'after_language_filter': 7722, 'after_gopher_filter': 5115, 'after_nsfw_filter': 5082, 'after_toxic_filter': 5063, 'after_quality_filter': 577, 'after_dedup': 577}
+Processing record 19500
+Stats: {'total_records': 19499, 'after_language_filter': 7762, 'after_gopher_filter': 5146, 'after_nsfw_filter': 5113, 'after_toxic_filter': 5094, 'after_quality_filter': 583, 'after_dedup': 583}
+Processing record 19600
+Stats: {'total_records': 19599, 'after_language_filter': 7804, 'after_gopher_filter': 5177, 'after_nsfw_filter': 5144, 'after_toxic_filter': 5125, 'after_quality_filter': 589, 'after_dedup': 589}
+Processing record 19700
+Stats: {'total_records': 19699, 'after_language_filter': 7840, 'after_gopher_filter': 5200, 'after_nsfw_filter': 5167, 'after_toxic_filter': 5148, 'after_quality_filter': 589, 'after_dedup': 589}
+Processing record 19800
+Stats: {'total_records': 19799, 'after_language_filter': 7867, 'after_gopher_filter': 5220, 'after_nsfw_filter': 5187, 'after_toxic_filter': 5168, 'after_quality_filter': 592, 'after_dedup': 592}
+Processing record 19900
+Stats: {'total_records': 19899, 'after_language_filter': 7894, 'after_gopher_filter': 5240, 'after_nsfw_filter': 5207, 'after_toxic_filter': 5188, 'after_quality_filter': 597, 'after_dedup': 597}
+Processing record 20000
+Stats: {'total_records': 19999, 'after_language_filter': 7945, 'after_gopher_filter': 5274, 'after_nsfw_filter': 5241, 'after_toxic_filter': 5222, 'after_quality_filter': 597, 'after_dedup': 597}
+Processing record 20100
+Stats: {'total_records': 20099, 'after_language_filter': 7977, 'after_gopher_filter': 5295, 'after_nsfw_filter': 5261, 'after_toxic_filter': 5242, 'after_quality_filter': 598, 'after_dedup': 598}
+Processing record 20200
+Stats: {'total_records': 20199, 'after_language_filter': 8029, 'after_gopher_filter': 5334, 'after_nsfw_filter': 5300, 'after_toxic_filter': 5281, 'after_quality_filter': 604, 'after_dedup': 604}
+Processing record 20300
+Stats: {'total_records': 20299, 'after_language_filter': 8069, 'after_gopher_filter': 5365, 'after_nsfw_filter': 5331, 'after_toxic_filter': 5312, 'after_quality_filter': 609, 'after_dedup': 609}
+Processing record 20400
+Stats: {'total_records': 20399, 'after_language_filter': 8105, 'after_gopher_filter': 5394, 'after_nsfw_filter': 5360, 'after_toxic_filter': 5341, 'after_quality_filter': 615, 'after_dedup': 615}
+Processing record 20500
+Stats: {'total_records': 20499, 'after_language_filter': 8154, 'after_gopher_filter': 5427, 'after_nsfw_filter': 5393, 'after_toxic_filter': 5374, 'after_quality_filter': 621, 'after_dedup': 621}
+Processing record 20600
+Stats: {'total_records': 20599, 'after_language_filter': 8215, 'after_gopher_filter': 5459, 'after_nsfw_filter': 5425, 'after_toxic_filter': 5406, 'after_quality_filter': 625, 'after_dedup': 625}
+Processing record 20700
+Stats: {'total_records': 20699, 'after_language_filter': 8258, 'after_gopher_filter': 5489, 'after_nsfw_filter': 5455, 'after_toxic_filter': 5436, 'after_quality_filter': 633, 'after_dedup': 633}
+Processing record 20800
+Stats: {'total_records': 20799, 'after_language_filter': 8299, 'after_gopher_filter': 5512, 'after_nsfw_filter': 5478, 'after_toxic_filter': 5459, 'after_quality_filter': 637, 'after_dedup': 637}
+Processing record 20900
+Stats: {'total_records': 20899, 'after_language_filter': 8332, 'after_gopher_filter': 5536, 'after_nsfw_filter': 5502, 'after_toxic_filter': 5483, 'after_quality_filter': 639, 'after_dedup': 639}
+Processing record 21000
+Stats: {'total_records': 20999, 'after_language_filter': 8376, 'after_gopher_filter': 5569, 'after_nsfw_filter': 5535, 'after_toxic_filter': 5516, 'after_quality_filter': 641, 'after_dedup': 641}
+Processing record 21100
+Stats: {'total_records': 21099, 'after_language_filter': 8411, 'after_gopher_filter': 5598, 'after_nsfw_filter': 5564, 'after_toxic_filter': 5545, 'after_quality_filter': 644, 'after_dedup': 644}
+Processing record 21200
+Stats: {'total_records': 21199, 'after_language_filter': 8451, 'after_gopher_filter': 5624, 'after_nsfw_filter': 5590, 'after_toxic_filter': 5571, 'after_quality_filter': 647, 'after_dedup': 647}
+Processing record 21300
+Stats: {'total_records': 21299, 'after_language_filter': 8495, 'after_gopher_filter': 5661, 'after_nsfw_filter': 5627, 'after_toxic_filter': 5608, 'after_quality_filter': 652, 'after_dedup': 652}
+Processing record 21400
+Stats: {'total_records': 21399, 'after_language_filter': 8548, 'after_gopher_filter': 5703, 'after_nsfw_filter': 5669, 'after_toxic_filter': 5650, 'after_quality_filter': 656, 'after_dedup': 656}
+Processing record 21500
+Stats: {'total_records': 21499, 'after_language_filter': 8580, 'after_gopher_filter': 5725, 'after_nsfw_filter': 5691, 'after_toxic_filter': 5672, 'after_quality_filter': 657, 'after_dedup': 657}
+Processing record 21600
+Stats: {'total_records': 21599, 'after_language_filter': 8618, 'after_gopher_filter': 5755, 'after_nsfw_filter': 5721, 'after_toxic_filter': 5702, 'after_quality_filter': 661, 'after_dedup': 661}
+Processing record 21700
+Stats: {'total_records': 21699, 'after_language_filter': 8650, 'after_gopher_filter': 5775, 'after_nsfw_filter': 5741, 'after_toxic_filter': 5722, 'after_quality_filter': 664, 'after_dedup': 664}
+Processing record 21800
+Stats: {'total_records': 21799, 'after_language_filter': 8674, 'after_gopher_filter': 5791, 'after_nsfw_filter': 5757, 'after_toxic_filter': 5738, 'after_quality_filter': 664, 'after_dedup': 664}
+Processing record 21900
+Stats: {'total_records': 21899, 'after_language_filter': 8707, 'after_gopher_filter': 5808, 'after_nsfw_filter': 5774, 'after_toxic_filter': 5755, 'after_quality_filter': 665, 'after_dedup': 665}
+Processing record 22000
+Stats: {'total_records': 21999, 'after_language_filter': 8731, 'after_gopher_filter': 5825, 'after_nsfw_filter': 5791, 'after_toxic_filter': 5772, 'after_quality_filter': 667, 'after_dedup': 667}
+Processing record 22100
+Stats: {'total_records': 22099, 'after_language_filter': 8782, 'after_gopher_filter': 5857, 'after_nsfw_filter': 5823, 'after_toxic_filter': 5804, 'after_quality_filter': 668, 'after_dedup': 668}
+Processing record 22200
+Stats: {'total_records': 22199, 'after_language_filter': 8827, 'after_gopher_filter': 5892, 'after_nsfw_filter': 5858, 'after_toxic_filter': 5839, 'after_quality_filter': 670, 'after_dedup': 670}
+Processing record 22300
+Stats: {'total_records': 22299, 'after_language_filter': 8871, 'after_gopher_filter': 5929, 'after_nsfw_filter': 5895, 'after_toxic_filter': 5876, 'after_quality_filter': 677, 'after_dedup': 677}
+Processing record 22400
+Stats: {'total_records': 22399, 'after_language_filter': 8910, 'after_gopher_filter': 5957, 'after_nsfw_filter': 5923, 'after_toxic_filter': 5904, 'after_quality_filter': 680, 'after_dedup': 680}
+Processing record 22500
+Stats: {'total_records': 22499, 'after_language_filter': 8954, 'after_gopher_filter': 5997, 'after_nsfw_filter': 5963, 'after_toxic_filter': 5944, 'after_quality_filter': 686, 'after_dedup': 686}
+Processing record 22600
+Stats: {'total_records': 22599, 'after_language_filter': 8995, 'after_gopher_filter': 6029, 'after_nsfw_filter': 5995, 'after_toxic_filter': 5976, 'after_quality_filter': 694, 'after_dedup': 694}
+Processing record 22700
+Stats: {'total_records': 22699, 'after_language_filter': 9037, 'after_gopher_filter': 6058, 'after_nsfw_filter': 6024, 'after_toxic_filter': 6005, 'after_quality_filter': 695, 'after_dedup': 695}
+Processing record 22800
+Stats: {'total_records': 22799, 'after_language_filter': 9077, 'after_gopher_filter': 6090, 'after_nsfw_filter': 6056, 'after_toxic_filter': 6037, 'after_quality_filter': 699, 'after_dedup': 699}
+Processing record 22900
+Stats: {'total_records': 22899, 'after_language_filter': 9135, 'after_gopher_filter': 6131, 'after_nsfw_filter': 6097, 'after_toxic_filter': 6078, 'after_quality_filter': 703, 'after_dedup': 703}
+Processing record 23000
+Stats: {'total_records': 22999, 'after_language_filter': 9165, 'after_gopher_filter': 6151, 'after_nsfw_filter': 6117, 'after_toxic_filter': 6098, 'after_quality_filter': 706, 'after_dedup': 706}
+Processing record 23100
+Stats: {'total_records': 23099, 'after_language_filter': 9215, 'after_gopher_filter': 6192, 'after_nsfw_filter': 6158, 'after_toxic_filter': 6139, 'after_quality_filter': 717, 'after_dedup': 717}
+Processing record 23200
+Stats: {'total_records': 23199, 'after_language_filter': 9266, 'after_gopher_filter': 6228, 'after_nsfw_filter': 6194, 'after_toxic_filter': 6175, 'after_quality_filter': 722, 'after_dedup': 722}
+Processing record 23300
+Stats: {'total_records': 23299, 'after_language_filter': 9311, 'after_gopher_filter': 6258, 'after_nsfw_filter': 6224, 'after_toxic_filter': 6205, 'after_quality_filter': 725, 'after_dedup': 725}
+Processing record 23400
+Stats: {'total_records': 23399, 'after_language_filter': 9358, 'after_gopher_filter': 6297, 'after_nsfw_filter': 6263, 'after_toxic_filter': 6244, 'after_quality_filter': 730, 'after_dedup': 730}
+Processing record 23500
+Stats: {'total_records': 23499, 'after_language_filter': 9396, 'after_gopher_filter': 6318, 'after_nsfw_filter': 6284, 'after_toxic_filter': 6265, 'after_quality_filter': 733, 'after_dedup': 733}
+Processing record 23600
+Stats: {'total_records': 23599, 'after_language_filter': 9437, 'after_gopher_filter': 6346, 'after_nsfw_filter': 6312, 'after_toxic_filter': 6293, 'after_quality_filter': 737, 'after_dedup': 737}
+Processing record 23700
+Stats: {'total_records': 23699, 'after_language_filter': 9474, 'after_gopher_filter': 6372, 'after_nsfw_filter': 6338, 'after_toxic_filter': 6319, 'after_quality_filter': 740, 'after_dedup': 740}
+Processing record 23800
+Stats: {'total_records': 23799, 'after_language_filter': 9516, 'after_gopher_filter': 6406, 'after_nsfw_filter': 6372, 'after_toxic_filter': 6353, 'after_quality_filter': 743, 'after_dedup': 743}
+Processing record 23900
+Stats: {'total_records': 23899, 'after_language_filter': 9552, 'after_gopher_filter': 6424, 'after_nsfw_filter': 6390, 'after_toxic_filter': 6371, 'after_quality_filter': 745, 'after_dedup': 745}
+Processing record 24000
+Stats: {'total_records': 23999, 'after_language_filter': 9596, 'after_gopher_filter': 6454, 'after_nsfw_filter': 6420, 'after_toxic_filter': 6401, 'after_quality_filter': 747, 'after_dedup': 747}
+Processing record 24100
+Stats: {'total_records': 24099, 'after_language_filter': 9643, 'after_gopher_filter': 6486, 'after_nsfw_filter': 6452, 'after_toxic_filter': 6433, 'after_quality_filter': 755, 'after_dedup': 755}
+Processing record 24200
+Stats: {'total_records': 24199, 'after_language_filter': 9681, 'after_gopher_filter': 6507, 'after_nsfw_filter': 6473, 'after_toxic_filter': 6454, 'after_quality_filter': 757, 'after_dedup': 757}
+Processing record 24300
+Stats: {'total_records': 24299, 'after_language_filter': 9717, 'after_gopher_filter': 6533, 'after_nsfw_filter': 6499, 'after_toxic_filter': 6480, 'after_quality_filter': 760, 'after_dedup': 760}
+Processing record 24400
+Stats: {'total_records': 24399, 'after_language_filter': 9757, 'after_gopher_filter': 6564, 'after_nsfw_filter': 6530, 'after_toxic_filter': 6511, 'after_quality_filter': 771, 'after_dedup': 771}
+Processing record 24500
+Stats: {'total_records': 24499, 'after_language_filter': 9811, 'after_gopher_filter': 6602, 'after_nsfw_filter': 6568, 'after_toxic_filter': 6549, 'after_quality_filter': 776, 'after_dedup': 776}
+Processing record 24600
+Stats: {'total_records': 24599, 'after_language_filter': 9861, 'after_gopher_filter': 6637, 'after_nsfw_filter': 6603, 'after_toxic_filter': 6584, 'after_quality_filter': 781, 'after_dedup': 781}
+Processing record 24700
+Stats: {'total_records': 24699, 'after_language_filter': 9904, 'after_gopher_filter': 6667, 'after_nsfw_filter': 6633, 'after_toxic_filter': 6614, 'after_quality_filter': 787, 'after_dedup': 787}
+Processing record 24800
+Stats: {'total_records': 24799, 'after_language_filter': 9952, 'after_gopher_filter': 6702, 'after_nsfw_filter': 6668, 'after_toxic_filter': 6649, 'after_quality_filter': 791, 'after_dedup': 791}
+Processing record 24900
+Stats: {'total_records': 24899, 'after_language_filter': 9996, 'after_gopher_filter': 6736, 'after_nsfw_filter': 6702, 'after_toxic_filter': 6683, 'after_quality_filter': 795, 'after_dedup': 795}
+Processing record 25000
+Stats: {'total_records': 24999, 'after_language_filter': 10045, 'after_gopher_filter': 6771, 'after_nsfw_filter': 6737, 'after_toxic_filter': 6718, 'after_quality_filter': 798, 'after_dedup': 798}
+Processing record 25100
+Stats: {'total_records': 25099, 'after_language_filter': 10086, 'after_gopher_filter': 6798, 'after_nsfw_filter': 6764, 'after_toxic_filter': 6745, 'after_quality_filter': 803, 'after_dedup': 803}
+Processing record 25200
+Stats: {'total_records': 25199, 'after_language_filter': 10144, 'after_gopher_filter': 6841, 'after_nsfw_filter': 6807, 'after_toxic_filter': 6787, 'after_quality_filter': 804, 'after_dedup': 804}
+Processing record 25300
+Stats: {'total_records': 25299, 'after_language_filter': 10223, 'after_gopher_filter': 6902, 'after_nsfw_filter': 6868, 'after_toxic_filter': 6848, 'after_quality_filter': 814, 'after_dedup': 814}
+Processing record 25400
+Stats: {'total_records': 25399, 'after_language_filter': 10274, 'after_gopher_filter': 6936, 'after_nsfw_filter': 6902, 'after_toxic_filter': 6882, 'after_quality_filter': 818, 'after_dedup': 818}
+Processing record 25500
+Stats: {'total_records': 25499, 'after_language_filter': 10318, 'after_gopher_filter': 6968, 'after_nsfw_filter': 6934, 'after_toxic_filter': 6914, 'after_quality_filter': 820, 'after_dedup': 820}
+Processing record 25600
+Stats: {'total_records': 25599, 'after_language_filter': 10351, 'after_gopher_filter': 6989, 'after_nsfw_filter': 6955, 'after_toxic_filter': 6935, 'after_quality_filter': 822, 'after_dedup': 822}
+Processing record 25700
+Stats: {'total_records': 25699, 'after_language_filter': 10397, 'after_gopher_filter': 7024, 'after_nsfw_filter': 6990, 'after_toxic_filter': 6970, 'after_quality_filter': 824, 'after_dedup': 824}
+Processing record 25800
+Stats: {'total_records': 25799, 'after_language_filter': 10446, 'after_gopher_filter': 7065, 'after_nsfw_filter': 7031, 'after_toxic_filter': 7011, 'after_quality_filter': 829, 'after_dedup': 829}
+Processing record 25900
+Stats: {'total_records': 25899, 'after_language_filter': 10484, 'after_gopher_filter': 7089, 'after_nsfw_filter': 7055, 'after_toxic_filter': 7035, 'after_quality_filter': 834, 'after_dedup': 834}
+Processing record 26000
+Stats: {'total_records': 25999, 'after_language_filter': 10524, 'after_gopher_filter': 7115, 'after_nsfw_filter': 7080, 'after_toxic_filter': 7060, 'after_quality_filter': 837, 'after_dedup': 837}
+Processing record 26100
+Stats: {'total_records': 26099, 'after_language_filter': 10576, 'after_gopher_filter': 7144, 'after_nsfw_filter': 7109, 'after_toxic_filter': 7089, 'after_quality_filter': 840, 'after_dedup': 840}
+Processing record 26200
+Stats: {'total_records': 26199, 'after_language_filter': 10622, 'after_gopher_filter': 7178, 'after_nsfw_filter': 7143, 'after_toxic_filter': 7123, 'after_quality_filter': 842, 'after_dedup': 842}
+Processing record 26300
+Stats: {'total_records': 26299, 'after_language_filter': 10651, 'after_gopher_filter': 7198, 'after_nsfw_filter': 7163, 'after_toxic_filter': 7143, 'after_quality_filter': 846, 'after_dedup': 846}
+Processing record 26400
+Stats: {'total_records': 26399, 'after_language_filter': 10678, 'after_gopher_filter': 7215, 'after_nsfw_filter': 7180, 'after_toxic_filter': 7160, 'after_quality_filter': 848, 'after_dedup': 848}
+Processing record 26500
+Stats: {'total_records': 26499, 'after_language_filter': 10689, 'after_gopher_filter': 7224, 'after_nsfw_filter': 7188, 'after_toxic_filter': 7167, 'after_quality_filter': 851, 'after_dedup': 851}
+Processing record 26600
+Stats: {'total_records': 26599, 'after_language_filter': 10723, 'after_gopher_filter': 7252, 'after_nsfw_filter': 7216, 'after_toxic_filter': 7194, 'after_quality_filter': 858, 'after_dedup': 858}
+Processing record 26700
+Stats: {'total_records': 26699, 'after_language_filter': 10753, 'after_gopher_filter': 7269, 'after_nsfw_filter': 7233, 'after_toxic_filter': 7211, 'after_quality_filter': 860, 'after_dedup': 860}
+{'total_records': 26703, 'after_language_filter': 10754, 'after_gopher_filter': 7269, 'after_nsfw_filter': 7233, 'after_toxic_filter': 7211, 'after_quality_filter': 860, 'after_dedup': 860}
+Batch 20: Completed CC-MAIN-20250426032300-20250426062300-00636
+Loaded filters successfully
+Processing record 0
+Stats: {'total_records': 0, 'after_language_filter': 0, 'after_gopher_filter': 0, 'after_nsfw_filter': 0, 'after_toxic_filter': 0, 'after_quality_filter': 0, 'after_dedup': 0}
+Processing record 100
+Stats: {'total_records': 99, 'after_language_filter': 15, 'after_gopher_filter': 10, 'after_nsfw_filter': 10, 'after_toxic_filter': 10, 'after_quality_filter': 2, 'after_dedup': 2}
+Processing record 200
+Stats: {'total_records': 199, 'after_language_filter': 58, 'after_gopher_filter': 27, 'after_nsfw_filter': 26, 'after_toxic_filter': 26, 'after_quality_filter': 2, 'after_dedup': 2}
+Processing record 300
+Stats: {'total_records': 299, 'after_language_filter': 104, 'after_gopher_filter': 48, 'after_nsfw_filter': 46, 'after_toxic_filter': 46, 'after_quality_filter': 5, 'after_dedup': 5}
+Processing record 400
+Stats: {'total_records': 399, 'after_language_filter': 136, 'after_gopher_filter': 68, 'after_nsfw_filter': 66, 'after_toxic_filter': 66, 'after_quality_filter': 10, 'after_dedup': 10}
+Processing record 500
+Stats: {'total_records': 499, 'after_language_filter': 172, 'after_gopher_filter': 82, 'after_nsfw_filter': 80, 'after_toxic_filter': 80, 'after_quality_filter': 13, 'after_dedup': 13}
+Processing record 600
+Stats: {'total_records': 599, 'after_language_filter': 196, 'after_gopher_filter': 99, 'after_nsfw_filter': 96, 'after_toxic_filter': 96, 'after_quality_filter': 17, 'after_dedup': 17}
+Processing record 700
+Stats: {'total_records': 699, 'after_language_filter': 233, 'after_gopher_filter': 113, 'after_nsfw_filter': 109, 'after_toxic_filter': 108, 'after_quality_filter': 17, 'after_dedup': 17}
+Processing record 800
+Stats: {'total_records': 799, 'after_language_filter': 257, 'after_gopher_filter': 124, 'after_nsfw_filter': 120, 'after_toxic_filter': 119, 'after_quality_filter': 18, 'after_dedup': 18}
+Processing record 900
+Stats: {'total_records': 899, 'after_language_filter': 283, 'after_gopher_filter': 133, 'after_nsfw_filter': 129, 'after_toxic_filter': 128, 'after_quality_filter': 20, 'after_dedup': 20}
+Processing record 1000
+Stats: {'total_records': 999, 'after_language_filter': 313, 'after_gopher_filter': 151, 'after_nsfw_filter': 147, 'after_toxic_filter': 146, 'after_quality_filter': 23, 'after_dedup': 23}
+Processing record 1100
+Stats: {'total_records': 1099, 'after_language_filter': 345, 'after_gopher_filter': 168, 'after_nsfw_filter': 162, 'after_toxic_filter': 161, 'after_quality_filter': 25, 'after_dedup': 25}
+Processing record 1200
+Stats: {'total_records': 1199, 'after_language_filter': 375, 'after_gopher_filter': 182, 'after_nsfw_filter': 176, 'after_toxic_filter': 175, 'after_quality_filter': 26, 'after_dedup': 26}
+Processing record 1300
+Stats: {'total_records': 1299, 'after_language_filter': 408, 'after_gopher_filter': 201, 'after_nsfw_filter': 195, 'after_toxic_filter': 194, 'after_quality_filter': 30, 'after_dedup': 30}
+Processing record 1400
+Stats: {'total_records': 1399, 'after_language_filter': 431, 'after_gopher_filter': 213, 'after_nsfw_filter': 207, 'after_toxic_filter': 206, 'after_quality_filter': 31, 'after_dedup': 31}
+Processing record 1500
+Stats: {'total_records': 1499, 'after_language_filter': 462, 'after_gopher_filter': 228, 'after_nsfw_filter': 222, 'after_toxic_filter': 221, 'after_quality_filter': 34, 'after_dedup': 34}
+Processing record 1600
+Stats: {'total_records': 1599, 'after_language_filter': 482, 'after_gopher_filter': 239, 'after_nsfw_filter': 232, 'after_toxic_filter': 231, 'after_quality_filter': 36, 'after_dedup': 36}
+Processing record 1700
+Stats: {'total_records': 1699, 'after_language_filter': 519, 'after_gopher_filter': 252, 'after_nsfw_filter': 245, 'after_toxic_filter': 244, 'after_quality_filter': 38, 'after_dedup': 38}
+Processing record 1800
+Stats: {'total_records': 1799, 'after_language_filter': 534, 'after_gopher_filter': 260, 'after_nsfw_filter': 253, 'after_toxic_filter': 252, 'after_quality_filter': 39, 'after_dedup': 39}
+Processing record 1900
+Stats: {'total_records': 1899, 'after_language_filter': 556, 'after_gopher_filter': 268, 'after_nsfw_filter': 261, 'after_toxic_filter': 260, 'after_quality_filter': 39, 'after_dedup': 39}
+Processing record 2000
+Stats: {'total_records': 1999, 'after_language_filter': 580, 'after_gopher_filter': 279, 'after_nsfw_filter': 272, 'after_toxic_filter': 271, 'after_quality_filter': 41, 'after_dedup': 41}
+Processing record 2100
+Stats: {'total_records': 2099, 'after_language_filter': 602, 'after_gopher_filter': 288, 'after_nsfw_filter': 281, 'after_toxic_filter': 280, 'after_quality_filter': 42, 'after_dedup': 42}
+Processing record 2200
+Stats: {'total_records': 2199, 'after_language_filter': 636, 'after_gopher_filter': 308, 'after_nsfw_filter': 300, 'after_toxic_filter': 299, 'after_quality_filter': 47, 'after_dedup': 47}
+Processing record 2300
+Stats: {'total_records': 2299, 'after_language_filter': 651, 'after_gopher_filter': 318, 'after_nsfw_filter': 310, 'after_toxic_filter': 308, 'after_quality_filter': 48, 'after_dedup': 48}
+Processing record 2400
+Stats: {'total_records': 2399, 'after_language_filter': 676, 'after_gopher_filter': 332, 'after_nsfw_filter': 324, 'after_toxic_filter': 322, 'after_quality_filter': 51, 'after_dedup': 51}
+Processing record 2500
+Stats: {'total_records': 2499, 'after_language_filter': 710, 'after_gopher_filter': 354, 'after_nsfw_filter': 346, 'after_toxic_filter': 344, 'after_quality_filter': 52, 'after_dedup': 52}
+Processing record 2600
+Stats: {'total_records': 2599, 'after_language_filter': 763, 'after_gopher_filter': 389, 'after_nsfw_filter': 381, 'after_toxic_filter': 379, 'after_quality_filter': 59, 'after_dedup': 59}
+Processing record 2700
+Stats: {'total_records': 2699, 'after_language_filter': 805, 'after_gopher_filter': 427, 'after_nsfw_filter': 419, 'after_toxic_filter': 417, 'after_quality_filter': 60, 'after_dedup': 60}
+Processing record 2800
+Stats: {'total_records': 2799, 'after_language_filter': 832, 'after_gopher_filter': 446, 'after_nsfw_filter': 438, 'after_toxic_filter': 436, 'after_quality_filter': 63, 'after_dedup': 63}
+Processing record 2900
+Stats: {'total_records': 2899, 'after_language_filter': 863, 'after_gopher_filter': 468, 'after_nsfw_filter': 460, 'after_toxic_filter': 458, 'after_quality_filter': 63, 'after_dedup': 63}
+Processing record 3000
+Stats: {'total_records': 2999, 'after_language_filter': 906, 'after_gopher_filter': 497, 'after_nsfw_filter': 489, 'after_toxic_filter': 487, 'after_quality_filter': 64, 'after_dedup': 64}
+Processing record 3100
+Stats: {'total_records': 3099, 'after_language_filter': 932, 'after_gopher_filter': 512, 'after_nsfw_filter': 504, 'after_toxic_filter': 502, 'after_quality_filter': 64, 'after_dedup': 64}
+Processing record 3200
+Stats: {'total_records': 3199, 'after_language_filter': 978, 'after_gopher_filter': 542, 'after_nsfw_filter': 534, 'after_toxic_filter': 532, 'after_quality_filter': 66, 'after_dedup': 66}
+Processing record 3300
+Stats: {'total_records': 3299, 'after_language_filter': 1013, 'after_gopher_filter': 563, 'after_nsfw_filter': 555, 'after_toxic_filter': 553, 'after_quality_filter': 71, 'after_dedup': 71}
+Processing record 3400
+Stats: {'total_records': 3399, 'after_language_filter': 1062, 'after_gopher_filter': 599, 'after_nsfw_filter': 591, 'after_toxic_filter': 589, 'after_quality_filter': 75, 'after_dedup': 75}
+Processing record 3500
+Stats: {'total_records': 3499, 'after_language_filter': 1103, 'after_gopher_filter': 618, 'after_nsfw_filter': 610, 'after_toxic_filter': 608, 'after_quality_filter': 78, 'after_dedup': 78}
+Processing record 3600
+Stats: {'total_records': 3599, 'after_language_filter': 1143, 'after_gopher_filter': 651, 'after_nsfw_filter': 643, 'after_toxic_filter': 641, 'after_quality_filter': 81, 'after_dedup': 81}
+Processing record 3700
+Stats: {'total_records': 3699, 'after_language_filter': 1184, 'after_gopher_filter': 678, 'after_nsfw_filter': 669, 'after_toxic_filter': 667, 'after_quality_filter': 83, 'after_dedup': 83}
+Processing record 3800
+Stats: {'total_records': 3799, 'after_language_filter': 1229, 'after_gopher_filter': 704, 'after_nsfw_filter': 694, 'after_toxic_filter': 692, 'after_quality_filter': 86, 'after_dedup': 86}
+Processing record 3900
+Stats: {'total_records': 3899, 'after_language_filter': 1265, 'after_gopher_filter': 730, 'after_nsfw_filter': 720, 'after_toxic_filter': 718, 'after_quality_filter': 89, 'after_dedup': 89}
+Processing record 4000
+Stats: {'total_records': 3999, 'after_language_filter': 1307, 'after_gopher_filter': 756, 'after_nsfw_filter': 746, 'after_toxic_filter': 744, 'after_quality_filter': 93, 'after_dedup': 93}
+Processing record 4100
+Stats: {'total_records': 4099, 'after_language_filter': 1355, 'after_gopher_filter': 790, 'after_nsfw_filter': 780, 'after_toxic_filter': 778, 'after_quality_filter': 94, 'after_dedup': 94}
+Processing record 4200
+Stats: {'total_records': 4199, 'after_language_filter': 1408, 'after_gopher_filter': 829, 'after_nsfw_filter': 819, 'after_toxic_filter': 817, 'after_quality_filter': 98, 'after_dedup': 98}
+Processing record 4300
+Stats: {'total_records': 4299, 'after_language_filter': 1448, 'after_gopher_filter': 857, 'after_nsfw_filter': 847, 'after_toxic_filter': 845, 'after_quality_filter': 98, 'after_dedup': 98}
+Processing record 4400
+Stats: {'total_records': 4399, 'after_language_filter': 1489, 'after_gopher_filter': 879, 'after_nsfw_filter': 869, 'after_toxic_filter': 867, 'after_quality_filter': 100, 'after_dedup': 100}
+Processing record 4500
+Stats: {'total_records': 4499, 'after_language_filter': 1543, 'after_gopher_filter': 918, 'after_nsfw_filter': 908, 'after_toxic_filter': 906, 'after_quality_filter': 104, 'after_dedup': 104}
+Processing record 4600
+Stats: {'total_records': 4599, 'after_language_filter': 1609, 'after_gopher_filter': 951, 'after_nsfw_filter': 941, 'after_toxic_filter': 939, 'after_quality_filter': 106, 'after_dedup': 106}
+Processing record 4700
+Stats: {'total_records': 4699, 'after_language_filter': 1659, 'after_gopher_filter': 985, 'after_nsfw_filter': 975, 'after_toxic_filter': 973, 'after_quality_filter': 110, 'after_dedup': 110}
+Processing record 4800
+Stats: {'total_records': 4799, 'after_language_filter': 1715, 'after_gopher_filter': 1024, 'after_nsfw_filter': 1014, 'after_toxic_filter': 1012, 'after_quality_filter': 118, 'after_dedup': 118}
+Processing record 4900
+Stats: {'total_records': 4899, 'after_language_filter': 1757, 'after_gopher_filter': 1053, 'after_nsfw_filter': 1043, 'after_toxic_filter': 1041, 'after_quality_filter': 121, 'after_dedup': 121}
+Processing record 5000
+Stats: {'total_records': 4999, 'after_language_filter': 1794, 'after_gopher_filter': 1082, 'after_nsfw_filter': 1072, 'after_toxic_filter': 1070, 'after_quality_filter': 124, 'after_dedup': 124}
+Processing record 5100
+Stats: {'total_records': 5099, 'after_language_filter': 1844, 'after_gopher_filter': 1110, 'after_nsfw_filter': 1098, 'after_toxic_filter': 1096, 'after_quality_filter': 124, 'after_dedup': 124}
+Processing record 5200
+Stats: {'total_records': 5199, 'after_language_filter': 1894, 'after_gopher_filter': 1146, 'after_nsfw_filter': 1134, 'after_toxic_filter': 1132, 'after_quality_filter': 135, 'after_dedup': 135}
+Processing record 5300
+Stats: {'total_records': 5299, 'after_language_filter': 1958, 'after_gopher_filter': 1192, 'after_nsfw_filter': 1180, 'after_toxic_filter': 1178, 'after_quality_filter': 135, 'after_dedup': 135}
+Processing record 5400
+Stats: {'total_records': 5399, 'after_language_filter': 2005, 'after_gopher_filter': 1221, 'after_nsfw_filter': 1209, 'after_toxic_filter': 1207, 'after_quality_filter': 138, 'after_dedup': 138}
+Processing record 5500
+Stats: {'total_records': 5499, 'after_language_filter': 2056, 'after_gopher_filter': 1249, 'after_nsfw_filter': 1237, 'after_toxic_filter': 1235, 'after_quality_filter': 142, 'after_dedup': 142}
+Processing record 5600
+Stats: {'total_records': 5599, 'after_language_filter': 2099, 'after_gopher_filter': 1279, 'after_nsfw_filter': 1266, 'after_toxic_filter': 1264, 'after_quality_filter': 145, 'after_dedup': 145}
+Processing record 5700
+Stats: {'total_records': 5699, 'after_language_filter': 2143, 'after_gopher_filter': 1304, 'after_nsfw_filter': 1291, 'after_toxic_filter': 1289, 'after_quality_filter': 146, 'after_dedup': 146}
+Processing record 5800
+Stats: {'total_records': 5799, 'after_language_filter': 2178, 'after_gopher_filter': 1323, 'after_nsfw_filter': 1310, 'after_toxic_filter': 1308, 'after_quality_filter': 148, 'after_dedup': 148}
+Processing record 5900
+Stats: {'total_records': 5899, 'after_language_filter': 2218, 'after_gopher_filter': 1352, 'after_nsfw_filter': 1338, 'after_toxic_filter': 1336, 'after_quality_filter': 153, 'after_dedup': 153}
+Processing record 6000
+Stats: {'total_records': 5999, 'after_language_filter': 2265, 'after_gopher_filter': 1377, 'after_nsfw_filter': 1363, 'after_toxic_filter': 1361, 'after_quality_filter': 155, 'after_dedup': 155}
+Processing record 6100
+Stats: {'total_records': 6099, 'after_language_filter': 2323, 'after_gopher_filter': 1416, 'after_nsfw_filter': 1402, 'after_toxic_filter': 1400, 'after_quality_filter': 161, 'after_dedup': 161}
+Processing record 6200
+Stats: {'total_records': 6199, 'after_language_filter': 2366, 'after_gopher_filter': 1446, 'after_nsfw_filter': 1431, 'after_toxic_filter': 1429, 'after_quality_filter': 169, 'after_dedup': 169}
+Processing record 6300
+Stats: {'total_records': 6299, 'after_language_filter': 2401, 'after_gopher_filter': 1469, 'after_nsfw_filter': 1454, 'after_toxic_filter': 1452, 'after_quality_filter': 170, 'after_dedup': 170}
+Processing record 6400
+Stats: {'total_records': 6399, 'after_language_filter': 2446, 'after_gopher_filter': 1501, 'after_nsfw_filter': 1486, 'after_toxic_filter': 1484, 'after_quality_filter': 175, 'after_dedup': 175}
+Processing record 6500
+Stats: {'total_records': 6499, 'after_language_filter': 2477, 'after_gopher_filter': 1528, 'after_nsfw_filter': 1513, 'after_toxic_filter': 1511, 'after_quality_filter': 176, 'after_dedup': 176}
+Processing record 6600
+Stats: {'total_records': 6599, 'after_language_filter': 2522, 'after_gopher_filter': 1562, 'after_nsfw_filter': 1547, 'after_toxic_filter': 1545, 'after_quality_filter': 179, 'after_dedup': 179}
+Processing record 6700
+Stats: {'total_records': 6699, 'after_language_filter': 2556, 'after_gopher_filter': 1584, 'after_nsfw_filter': 1569, 'after_toxic_filter': 1567, 'after_quality_filter': 186, 'after_dedup': 186}
+Processing record 6800
+Stats: {'total_records': 6799, 'after_language_filter': 2598, 'after_gopher_filter': 1616, 'after_nsfw_filter': 1601, 'after_toxic_filter': 1599, 'after_quality_filter': 190, 'after_dedup': 190}
+Processing record 6900
+Stats: {'total_records': 6899, 'after_language_filter': 2649, 'after_gopher_filter': 1653, 'after_nsfw_filter': 1638, 'after_toxic_filter': 1636, 'after_quality_filter': 194, 'after_dedup': 194}
+Processing record 7000
+Stats: {'total_records': 6999, 'after_language_filter': 2688, 'after_gopher_filter': 1680, 'after_nsfw_filter': 1665, 'after_toxic_filter': 1663, 'after_quality_filter': 197, 'after_dedup': 197}
+Processing record 7100
+Stats: {'total_records': 7099, 'after_language_filter': 2728, 'after_gopher_filter': 1707, 'after_nsfw_filter': 1690, 'after_toxic_filter': 1688, 'after_quality_filter': 199, 'after_dedup': 199}
+Processing record 7200
+Stats: {'total_records': 7199, 'after_language_filter': 2774, 'after_gopher_filter': 1742, 'after_nsfw_filter': 1725, 'after_toxic_filter': 1723, 'after_quality_filter': 203, 'after_dedup': 203}
+Processing record 7300
+Stats: {'total_records': 7299, 'after_language_filter': 2812, 'after_gopher_filter': 1761, 'after_nsfw_filter': 1744, 'after_toxic_filter': 1742, 'after_quality_filter': 203, 'after_dedup': 203}
+Processing record 7400
+Stats: {'total_records': 7399, 'after_language_filter': 2859, 'after_gopher_filter': 1783, 'after_nsfw_filter': 1766, 'after_toxic_filter': 1764, 'after_quality_filter': 206, 'after_dedup': 206}
+Processing record 7500
+Stats: {'total_records': 7499, 'after_language_filter': 2898, 'after_gopher_filter': 1805, 'after_nsfw_filter': 1788, 'after_toxic_filter': 1786, 'after_quality_filter': 206, 'after_dedup': 206}
+Processing record 7600
+Stats: {'total_records': 7599, 'after_language_filter': 2936, 'after_gopher_filter': 1833, 'after_nsfw_filter': 1815, 'after_toxic_filter': 1813, 'after_quality_filter': 209, 'after_dedup': 209}
+Processing record 7700
+Stats: {'total_records': 7699, 'after_language_filter': 2982, 'after_gopher_filter': 1865, 'after_nsfw_filter': 1847, 'after_toxic_filter': 1845, 'after_quality_filter': 210, 'after_dedup': 210}
+Processing record 7800
+Stats: {'total_records': 7799, 'after_language_filter': 3036, 'after_gopher_filter': 1900, 'after_nsfw_filter': 1882, 'after_toxic_filter': 1880, 'after_quality_filter': 212, 'after_dedup': 212}
+Processing record 7900
+Stats: {'total_records': 7899, 'after_language_filter': 3071, 'after_gopher_filter': 1921, 'after_nsfw_filter': 1903, 'after_toxic_filter': 1901, 'after_quality_filter': 212, 'after_dedup': 212}
+Processing record 8000
+Stats: {'total_records': 7999, 'after_language_filter': 3113, 'after_gopher_filter': 1948, 'after_nsfw_filter': 1930, 'after_toxic_filter': 1928, 'after_quality_filter': 213, 'after_dedup': 213}
+Processing record 8100
+Stats: {'total_records': 8099, 'after_language_filter': 3147, 'after_gopher_filter': 1974, 'after_nsfw_filter': 1956, 'after_toxic_filter': 1954, 'after_quality_filter': 220, 'after_dedup': 220}
+Processing record 8200
+Stats: {'total_records': 8199, 'after_language_filter': 3192, 'after_gopher_filter': 2007, 'after_nsfw_filter': 1989, 'after_toxic_filter': 1987, 'after_quality_filter': 223, 'after_dedup': 223}
+Processing record 8300
+Stats: {'total_records': 8299, 'after_language_filter': 3239, 'after_gopher_filter': 2036, 'after_nsfw_filter': 2018, 'after_toxic_filter': 2016, 'after_quality_filter': 228, 'after_dedup': 228}
+Processing record 8400
+Stats: {'total_records': 8399, 'after_language_filter': 3276, 'after_gopher_filter': 2064, 'after_nsfw_filter': 2046, 'after_toxic_filter': 2044, 'after_quality_filter': 232, 'after_dedup': 232}
+Processing record 8500
+Stats: {'total_records': 8499, 'after_language_filter': 3321, 'after_gopher_filter': 2101, 'after_nsfw_filter': 2082, 'after_toxic_filter': 2080, 'after_quality_filter': 234, 'after_dedup': 234}
+Processing record 8600
+Stats: {'total_records': 8599, 'after_language_filter': 3363, 'after_gopher_filter': 2133, 'after_nsfw_filter': 2114, 'after_toxic_filter': 2112, 'after_quality_filter': 234, 'after_dedup': 234}
+Processing record 8700
+Stats: {'total_records': 8699, 'after_language_filter': 3416, 'after_gopher_filter': 2161, 'after_nsfw_filter': 2142, 'after_toxic_filter': 2139, 'after_quality_filter': 238, 'after_dedup': 238}
+Processing record 8800
+Stats: {'total_records': 8799, 'after_language_filter': 3462, 'after_gopher_filter': 2189, 'after_nsfw_filter': 2167, 'after_toxic_filter': 2164, 'after_quality_filter': 240, 'after_dedup': 240}
+Processing record 8900
+Stats: {'total_records': 8899, 'after_language_filter': 3498, 'after_gopher_filter': 2210, 'after_nsfw_filter': 2188, 'after_toxic_filter': 2185, 'after_quality_filter': 246, 'after_dedup': 246}
+Processing record 9000
+Stats: {'total_records': 8999, 'after_language_filter': 3532, 'after_gopher_filter': 2232, 'after_nsfw_filter': 2210, 'after_toxic_filter': 2207, 'after_quality_filter': 250, 'after_dedup': 250}
+Processing record 9100
+Stats: {'total_records': 9099, 'after_language_filter': 3567, 'after_gopher_filter': 2259, 'after_nsfw_filter': 2237, 'after_toxic_filter': 2231, 'after_quality_filter': 254, 'after_dedup': 254}
+Processing record 9200
+Stats: {'total_records': 9199, 'after_language_filter': 3616, 'after_gopher_filter': 2292, 'after_nsfw_filter': 2270, 'after_toxic_filter': 2264, 'after_quality_filter': 258, 'after_dedup': 258}
+Processing record 9300
+Stats: {'total_records': 9299, 'after_language_filter': 3653, 'after_gopher_filter': 2315, 'after_nsfw_filter': 2293, 'after_toxic_filter': 2287, 'after_quality_filter': 260, 'after_dedup': 260}
+Processing record 9400
+Stats: {'total_records': 9399, 'after_language_filter': 3680, 'after_gopher_filter': 2329, 'after_nsfw_filter': 2306, 'after_toxic_filter': 2300, 'after_quality_filter': 261, 'after_dedup': 261}
+Processing record 9500
+Stats: {'total_records': 9499, 'after_language_filter': 3716, 'after_gopher_filter': 2354, 'after_nsfw_filter': 2331, 'after_toxic_filter': 2325, 'after_quality_filter': 266, 'after_dedup': 266}
+Processing record 9600
+Stats: {'total_records': 9599, 'after_language_filter': 3747, 'after_gopher_filter': 2378, 'after_nsfw_filter': 2355, 'after_toxic_filter': 2349, 'after_quality_filter': 270, 'after_dedup': 270}
+Processing record 9700
+Stats: {'total_records': 9699, 'after_language_filter': 3761, 'after_gopher_filter': 2386, 'after_nsfw_filter': 2363, 'after_toxic_filter': 2357, 'after_quality_filter': 273, 'after_dedup': 273}
+Processing record 9800
+Stats: {'total_records': 9799, 'after_language_filter': 3784, 'after_gopher_filter': 2400, 'after_nsfw_filter': 2377, 'after_toxic_filter': 2370, 'after_quality_filter': 273, 'after_dedup': 273}
+Processing record 9900
+Stats: {'total_records': 9899, 'after_language_filter': 3815, 'after_gopher_filter': 2424, 'after_nsfw_filter': 2401, 'after_toxic_filter': 2394, 'after_quality_filter': 275, 'after_dedup': 275}
+Processing record 10000
+Stats: {'total_records': 9999, 'after_language_filter': 3858, 'after_gopher_filter': 2450, 'after_nsfw_filter': 2427, 'after_toxic_filter': 2420, 'after_quality_filter': 280, 'after_dedup': 280}
+Processing record 10100
+Stats: {'total_records': 10099, 'after_language_filter': 3909, 'after_gopher_filter': 2481, 'after_nsfw_filter': 2458, 'after_toxic_filter': 2451, 'after_quality_filter': 282, 'after_dedup': 282}
+Processing record 10200
+Stats: {'total_records': 10199, 'after_language_filter': 3959, 'after_gopher_filter': 2515, 'after_nsfw_filter': 2492, 'after_toxic_filter': 2485, 'after_quality_filter': 284, 'after_dedup': 284}
+Processing record 10300
+Stats: {'total_records': 10299, 'after_language_filter': 4012, 'after_gopher_filter': 2552, 'after_nsfw_filter': 2529, 'after_toxic_filter': 2522, 'after_quality_filter': 289, 'after_dedup': 289}
+Processing record 10400
+Stats: {'total_records': 10399, 'after_language_filter': 4046, 'after_gopher_filter': 2581, 'after_nsfw_filter': 2558, 'after_toxic_filter': 2550, 'after_quality_filter': 291, 'after_dedup': 291}
+Processing record 10500
+Stats: {'total_records': 10499, 'after_language_filter': 4087, 'after_gopher_filter': 2608, 'after_nsfw_filter': 2585, 'after_toxic_filter': 2577, 'after_quality_filter': 294, 'after_dedup': 294}
+Processing record 10600
+Stats: {'total_records': 10599, 'after_language_filter': 4146, 'after_gopher_filter': 2645, 'after_nsfw_filter': 2622, 'after_toxic_filter': 2614, 'after_quality_filter': 301, 'after_dedup': 301}
+Processing record 10700
+Stats: {'total_records': 10699, 'after_language_filter': 4183, 'after_gopher_filter': 2673, 'after_nsfw_filter': 2650, 'after_toxic_filter': 2642, 'after_quality_filter': 305, 'after_dedup': 305}
+Processing record 10800
+Stats: {'total_records': 10799, 'after_language_filter': 4213, 'after_gopher_filter': 2692, 'after_nsfw_filter': 2669, 'after_toxic_filter': 2661, 'after_quality_filter': 305, 'after_dedup': 305}
+Processing record 10900
+Stats: {'total_records': 10899, 'after_language_filter': 4254, 'after_gopher_filter': 2721, 'after_nsfw_filter': 2698, 'after_toxic_filter': 2690, 'after_quality_filter': 308, 'after_dedup': 308}
+Processing record 11000
+Stats: {'total_records': 10999, 'after_language_filter': 4301, 'after_gopher_filter': 2754, 'after_nsfw_filter': 2731, 'after_toxic_filter': 2723, 'after_quality_filter': 311, 'after_dedup': 311}
+Processing record 11100
+Stats: {'total_records': 11099, 'after_language_filter': 4340, 'after_gopher_filter': 2775, 'after_nsfw_filter': 2752, 'after_toxic_filter': 2744, 'after_quality_filter': 313, 'after_dedup': 313}
+Processing record 11200
+Stats: {'total_records': 11199, 'after_language_filter': 4388, 'after_gopher_filter': 2808, 'after_nsfw_filter': 2785, 'after_toxic_filter': 2777, 'after_quality_filter': 315, 'after_dedup': 315}
+Processing record 11300
+Stats: {'total_records': 11299, 'after_language_filter': 4422, 'after_gopher_filter': 2830, 'after_nsfw_filter': 2807, 'after_toxic_filter': 2799, 'after_quality_filter': 317, 'after_dedup': 317}
+Processing record 11400
+Stats: {'total_records': 11399, 'after_language_filter': 4477, 'after_gopher_filter': 2873, 'after_nsfw_filter': 2850, 'after_toxic_filter': 2842, 'after_quality_filter': 322, 'after_dedup': 322}
+Processing record 11500
+Stats: {'total_records': 11499, 'after_language_filter': 4505, 'after_gopher_filter': 2888, 'after_nsfw_filter': 2865, 'after_toxic_filter': 2857, 'after_quality_filter': 323, 'after_dedup': 323}
+Processing record 11600
+Stats: {'total_records': 11599, 'after_language_filter': 4553, 'after_gopher_filter': 2925, 'after_nsfw_filter': 2902, 'after_toxic_filter': 2894, 'after_quality_filter': 332, 'after_dedup': 332}
+Processing record 11700
+Stats: {'total_records': 11699, 'after_language_filter': 4595, 'after_gopher_filter': 2948, 'after_nsfw_filter': 2925, 'after_toxic_filter': 2917, 'after_quality_filter': 335, 'after_dedup': 335}
+Processing record 11800
+Stats: {'total_records': 11799, 'after_language_filter': 4633, 'after_gopher_filter': 2975, 'after_nsfw_filter': 2952, 'after_toxic_filter': 2944, 'after_quality_filter': 339, 'after_dedup': 339}
+Processing record 11900
+Stats: {'total_records': 11899, 'after_language_filter': 4682, 'after_gopher_filter': 3012, 'after_nsfw_filter': 2989, 'after_toxic_filter': 2981, 'after_quality_filter': 344, 'after_dedup': 344}
+Processing record 12000
+Stats: {'total_records': 11999, 'after_language_filter': 4726, 'after_gopher_filter': 3038, 'after_nsfw_filter': 3015, 'after_toxic_filter': 3007, 'after_quality_filter': 347, 'after_dedup': 347}
+Processing record 12100
+Stats: {'total_records': 12099, 'after_language_filter': 4771, 'after_gopher_filter': 3066, 'after_nsfw_filter': 3043, 'after_toxic_filter': 3035, 'after_quality_filter': 352, 'after_dedup': 352}
+Processing record 12200
+Stats: {'total_records': 12199, 'after_language_filter': 4803, 'after_gopher_filter': 3085, 'after_nsfw_filter': 3062, 'after_toxic_filter': 3054, 'after_quality_filter': 355, 'after_dedup': 355}
+Processing record 12300
+Stats: {'total_records': 12299, 'after_language_filter': 4852, 'after_gopher_filter': 3121, 'after_nsfw_filter': 3098, 'after_toxic_filter': 3090, 'after_quality_filter': 357, 'after_dedup': 357}
+Processing record 12400
+Stats: {'total_records': 12399, 'after_language_filter': 4887, 'after_gopher_filter': 3146, 'after_nsfw_filter': 3123, 'after_toxic_filter': 3115, 'after_quality_filter': 359, 'after_dedup': 359}
+Processing record 12500
+Stats: {'total_records': 12499, 'after_language_filter': 4931, 'after_gopher_filter': 3182, 'after_nsfw_filter': 3159, 'after_toxic_filter': 3151, 'after_quality_filter': 363, 'after_dedup': 363}
+Processing record 12600
+Stats: {'total_records': 12599, 'after_language_filter': 4968, 'after_gopher_filter': 3211, 'after_nsfw_filter': 3188, 'after_toxic_filter': 3179, 'after_quality_filter': 366, 'after_dedup': 366}
+Processing record 12700
+Stats: {'total_records': 12699, 'after_language_filter': 5014, 'after_gopher_filter': 3239, 'after_nsfw_filter': 3214, 'after_toxic_filter': 3204, 'after_quality_filter': 367, 'after_dedup': 367}
+Processing record 12800
+Stats: {'total_records': 12799, 'after_language_filter': 5058, 'after_gopher_filter': 3271, 'after_nsfw_filter': 3246, 'after_toxic_filter': 3236, 'after_quality_filter': 369, 'after_dedup': 369}
+Processing record 12900
+Stats: {'total_records': 12899, 'after_language_filter': 5101, 'after_gopher_filter': 3298, 'after_nsfw_filter': 3273, 'after_toxic_filter': 3263, 'after_quality_filter': 371, 'after_dedup': 371}
+Processing record 13000
+Stats: {'total_records': 12999, 'after_language_filter': 5138, 'after_gopher_filter': 3326, 'after_nsfw_filter': 3301, 'after_toxic_filter': 3291, 'after_quality_filter': 376, 'after_dedup': 376}
+Processing record 13100
+Stats: {'total_records': 13099, 'after_language_filter': 5191, 'after_gopher_filter': 3358, 'after_nsfw_filter': 3333, 'after_toxic_filter': 3322, 'after_quality_filter': 377, 'after_dedup': 377}
+Processing record 13200
+Stats: {'total_records': 13199, 'after_language_filter': 5225, 'after_gopher_filter': 3379, 'after_nsfw_filter': 3354, 'after_toxic_filter': 3343, 'after_quality_filter': 380, 'after_dedup': 380}
+Processing record 13300
+Stats: {'total_records': 13299, 'after_language_filter': 5273, 'after_gopher_filter': 3406, 'after_nsfw_filter': 3381, 'after_toxic_filter': 3369, 'after_quality_filter': 383, 'after_dedup': 383}
+Processing record 13400
+Stats: {'total_records': 13399, 'after_language_filter': 5317, 'after_gopher_filter': 3429, 'after_nsfw_filter': 3404, 'after_toxic_filter': 3392, 'after_quality_filter': 389, 'after_dedup': 389}
+Processing record 13500
+Stats: {'total_records': 13499, 'after_language_filter': 5353, 'after_gopher_filter': 3456, 'after_nsfw_filter': 3431, 'after_toxic_filter': 3419, 'after_quality_filter': 391, 'after_dedup': 391}
+Processing record 13600
+Stats: {'total_records': 13599, 'after_language_filter': 5393, 'after_gopher_filter': 3480, 'after_nsfw_filter': 3455, 'after_toxic_filter': 3443, 'after_quality_filter': 394, 'after_dedup': 394}
+Processing record 13700
+Stats: {'total_records': 13699, 'after_language_filter': 5420, 'after_gopher_filter': 3500, 'after_nsfw_filter': 3474, 'after_toxic_filter': 3462, 'after_quality_filter': 395, 'after_dedup': 395}
+Processing record 13800
+Stats: {'total_records': 13799, 'after_language_filter': 5457, 'after_gopher_filter': 3527, 'after_nsfw_filter': 3501, 'after_toxic_filter': 3489, 'after_quality_filter': 397, 'after_dedup': 397}
+Processing record 13900
+Stats: {'total_records': 13899, 'after_language_filter': 5508, 'after_gopher_filter': 3558, 'after_nsfw_filter': 3531, 'after_toxic_filter': 3519, 'after_quality_filter': 404, 'after_dedup': 404}
+Processing record 14000
+Stats: {'total_records': 13999, 'after_language_filter': 5551, 'after_gopher_filter': 3594, 'after_nsfw_filter': 3567, 'after_toxic_filter': 3555, 'after_quality_filter': 405, 'after_dedup': 405}
+Processing record 14100
+Stats: {'total_records': 14099, 'after_language_filter': 5591, 'after_gopher_filter': 3624, 'after_nsfw_filter': 3597, 'after_toxic_filter': 3585, 'after_quality_filter': 407, 'after_dedup': 407}
+Processing record 14200
+Stats: {'total_records': 14199, 'after_language_filter': 5627, 'after_gopher_filter': 3649, 'after_nsfw_filter': 3622, 'after_toxic_filter': 3610, 'after_quality_filter': 408, 'after_dedup': 408}
+Processing record 14300
+Stats: {'total_records': 14299, 'after_language_filter': 5676, 'after_gopher_filter': 3682, 'after_nsfw_filter': 3655, 'after_toxic_filter': 3643, 'after_quality_filter': 410, 'after_dedup': 410}
+Processing record 14400
+Stats: {'total_records': 14399, 'after_language_filter': 5714, 'after_gopher_filter': 3710, 'after_nsfw_filter': 3683, 'after_toxic_filter': 3671, 'after_quality_filter': 410, 'after_dedup': 410}
+Processing record 14500
+Stats: {'total_records': 14499, 'after_language_filter': 5759, 'after_gopher_filter': 3743, 'after_nsfw_filter': 3716, 'after_toxic_filter': 3704, 'after_quality_filter': 410, 'after_dedup': 410}
+Processing record 14600
+Stats: {'total_records': 14599, 'after_language_filter': 5799, 'after_gopher_filter': 3766, 'after_nsfw_filter': 3739, 'after_toxic_filter': 3727, 'after_quality_filter': 411, 'after_dedup': 411}
+Processing record 14700
+Stats: {'total_records': 14699, 'after_language_filter': 5842, 'after_gopher_filter': 3797, 'after_nsfw_filter': 3770, 'after_toxic_filter': 3758, 'after_quality_filter': 418, 'after_dedup': 418}
+Processing record 14800
+Stats: {'total_records': 14799, 'after_language_filter': 5887, 'after_gopher_filter': 3832, 'after_nsfw_filter': 3805, 'after_toxic_filter': 3793, 'after_quality_filter': 420, 'after_dedup': 420}
+Processing record 14900
+Stats: {'total_records': 14899, 'after_language_filter': 5930, 'after_gopher_filter': 3863, 'after_nsfw_filter': 3836, 'after_toxic_filter': 3824, 'after_quality_filter': 424, 'after_dedup': 424}
+Processing record 15000
+Stats: {'total_records': 14999, 'after_language_filter': 5979, 'after_gopher_filter': 3898, 'after_nsfw_filter': 3871, 'after_toxic_filter': 3859, 'after_quality_filter': 428, 'after_dedup': 428}
+Processing record 15100
+Stats: {'total_records': 15099, 'after_language_filter': 6016, 'after_gopher_filter': 3926, 'after_nsfw_filter': 3899, 'after_toxic_filter': 3887, 'after_quality_filter': 430, 'after_dedup': 430}
+Processing record 15200
+Stats: {'total_records': 15199, 'after_language_filter': 6046, 'after_gopher_filter': 3950, 'after_nsfw_filter': 3923, 'after_toxic_filter': 3911, 'after_quality_filter': 434, 'after_dedup': 434}
+Processing record 15300
+Stats: {'total_records': 15299, 'after_language_filter': 6087, 'after_gopher_filter': 3976, 'after_nsfw_filter': 3949, 'after_toxic_filter': 3937, 'after_quality_filter': 435, 'after_dedup': 435}
+Processing record 15400
+Stats: {'total_records': 15399, 'after_language_filter': 6144, 'after_gopher_filter': 4018, 'after_nsfw_filter': 3991, 'after_toxic_filter': 3979, 'after_quality_filter': 436, 'after_dedup': 436}
+Processing record 15500
+Stats: {'total_records': 15499, 'after_language_filter': 6220, 'after_gopher_filter': 4074, 'after_nsfw_filter': 4047, 'after_toxic_filter': 4034, 'after_quality_filter': 446, 'after_dedup': 446}
+Processing record 15600
+Stats: {'total_records': 15599, 'after_language_filter': 6277, 'after_gopher_filter': 4119, 'after_nsfw_filter': 4092, 'after_toxic_filter': 4079, 'after_quality_filter': 450, 'after_dedup': 450}
+Processing record 15700
+Stats: {'total_records': 15699, 'after_language_filter': 6316, 'after_gopher_filter': 4146, 'after_nsfw_filter': 4119, 'after_toxic_filter': 4106, 'after_quality_filter': 455, 'after_dedup': 455}
+Processing record 15800
+Stats: {'total_records': 15799, 'after_language_filter': 6360, 'after_gopher_filter': 4179, 'after_nsfw_filter': 4152, 'after_toxic_filter': 4139, 'after_quality_filter': 458, 'after_dedup': 458}
+Processing record 15900
+Stats: {'total_records': 15899, 'after_language_filter': 6390, 'after_gopher_filter': 4195, 'after_nsfw_filter': 4168, 'after_toxic_filter': 4155, 'after_quality_filter': 461, 'after_dedup': 461}
+Processing record 16000
+Stats: {'total_records': 15999, 'after_language_filter': 6426, 'after_gopher_filter': 4220, 'after_nsfw_filter': 4192, 'after_toxic_filter': 4178, 'after_quality_filter': 466, 'after_dedup': 466}
+Processing record 16100
+Stats: {'total_records': 16099, 'after_language_filter': 6469, 'after_gopher_filter': 4248, 'after_nsfw_filter': 4220, 'after_toxic_filter': 4206, 'after_quality_filter': 471, 'after_dedup': 471}
+Processing record 16200
+Stats: {'total_records': 16199, 'after_language_filter': 6517, 'after_gopher_filter': 4286, 'after_nsfw_filter': 4258, 'after_toxic_filter': 4243, 'after_quality_filter': 477, 'after_dedup': 477}
+Processing record 16300
+Stats: {'total_records': 16299, 'after_language_filter': 6554, 'after_gopher_filter': 4307, 'after_nsfw_filter': 4279, 'after_toxic_filter': 4264, 'after_quality_filter': 479, 'after_dedup': 479}
+Processing record 16400
+Stats: {'total_records': 16399, 'after_language_filter': 6590, 'after_gopher_filter': 4334, 'after_nsfw_filter': 4306, 'after_toxic_filter': 4291, 'after_quality_filter': 480, 'after_dedup': 480}
+Processing record 16500
+Stats: {'total_records': 16499, 'after_language_filter': 6608, 'after_gopher_filter': 4344, 'after_nsfw_filter': 4316, 'after_toxic_filter': 4301, 'after_quality_filter': 481, 'after_dedup': 481}
+Processing record 16600
+Stats: {'total_records': 16599, 'after_language_filter': 6664, 'after_gopher_filter': 4381, 'after_nsfw_filter': 4353, 'after_toxic_filter': 4338, 'after_quality_filter': 484, 'after_dedup': 484}
+Processing record 16700
+Stats: {'total_records': 16699, 'after_language_filter': 6717, 'after_gopher_filter': 4417, 'after_nsfw_filter': 4389, 'after_toxic_filter': 4374, 'after_quality_filter': 489, 'after_dedup': 489}
+Processing record 16800
+Stats: {'total_records': 16799, 'after_language_filter': 6772, 'after_gopher_filter': 4455, 'after_nsfw_filter': 4427, 'after_toxic_filter': 4412, 'after_quality_filter': 497, 'after_dedup': 497}
+Processing record 16900
+Stats: {'total_records': 16899, 'after_language_filter': 6806, 'after_gopher_filter': 4477, 'after_nsfw_filter': 4449, 'after_toxic_filter': 4434, 'after_quality_filter': 501, 'after_dedup': 501}
+Processing record 17000
+Stats: {'total_records': 16999, 'after_language_filter': 6862, 'after_gopher_filter': 4516, 'after_nsfw_filter': 4488, 'after_toxic_filter': 4473, 'after_quality_filter': 510, 'after_dedup': 510}
+Processing record 17100
+Stats: {'total_records': 17099, 'after_language_filter': 6895, 'after_gopher_filter': 4542, 'after_nsfw_filter': 4514, 'after_toxic_filter': 4499, 'after_quality_filter': 514, 'after_dedup': 514}
+Processing record 17200
+Stats: {'total_records': 17199, 'after_language_filter': 6927, 'after_gopher_filter': 4566, 'after_nsfw_filter': 4538, 'after_toxic_filter': 4523, 'after_quality_filter': 517, 'after_dedup': 517}
+Processing record 17300
+Stats: {'total_records': 17299, 'after_language_filter': 6963, 'after_gopher_filter': 4594, 'after_nsfw_filter': 4566, 'after_toxic_filter': 4551, 'after_quality_filter': 519, 'after_dedup': 519}
+Processing record 17400
+Stats: {'total_records': 17399, 'after_language_filter': 7007, 'after_gopher_filter': 4627, 'after_nsfw_filter': 4599, 'after_toxic_filter': 4584, 'after_quality_filter': 522, 'after_dedup': 522}
+Processing record 17500
+Stats: {'total_records': 17499, 'after_language_filter': 7049, 'after_gopher_filter': 4661, 'after_nsfw_filter': 4633, 'after_toxic_filter': 4618, 'after_quality_filter': 527, 'after_dedup': 527}
+Processing record 17600
+Stats: {'total_records': 17599, 'after_language_filter': 7084, 'after_gopher_filter': 4685, 'after_nsfw_filter': 4657, 'after_toxic_filter': 4642, 'after_quality_filter': 528, 'after_dedup': 528}
+Processing record 17700
+Stats: {'total_records': 17699, 'after_language_filter': 7126, 'after_gopher_filter': 4717, 'after_nsfw_filter': 4689, 'after_toxic_filter': 4674, 'after_quality_filter': 535, 'after_dedup': 535}
+Processing record 17800
+Stats: {'total_records': 17799, 'after_language_filter': 7172, 'after_gopher_filter': 4753, 'after_nsfw_filter': 4725, 'after_toxic_filter': 4710, 'after_quality_filter': 540, 'after_dedup': 540}
+Processing record 17900
+Stats: {'total_records': 17899, 'after_language_filter': 7218, 'after_gopher_filter': 4788, 'after_nsfw_filter': 4760, 'after_toxic_filter': 4745, 'after_quality_filter': 543, 'after_dedup': 543}
+Processing record 18000
+Stats: {'total_records': 17999, 'after_language_filter': 7269, 'after_gopher_filter': 4820, 'after_nsfw_filter': 4792, 'after_toxic_filter': 4777, 'after_quality_filter': 552, 'after_dedup': 552}
+Processing record 18100
+Stats: {'total_records': 18099, 'after_language_filter': 7322, 'after_gopher_filter': 4857, 'after_nsfw_filter': 4829, 'after_toxic_filter': 4814, 'after_quality_filter': 558, 'after_dedup': 558}
+Processing record 18200
+Stats: {'total_records': 18199, 'after_language_filter': 7374, 'after_gopher_filter': 4900, 'after_nsfw_filter': 4872, 'after_toxic_filter': 4857, 'after_quality_filter': 565, 'after_dedup': 565}
+Processing record 18300
+Stats: {'total_records': 18299, 'after_language_filter': 7429, 'after_gopher_filter': 4937, 'after_nsfw_filter': 4909, 'after_toxic_filter': 4894, 'after_quality_filter': 567, 'after_dedup': 567}
+Processing record 18400
+Stats: {'total_records': 18399, 'after_language_filter': 7477, 'after_gopher_filter': 4972, 'after_nsfw_filter': 4944, 'after_toxic_filter': 4928, 'after_quality_filter': 577, 'after_dedup': 577}
+Processing record 18500
+Stats: {'total_records': 18499, 'after_language_filter': 7521, 'after_gopher_filter': 5006, 'after_nsfw_filter': 4978, 'after_toxic_filter': 4962, 'after_quality_filter': 582, 'after_dedup': 582}
+Processing record 18600
+Stats: {'total_records': 18599, 'after_language_filter': 7570, 'after_gopher_filter': 5045, 'after_nsfw_filter': 5017, 'after_toxic_filter': 5001, 'after_quality_filter': 582, 'after_dedup': 582}
+Processing record 18700
+Stats: {'total_records': 18699, 'after_language_filter': 7615, 'after_gopher_filter': 5075, 'after_nsfw_filter': 5047, 'after_toxic_filter': 5031, 'after_quality_filter': 586, 'after_dedup': 586}
+Processing record 18800
+Stats: {'total_records': 18799, 'after_language_filter': 7666, 'after_gopher_filter': 5113, 'after_nsfw_filter': 5085, 'after_toxic_filter': 5069, 'after_quality_filter': 590, 'after_dedup': 590}
+Processing record 18900
+Stats: {'total_records': 18899, 'after_language_filter': 7709, 'after_gopher_filter': 5145, 'after_nsfw_filter': 5117, 'after_toxic_filter': 5101, 'after_quality_filter': 591, 'after_dedup': 591}
+Processing record 19000
+Stats: {'total_records': 18999, 'after_language_filter': 7745, 'after_gopher_filter': 5172, 'after_nsfw_filter': 5144, 'after_toxic_filter': 5128, 'after_quality_filter': 592, 'after_dedup': 592}
+Processing record 19100
+Stats: {'total_records': 19099, 'after_language_filter': 7785, 'after_gopher_filter': 5201, 'after_nsfw_filter': 5173, 'after_toxic_filter': 5157, 'after_quality_filter': 597, 'after_dedup': 597}
+Processing record 19200
+Stats: {'total_records': 19199, 'after_language_filter': 7830, 'after_gopher_filter': 5235, 'after_nsfw_filter': 5207, 'after_toxic_filter': 5191, 'after_quality_filter': 598, 'after_dedup': 598}
+Processing record 19300
+Stats: {'total_records': 19299, 'after_language_filter': 7869, 'after_gopher_filter': 5264, 'after_nsfw_filter': 5236, 'after_toxic_filter': 5220, 'after_quality_filter': 600, 'after_dedup': 600}
+Processing record 19400
+Stats: {'total_records': 19399, 'after_language_filter': 7900, 'after_gopher_filter': 5279, 'after_nsfw_filter': 5251, 'after_toxic_filter': 5235, 'after_quality_filter': 601, 'after_dedup': 601}
+Processing record 19500
+Stats: {'total_records': 19499, 'after_language_filter': 7928, 'after_gopher_filter': 5299, 'after_nsfw_filter': 5271, 'after_toxic_filter': 5255, 'after_quality_filter': 604, 'after_dedup': 604}
+Processing record 19600
+Stats: {'total_records': 19599, 'after_language_filter': 7982, 'after_gopher_filter': 5331, 'after_nsfw_filter': 5303, 'after_toxic_filter': 5287, 'after_quality_filter': 608, 'after_dedup': 608}
+Processing record 19700
+Stats: {'total_records': 19699, 'after_language_filter': 8021, 'after_gopher_filter': 5361, 'after_nsfw_filter': 5333, 'after_toxic_filter': 5317, 'after_quality_filter': 612, 'after_dedup': 612}
+Processing record 19800
+Stats: {'total_records': 19799, 'after_language_filter': 8071, 'after_gopher_filter': 5392, 'after_nsfw_filter': 5364, 'after_toxic_filter': 5348, 'after_quality_filter': 615, 'after_dedup': 615}
+Processing record 19900
+Stats: {'total_records': 19899, 'after_language_filter': 8117, 'after_gopher_filter': 5426, 'after_nsfw_filter': 5398, 'after_toxic_filter': 5382, 'after_quality_filter': 625, 'after_dedup': 625}
+Processing record 20000
+Stats: {'total_records': 19999, 'after_language_filter': 8159, 'after_gopher_filter': 5454, 'after_nsfw_filter': 5426, 'after_toxic_filter': 5410, 'after_quality_filter': 629, 'after_dedup': 629}
+Processing record 20100
+Stats: {'total_records': 20099, 'after_language_filter': 8201, 'after_gopher_filter': 5478, 'after_nsfw_filter': 5450, 'after_toxic_filter': 5434, 'after_quality_filter': 632, 'after_dedup': 632}
+Processing record 20200
+Stats: {'total_records': 20199, 'after_language_filter': 8254, 'after_gopher_filter': 5514, 'after_nsfw_filter': 5486, 'after_toxic_filter': 5470, 'after_quality_filter': 641, 'after_dedup': 641}
+Processing record 20300
+Stats: {'total_records': 20299, 'after_language_filter': 8298, 'after_gopher_filter': 5539, 'after_nsfw_filter': 5510, 'after_toxic_filter': 5494, 'after_quality_filter': 641, 'after_dedup': 641}
+Processing record 20400
+Stats: {'total_records': 20399, 'after_language_filter': 8340, 'after_gopher_filter': 5570, 'after_nsfw_filter': 5540, 'after_toxic_filter': 5524, 'after_quality_filter': 651, 'after_dedup': 651}
+Processing record 20500
+Stats: {'total_records': 20499, 'after_language_filter': 8380, 'after_gopher_filter': 5603, 'after_nsfw_filter': 5573, 'after_toxic_filter': 5557, 'after_quality_filter': 656, 'after_dedup': 656}
+Processing record 20600
+Stats: {'total_records': 20599, 'after_language_filter': 8421, 'after_gopher_filter': 5633, 'after_nsfw_filter': 5602, 'after_toxic_filter': 5586, 'after_quality_filter': 658, 'after_dedup': 658}
+Processing record 20700
+Stats: {'total_records': 20699, 'after_language_filter': 8465, 'after_gopher_filter': 5664, 'after_nsfw_filter': 5633, 'after_toxic_filter': 5617, 'after_quality_filter': 659, 'after_dedup': 659}
+Processing record 20800
+Stats: {'total_records': 20799, 'after_language_filter': 8503, 'after_gopher_filter': 5693, 'after_nsfw_filter': 5662, 'after_toxic_filter': 5646, 'after_quality_filter': 662, 'after_dedup': 662}
+Processing record 20900
+Stats: {'total_records': 20899, 'after_language_filter': 8540, 'after_gopher_filter': 5721, 'after_nsfw_filter': 5690, 'after_toxic_filter': 5673, 'after_quality_filter': 668, 'after_dedup': 668}
+Processing record 21000
+Stats: {'total_records': 20999, 'after_language_filter': 8579, 'after_gopher_filter': 5747, 'after_nsfw_filter': 5716, 'after_toxic_filter': 5699, 'after_quality_filter': 670, 'after_dedup': 670}
+Processing record 21100
+Stats: {'total_records': 21099, 'after_language_filter': 8632, 'after_gopher_filter': 5784, 'after_nsfw_filter': 5753, 'after_toxic_filter': 5736, 'after_quality_filter': 673, 'after_dedup': 673}
+Processing record 21200
+Stats: {'total_records': 21199, 'after_language_filter': 8675, 'after_gopher_filter': 5816, 'after_nsfw_filter': 5785, 'after_toxic_filter': 5768, 'after_quality_filter': 681, 'after_dedup': 681}
+Processing record 21300
+Stats: {'total_records': 21299, 'after_language_filter': 8715, 'after_gopher_filter': 5844, 'after_nsfw_filter': 5813, 'after_toxic_filter': 5796, 'after_quality_filter': 684, 'after_dedup': 684}
+Processing record 21400
+Stats: {'total_records': 21399, 'after_language_filter': 8741, 'after_gopher_filter': 5866, 'after_nsfw_filter': 5835, 'after_toxic_filter': 5818, 'after_quality_filter': 690, 'after_dedup': 690}
+Processing record 21500
+Stats: {'total_records': 21499, 'after_language_filter': 8756, 'after_gopher_filter': 5879, 'after_nsfw_filter': 5848, 'after_toxic_filter': 5831, 'after_quality_filter': 691, 'after_dedup': 691}
+Processing record 21600
+Stats: {'total_records': 21599, 'after_language_filter': 8796, 'after_gopher_filter': 5907, 'after_nsfw_filter': 5876, 'after_toxic_filter': 5859, 'after_quality_filter': 696, 'after_dedup': 696}
+Processing record 21700
+Stats: {'total_records': 21699, 'after_language_filter': 8820, 'after_gopher_filter': 5922, 'after_nsfw_filter': 5891, 'after_toxic_filter': 5874, 'after_quality_filter': 697, 'after_dedup': 697}
+Processing record 21800
+Stats: {'total_records': 21799, 'after_language_filter': 8860, 'after_gopher_filter': 5950, 'after_nsfw_filter': 5919, 'after_toxic_filter': 5902, 'after_quality_filter': 705, 'after_dedup': 705}
+Processing record 21900
+Stats: {'total_records': 21899, 'after_language_filter': 8905, 'after_gopher_filter': 5980, 'after_nsfw_filter': 5949, 'after_toxic_filter': 5932, 'after_quality_filter': 707, 'after_dedup': 707}
+Processing record 22000
+Stats: {'total_records': 21999, 'after_language_filter': 8942, 'after_gopher_filter': 6010, 'after_nsfw_filter': 5979, 'after_toxic_filter': 5962, 'after_quality_filter': 709, 'after_dedup': 709}
+Processing record 22100
+Stats: {'total_records': 22099, 'after_language_filter': 8975, 'after_gopher_filter': 6037, 'after_nsfw_filter': 6006, 'after_toxic_filter': 5989, 'after_quality_filter': 712, 'after_dedup': 712}
+Processing record 22200
+Stats: {'total_records': 22199, 'after_language_filter': 9018, 'after_gopher_filter': 6064, 'after_nsfw_filter': 6033, 'after_toxic_filter': 6016, 'after_quality_filter': 715, 'after_dedup': 715}
+Processing record 22300
+Stats: {'total_records': 22299, 'after_language_filter': 9063, 'after_gopher_filter': 6096, 'after_nsfw_filter': 6065, 'after_toxic_filter': 6048, 'after_quality_filter': 718, 'after_dedup': 718}
+Processing record 22400
+Stats: {'total_records': 22399, 'after_language_filter': 9096, 'after_gopher_filter': 6116, 'after_nsfw_filter': 6085, 'after_toxic_filter': 6068, 'after_quality_filter': 722, 'after_dedup': 722}
+Processing record 22500
+Stats: {'total_records': 22499, 'after_language_filter': 9129, 'after_gopher_filter': 6139, 'after_nsfw_filter': 6107, 'after_toxic_filter': 6090, 'after_quality_filter': 724, 'after_dedup': 724}
+Processing record 22600
+Stats: {'total_records': 22599, 'after_language_filter': 9171, 'after_gopher_filter': 6171, 'after_nsfw_filter': 6139, 'after_toxic_filter': 6122, 'after_quality_filter': 728, 'after_dedup': 728}
+Processing record 22700
+Stats: {'total_records': 22699, 'after_language_filter': 9209, 'after_gopher_filter': 6199, 'after_nsfw_filter': 6167, 'after_toxic_filter': 6150, 'after_quality_filter': 736, 'after_dedup': 736}
+Processing record 22800
+Stats: {'total_records': 22799, 'after_language_filter': 9243, 'after_gopher_filter': 6222, 'after_nsfw_filter': 6190, 'after_toxic_filter': 6173, 'after_quality_filter': 741, 'after_dedup': 741}
+Processing record 22900
+Stats: {'total_records': 22899, 'after_language_filter': 9284, 'after_gopher_filter': 6251, 'after_nsfw_filter': 6219, 'after_toxic_filter': 6202, 'after_quality_filter': 745, 'after_dedup': 745}
+Processing record 23000
+Stats: {'total_records': 22999, 'after_language_filter': 9320, 'after_gopher_filter': 6283, 'after_nsfw_filter': 6251, 'after_toxic_filter': 6234, 'after_quality_filter': 748, 'after_dedup': 748}
+Processing record 23100
+Stats: {'total_records': 23099, 'after_language_filter': 9357, 'after_gopher_filter': 6313, 'after_nsfw_filter': 6281, 'after_toxic_filter': 6264, 'after_quality_filter': 753, 'after_dedup': 753}
+Processing record 23200
+Stats: {'total_records': 23199, 'after_language_filter': 9402, 'after_gopher_filter': 6346, 'after_nsfw_filter': 6314, 'after_toxic_filter': 6297, 'after_quality_filter': 758, 'after_dedup': 758}
+Processing record 23300
+Stats: {'total_records': 23299, 'after_language_filter': 9451, 'after_gopher_filter': 6384, 'after_nsfw_filter': 6352, 'after_toxic_filter': 6335, 'after_quality_filter': 762, 'after_dedup': 762}
+Processing record 23400
+Stats: {'total_records': 23399, 'after_language_filter': 9499, 'after_gopher_filter': 6415, 'after_nsfw_filter': 6383, 'after_toxic_filter': 6366, 'after_quality_filter': 767, 'after_dedup': 767}
+Processing record 23500
+Stats: {'total_records': 23499, 'after_language_filter': 9548, 'after_gopher_filter': 6451, 'after_nsfw_filter': 6419, 'after_toxic_filter': 6402, 'after_quality_filter': 771, 'after_dedup': 771}
+Processing record 23600
+Stats: {'total_records': 23599, 'after_language_filter': 9595, 'after_gopher_filter': 6474, 'after_nsfw_filter': 6442, 'after_toxic_filter': 6425, 'after_quality_filter': 776, 'after_dedup': 776}
+Processing record 23700
+Stats: {'total_records': 23699, 'after_language_filter': 9639, 'after_gopher_filter': 6510, 'after_nsfw_filter': 6478, 'after_toxic_filter': 6461, 'after_quality_filter': 779, 'after_dedup': 779}
+Processing record 23800
+Stats: {'total_records': 23799, 'after_language_filter': 9688, 'after_gopher_filter': 6541, 'after_nsfw_filter': 6509, 'after_toxic_filter': 6492, 'after_quality_filter': 782, 'after_dedup': 782}
+Processing record 23900
+Stats: {'total_records': 23899, 'after_language_filter': 9734, 'after_gopher_filter': 6569, 'after_nsfw_filter': 6537, 'after_toxic_filter': 6520, 'after_quality_filter': 783, 'after_dedup': 783}
+Processing record 24000
+Stats: {'total_records': 23999, 'after_language_filter': 9769, 'after_gopher_filter': 6596, 'after_nsfw_filter': 6564, 'after_toxic_filter': 6547, 'after_quality_filter': 789, 'after_dedup': 789}
+Processing record 24100
+Stats: {'total_records': 24099, 'after_language_filter': 9808, 'after_gopher_filter': 6623, 'after_nsfw_filter': 6591, 'after_toxic_filter': 6573, 'after_quality_filter': 793, 'after_dedup': 793}
+Processing record 24200
+Stats: {'total_records': 24199, 'after_language_filter': 9857, 'after_gopher_filter': 6654, 'after_nsfw_filter': 6622, 'after_toxic_filter': 6604, 'after_quality_filter': 794, 'after_dedup': 794}
+Processing record 24300
+Stats: {'total_records': 24299, 'after_language_filter': 9898, 'after_gopher_filter': 6682, 'after_nsfw_filter': 6650, 'after_toxic_filter': 6632, 'after_quality_filter': 798, 'after_dedup': 798}
+Processing record 24400
+Stats: {'total_records': 24399, 'after_language_filter': 9936, 'after_gopher_filter': 6712, 'after_nsfw_filter': 6680, 'after_toxic_filter': 6662, 'after_quality_filter': 805, 'after_dedup': 805}
+Processing record 24500
+Stats: {'total_records': 24499, 'after_language_filter': 9987, 'after_gopher_filter': 6749, 'after_nsfw_filter': 6717, 'after_toxic_filter': 6699, 'after_quality_filter': 809, 'after_dedup': 809}
+Processing record 24600
+Stats: {'total_records': 24599, 'after_language_filter': 10034, 'after_gopher_filter': 6786, 'after_nsfw_filter': 6754, 'after_toxic_filter': 6736, 'after_quality_filter': 811, 'after_dedup': 811}
+Processing record 24700
+Stats: {'total_records': 24699, 'after_language_filter': 10070, 'after_gopher_filter': 6810, 'after_nsfw_filter': 6778, 'after_toxic_filter': 6760, 'after_quality_filter': 813, 'after_dedup': 813}
+Processing record 24800
+Stats: {'total_records': 24799, 'after_language_filter': 10111, 'after_gopher_filter': 6844, 'after_nsfw_filter': 6812, 'after_toxic_filter': 6794, 'after_quality_filter': 820, 'after_dedup': 820}
+Processing record 24900
+Stats: {'total_records': 24899, 'after_language_filter': 10183, 'after_gopher_filter': 6900, 'after_nsfw_filter': 6867, 'after_toxic_filter': 6849, 'after_quality_filter': 828, 'after_dedup': 828}
+Processing record 25000
+Stats: {'total_records': 24999, 'after_language_filter': 10256, 'after_gopher_filter': 6957, 'after_nsfw_filter': 6924, 'after_toxic_filter': 6906, 'after_quality_filter': 840, 'after_dedup': 840}
+Processing record 25100
+Stats: {'total_records': 25099, 'after_language_filter': 10303, 'after_gopher_filter': 6987, 'after_nsfw_filter': 6954, 'after_toxic_filter': 6936, 'after_quality_filter': 842, 'after_dedup': 842}
+Processing record 25200
+Stats: {'total_records': 25199, 'after_language_filter': 10352, 'after_gopher_filter': 7019, 'after_nsfw_filter': 6986, 'after_toxic_filter': 6968, 'after_quality_filter': 843, 'after_dedup': 843}
+Processing record 25300
+Stats: {'total_records': 25299, 'after_language_filter': 10393, 'after_gopher_filter': 7050, 'after_nsfw_filter': 7017, 'after_toxic_filter': 6999, 'after_quality_filter': 847, 'after_dedup': 847}
+Processing record 25400
+Stats: {'total_records': 25399, 'after_language_filter': 10423, 'after_gopher_filter': 7071, 'after_nsfw_filter': 7038, 'after_toxic_filter': 7020, 'after_quality_filter': 851, 'after_dedup': 851}
+Processing record 25500
+Stats: {'total_records': 25499, 'after_language_filter': 10455, 'after_gopher_filter': 7092, 'after_nsfw_filter': 7059, 'after_toxic_filter': 7041, 'after_quality_filter': 855, 'after_dedup': 855}
+Processing record 25600
+Stats: {'total_records': 25599, 'after_language_filter': 10496, 'after_gopher_filter': 7121, 'after_nsfw_filter': 7088, 'after_toxic_filter': 7070, 'after_quality_filter': 858, 'after_dedup': 858}
+Processing record 25700
+Stats: {'total_records': 25699, 'after_language_filter': 10556, 'after_gopher_filter': 7165, 'after_nsfw_filter': 7132, 'after_toxic_filter': 7114, 'after_quality_filter': 866, 'after_dedup': 866}
+Processing record 25800
+Stats: {'total_records': 25799, 'after_language_filter': 10618, 'after_gopher_filter': 7211, 'after_nsfw_filter': 7178, 'after_toxic_filter': 7160, 'after_quality_filter': 872, 'after_dedup': 872}
+Processing record 25900
+Stats: {'total_records': 25899, 'after_language_filter': 10652, 'after_gopher_filter': 7237, 'after_nsfw_filter': 7204, 'after_toxic_filter': 7185, 'after_quality_filter': 876, 'after_dedup': 876}
+Processing record 26000
+Stats: {'total_records': 25999, 'after_language_filter': 10684, 'after_gopher_filter': 7260, 'after_nsfw_filter': 7227, 'after_toxic_filter': 7208, 'after_quality_filter': 879, 'after_dedup': 879}
+Processing record 26100
+Stats: {'total_records': 26099, 'after_language_filter': 10710, 'after_gopher_filter': 7280, 'after_nsfw_filter': 7247, 'after_toxic_filter': 7228, 'after_quality_filter': 881, 'after_dedup': 881}
+Processing record 26200
+Stats: {'total_records': 26199, 'after_language_filter': 10741, 'after_gopher_filter': 7304, 'after_nsfw_filter': 7268, 'after_toxic_filter': 7249, 'after_quality_filter': 882, 'after_dedup': 882}
+Processing record 26300
+Stats: {'total_records': 26299, 'after_language_filter': 10767, 'after_gopher_filter': 7320, 'after_nsfw_filter': 7284, 'after_toxic_filter': 7265, 'after_quality_filter': 884, 'after_dedup': 884}
+{'total_records': 26365, 'after_language_filter': 10779, 'after_gopher_filter': 7326, 'after_nsfw_filter': 7290, 'after_toxic_filter': 7271, 'after_quality_filter': 884, 'after_dedup': 884}
+Batch 20: Completed CC-MAIN-20250427151917-20250427181917-00830
+Batch 20 completed with 3 successful files
+submitit INFO (2025-05-27 01:09:00,807) - Job completed successfully
+submitit INFO (2025-05-27 01:09:00,812) - Exiting after successful completion

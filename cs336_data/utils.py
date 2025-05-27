@@ -23,6 +23,7 @@ BASE_DIR = "/data"
 NSFW_FILTER = "classifiers/dolma_fasttext_nsfw_jigsaw_model.bin"
 TOXIC_FILTER = "classifiers/dolma_fasttext_hatespeech_jigsaw_model.bin"
 LANGUAGE_FILTER = "classifiers/lid.176.bin"
+QUALITY_FILTER = "/home/c-cye/assignment4-data/cs336_data/quality_classifier.bin"
 
 def html_to_txt(html: bytes) -> str:
     encoding = detect_encoding(html)
@@ -31,6 +32,7 @@ def html_to_txt(html: bytes) -> str:
     try:
         html_str = html.decode(encoding)
         return extract_plain_text(html_str)
+    
     except Exception as e:
         try:
             result = chardet.detect(html[:10000]) 
@@ -91,6 +93,13 @@ def filter_fasttext(text: str, classifier: fasttext.FastText) -> str:
     confidence = prediction[1][0]
     return label, confidence
 
+class QualityFilter():
+    def __init__(self, classifier_id: str = QUALITY_FILTER):
+        self.classifier = load_classifier(classifier_id)
+
+    def filter_quality(self, text: str) -> str:
+        return filter_fasttext(text, self.classifier)
+
 class LanguageDetector():
     def __init__(self, classifier_id: str = LANGUAGE_FILTER):
         self.classifier = load_classifier(classifier_id)
@@ -117,6 +126,10 @@ if __name__ == "__main__":
     # WARC_path = os.path.join(BASE_DIR, "CC/example.warc.gz")
     # WARC_path = os.path.join(BASE_DIR, "batch_0000.warc.gz")
     WARC_path = "/data/CC/example.warc.gz"
+    language_detector = LanguageDetector()
+    nsfw_detector = NSFWDetector()
+    toxic_detector = ToxicDetector()
+    piifilter = PIIFilter()
 
     if test_task == "html_to_txt":
         for txt in warc_to_txt(WARC_path, n_records = 1, record_id = 2000):
@@ -127,23 +140,23 @@ if __name__ == "__main__":
         id = random.randint(0, 10000)
         for txt in warc_to_txt(WARC_path, n_records = 1, record_id = id):
             print(txt)
-            print('Classified language:', detect_language(txt))
+            print('Classified language:', language_detector.detect_language(txt))
     
     elif test_task == "filter_harmful":
         id = random.randint(0, 10000)
         for txt in warc_to_txt(WARC_path, n_records = 1, record_id = id):
             print(txt)
-            print('Classified NSFW:', filter_nsfw(txt))
-            print('Classified toxic:', filter_toxic(txt))
+            print('Classified NSFW:', nsfw_detector.filter_nsfw(txt))
+            print('Classified toxic:', toxic_detector.filter_toxic(txt))
 
     elif test_task == "mask":
         num_replacements = 0
 
         id = random.randint(1, 10000)
         for txt in warc_to_txt(WARC_path, n_records = 10, record_id = id):
-            masked_text, email_count = mask_emails(txt)
-            masked_text, phone_count = mask_phone_numbers(masked_text) 
-            masked_text, ip_count = mask_ips(masked_text)
+            masked_text, email_count = piifilter.mask_emails(txt)
+            masked_text, phone_count = piifilter.mask_phone_numbers(masked_text) 
+            masked_text, ip_count = piifilter.mask_ips(masked_text)
             total_count = email_count + phone_count + ip_count
 
             if total_count > 0:

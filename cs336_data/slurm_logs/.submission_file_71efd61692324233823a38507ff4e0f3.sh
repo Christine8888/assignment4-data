@@ -1,0 +1,1 @@
+/home/c-cye/assignment4-data/cs336_data/slurm_logs/1147303_submission.sh

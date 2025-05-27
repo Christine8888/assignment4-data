@@ -1,0 +1,61 @@
+submitit WARNING (2025-05-26 23:58:01,678) - Bypassing signal SIGCONT
+submitit WARNING (2025-05-26 23:58:01,678) - Caught signal SIGUSR2 on ad12a3ca-01.cloud.together.ai: this job is timed-out.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/c-cye/.local/share/uv/python/cpython-3.13.3-linux-x86_64-gnu/lib/python3.13/logging/__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/job_environment.py", line 226, in checkpoint_and_try_requeue
+    raise utils.UncompletedJobError(message)
+submitit.core.utils.UncompletedJobError: Job not requeued because: timed-out and not checkpointable.
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/_submit.py", line 11, in <module>
+    submitit_main()
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/submission.py", line 76, in submitit_main
+    process_job(args.folder)
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/submission.py", line 55, in process_job
+    result = delayed.result()
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/utils.py", line 137, in result
+    self._result = self.function(*self.args, **self.kwargs)
+  File "/home/c-cye/assignment4-data/cs336_data/first_filter.py", line 174, in process_batch_of_wet_files
+    result = process_single_wet_file(wet_filepath, output_path, work_dir)
+  File "/home/c-cye/assignment4-data/cs336_data/first_filter.py", line 87, in process_single_wet_file
+    gopher = gopher_filter.filter(text)
+  File "/home/c-cye/assignment4-data/cs336_data/gopher.py", line 34, in filter
+    tokenized = self.tokenize(text)
+  File "/home/c-cye/assignment4-data/cs336_data/gopher.py", line 81, in tokenize
+    return nltk.tokenize.word_tokenize(text)
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/__init__.py", line 142, in word_tokenize
+    sentences = [text] if preserve_line else sent_tokenize(text, language)
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/__init__.py", line 120, in sent_tokenize
+    return tokenizer.tokenize(text)
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 1280, in tokenize
+    return list(self.sentences_from_text(text, realign_boundaries))
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 1340, in sentences_from_text
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 1328, in span_tokenize
+    for sentence in slices:
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 1457, in _realign_boundaries
+    for sentence1, sentence2 in _pair_iter(slices):
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 324, in _pair_iter
+    for el in iterator:
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 1430, in _slices_from_text
+    if self.text_contains_sentbreak(context):
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 1478, in text_contains_sentbreak
+    for tok in self._annotate_tokens(self._tokenize_words(text)):
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 1620, in _annotate_second_pass
+    for token1, token2 in _pair_iter(tokens):
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 321, in _pair_iter
+    prev = next(iterator)
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 603, in _annotate_first_pass
+    for aug_tok in tokens:
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 572, in _tokenize_words
+    yield self._Token(tok, parastart=parastart, linestart=True)
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/nltk/tokenize/punkt.py", line 407, in __init__
+    setattr(self, prop, None)
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/job_environment.py", line 196, in bypass
+    self._logger.warning(f"Bypassing signal {signal.Signals(signum).name}")
+Message: 'Bypassing signal SIGCONT'
+Arguments: ()

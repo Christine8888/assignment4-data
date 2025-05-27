@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/__init__.py", line 9, in <module>
+    from . import helpers as helpers
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/helpers.py", line 22, in <module>
+    from .core import core
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/core.py", line 8, in <module>
+    import asyncio
+  File "/home/c-cye/.local/share/uv/python/cpython-3.13.3-linux-x86_64-gnu/lib/python3.13/asyncio/__init__.py", line 8, in <module>
+    from .base_events import *
+  File "/home/c-cye/.local/share/uv/python/cpython-3.13.3-linux-x86_64-gnu/lib/python3.13/asyncio/base_events.py", line 39, in <module>
+    from . import coroutines
+  File "/home/c-cye/.local/share/uv/python/cpython-3.13.3-linux-x86_64-gnu/lib/python3.13/asyncio/coroutines.py", line 4, in <module>
+    import inspect
+  File "/home/c-cye/.local/share/uv/python/cpython-3.13.3-linux-x86_64-gnu/lib/python3.13/inspect.py", line 155, in <module>
+    import tokenize
+  File "/home/c-cye/assignment4-data/cs336_data/tokenize.py", line 4, in <module>
+    from tqdm import tqdm
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/tqdm/__init__.py", line 3, in <module>
+    from .cli import main  # TODO: remove in v5.0.0
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/tqdm/cli.py", line 10, in <module>
+    from .std import TqdmKeyError, TqdmTypeError, tqdm
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/tqdm/std.py", line 20, in <module>
+    from .utils import (
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/tqdm/utils.py", line 8, in <module>
+    from inspect import signature
+ImportError: cannot import name 'signature' from partially initialized module 'inspect' (most likely due to a circular import) (/home/c-cye/.local/share/uv/python/cpython-3.13.3-linux-x86_64-gnu/lib/python3.13/inspect.py)
+srun: error: ad12a3ca-04: task 0: Exited with exit code 1

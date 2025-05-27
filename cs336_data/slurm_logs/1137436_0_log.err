@@ -1,0 +1,33 @@
+submitit WARNING (2025-05-26 19:36:30,986) - Bypassing signal SIGCONT
+submitit WARNING (2025-05-26 19:36:30,994) - Caught signal SIGUSR2 on ad12a3ca-01.cloud.together.ai: this job is timed-out.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/c-cye/.local/share/uv/python/cpython-3.13.3-linux-x86_64-gnu/lib/python3.13/logging/__init__.py", line 1153, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/job_environment.py", line 226, in checkpoint_and_try_requeue
+    raise utils.UncompletedJobError(message)
+submitit.core.utils.UncompletedJobError: Job not requeued because: timed-out and not checkpointable.
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/_submit.py", line 11, in <module>
+    submitit_main()
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/submission.py", line 76, in submitit_main
+    process_job(args.folder)
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/submission.py", line 55, in process_job
+    result = delayed.result()
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/utils.py", line 137, in result
+    self._result = self.function(*self.args, **self.kwargs)
+  File "/home/c-cye/assignment4-data/cs336_data/first_filter.py", line 160, in process_batch_of_wet_files
+    results = []
+  File "/home/c-cye/assignment4-data/cs336_data/first_filter.py", line 125, in process_single_wet_file
+    output_file.write(text)
+  File "/home/c-cye/assignment4-data/cs336_data/dedup.py", line 64, in minhash_dedup
+    minhashes = self._minhash(text)
+  File "/home/c-cye/assignment4-data/cs336_data/dedup.py", line 149, in _minhash
+    hashes = [mmh3.hash(ngram, seed) for ngram in ngrams]
+  File "/home/c-cye/assignment4-data/.venv/lib/python3.13/site-packages/submitit/core/job_environment.py", line 196, in bypass
+    self._logger.warning(f"Bypassing signal {signal.Signals(signum).name}")
+Message: 'Bypassing signal SIGCONT'
+Arguments: ()

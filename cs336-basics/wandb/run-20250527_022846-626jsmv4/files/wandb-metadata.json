@@ -1,0 +1,89 @@
+{
+  "os": "Linux-5.15.0-140-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.13.3",
+  "startedAt": "2025-05-27T09:28:46.218702Z",
+  "args": [
+    "--config-name=experiment/your_data"
+  ],
+  "program": "/home/c-cye/assignment4-data/cs336-basics/scripts/train.py",
+  "codePath": "cs336-basics/scripts/train.py",
+  "git": {
+    "remote": "https://github.com/Christine8888/assignment4-data.git",
+    "commit": "1860d59dcf5afce8e3f64796c2c8a84103aa12b2"
+  },
+  "email": "christineye888@gmail.com",
+  "root": "/home/c-cye/assignment4-data/cs336-basics",
+  "host": "ad12a3ca-04.cloud.together.ai",
+  "executable": "/home/c-cye/assignment4-data/cs336-basics/.venv/bin/python",
+  "codePathLocal": "scripts/train.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 64,
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "943432929280",
+      "used": "238678028288"
+    }
+  },
+  "memory": {
+    "total": "2164198150144"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 64
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H100 80GB HBM3",
+      "memoryTotal": "85520809984",
+      "cudaCores": 16896,
+      "architecture": "Hopper"
+    },
+    {
+      "name": "NVIDIA H100 80GB HBM3",
+      "memoryTotal": "85520809984",
+      "cudaCores": 16896,
+      "architecture": "Hopper"
+    }
+  ],
+  "slurm": {
+    "cluster_name": "cs336",
+    "conf": "/etc/slurm/slurm.conf",
+    "cpus_on_node": "4",
+    "gpus_on_node": "2",
+    "gtids": "0",
+    "job_account": "student",
+    "job_cpus_per_node": "4",
+    "job_gid": "243000759",
+    "job_gpus": "1,2",
+    "job_id": "1187028",
+    "job_name": "training",
+    "job_nodelist": "ad12a3ca-04",
+    "job_num_nodes": "1",
+    "job_partition": "a4-batch",
+    "job_qos": "a4-batch-qos",
+    "job_uid": "243000759",
+    "job_user": "c-cye",
+    "jobid": "1187028",
+    "localid": "0",
+    "mem_per_cpu": "12500",
+    "nnodes": "1",
+    "node_aliases": "(null)",
+    "nodeid": "0",
+    "nodelist": "ad12a3ca-04",
+    "nprocs": "1",
+    "ntasks": "1",
+    "ntasks_per_node": "1",
+    "prio_process": "0",
+    "procid": "0",
+    "submit_dir": "/home/c-cye/assignment4-data/cs336-basics",
+    "submit_host": "ad12a3ca-hn01.cloud.together.ai",
+    "task_pid": "370835",
+    "tasks_per_node": "1",
+    "topology_addr": "ad12a3ca-04",
+    "topology_addr_pattern": "node",
+    "working_cluster": "cs336:10.56.0.40:6817:9472:109"
+  },
+  "cudaVersion": "12.8"
+}

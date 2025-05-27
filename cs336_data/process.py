@@ -14,6 +14,7 @@ import random
 from cs336_data.utils import warc_to_txt, LanguageDetector, NSFWDetector, ToxicDetector
 from cs336_data.gopher import GopherFilter
 
+bullet_point_characters = tuple(["*", "-", "•", "•"])
 
 
 class WarcToFastTextConverter:
@@ -58,9 +59,18 @@ class WarcToFastTextConverter:
             return False
 
         return gopher
+
+    def _clean_content(self, text: str) -> str:
+        # remove all lines starting with bullet points
+        text = "\n".join([line for line in text.split("\n") if not line.strip().startswith(bullet_point_characters)])
+        return text
         
-    def _format_line(self, text: str) -> str:
+    def _format_line(self, text: str, clean_content: bool = False) -> str:
         """format a single line for FastText training."""
+
+        if clean_content:
+            text = self._clean_content(text)
+
         # remove newlines and extra whitespace
         cleaned_text = " ".join(text.split())
         if len(cleaned_text) < 10:
@@ -83,7 +93,7 @@ class WarcToFastTextConverter:
         return self.lines_written < self.max_lines
     
     def process_warc_file(self, warc_file: str, n_records: Optional[int] = None, 
-                         sample: bool = False, filter_content: bool = True) -> int:
+                         sample: bool = False, filter_content: bool = True, clean_content: bool = False) -> int:
         """
         Process a single WARC file.
         
@@ -92,6 +102,7 @@ class WarcToFastTextConverter:
             n_records: Optional limit on records to process from this file
             sample: Whether to randomly sample records from the WARC file
             filter_content: Whether to apply filters to the text
+            clean_content: Whether to clean the content of the text
             
         Returns:
             Number of lines written from this file
@@ -110,20 +121,16 @@ class WarcToFastTextConverter:
             if i % 50 == 0:
                 print(f"processing record {i} of {n_records} from {warc_file}")
             
-            if not self._should_continue():
-                break
+            if not self._should_continue(): break
 
-            if sample and i not in indices:
-                continue
+            if sample and i not in indices: continue
             
             try:
-                if filter_content and not self._filter_text(txt):
-                    continue
+                if filter_content and not self._filter_text(txt): continue
                 
                 # format and write the line
-                formatted_line = self._format_line(txt)
-                if not formatted_line:
-                    continue
+                formatted_line = self._format_line(txt, clean_content)
+                if not formatted_line: continue
                 
                 with open(self.output_file, 'a', encoding='utf-8') as f:
                     f.write(formatted_line)
@@ -142,7 +149,8 @@ class WarcToFastTextConverter:
     def process_warc_files(self, warc_path: Union[str, List[str]], 
                           n_records: Optional[int] = None,
                           sample: bool = False,
-                          filter_content: bool = True) -> None:
+                          filter_content: bool = True,
+                          clean_content: bool = False) -> None:
         """
         Process WARC files from a path or list of paths.
         
@@ -189,7 +197,8 @@ class WarcToFastTextConverter:
                 warc_file, 
                 n_records=n_records,
                 sample=sample,
-                filter_content=filter_content
+                filter_content=filter_content,
+                clean_content=clean_content
             )
             print(f"  -> {lines_from_file} lines written")
         
@@ -202,7 +211,8 @@ def convert_warc_to_fasttext(warc_path: Union[str, List[str]],
                            max_lines: Optional[int] = None,
                            records_per_file: Optional[int] = None,
                            sample: bool = False,
-                           filter_content: bool = True) -> None:
+                           filter_content: bool = True,
+                           clean_content: bool = False) -> None:
     """
     convenience function to convert WARC files to FastText format.
     
@@ -215,24 +225,25 @@ def convert_warc_to_fasttext(warc_path: Union[str, List[str]],
         sample: Whether to randomly sample records from the WARC file
     """
     converter = WarcToFastTextConverter(output_file, labels, max_lines)
-    converter.process_warc_files(warc_path = warc_path, n_records = records_per_file, sample = sample, filter_content = filter_content)
+    converter.process_warc_files(warc_path = warc_path, n_records = records_per_file, sample = sample, filter_content = filter_content, clean_content = clean_content)
 
 
 if __name__ == "__main__":
     # procss CC for negative examples
-    convert_warc_to_fasttext(
-        warc_path="/data/CC/example.warc.gz",
-        output_file="negative_data_filtered.txt", 
-        labels=["low-quality"],
-        max_lines = 20000,
-        filter_content = True
-    )
+    # convert_warc_to_fasttext(
+    #     warc_path="/data/CC/example.warc.gz",
+    #     output_file="negative_data.txt", 
+    #     labels=["low-quality"],
+    #     max_lines = 35000,
+    #     filter_content = False
+    # )
 
     # process quality data for positive examples
     convert_warc_to_fasttext(
         warc_path="/data/c-cye/assignment4-data/quality_text_4",
-        output_file="positive_data_2.txt", 
+        output_file="positive_data_cleaner.txt", 
         labels=["high-quality"],
         filter_content = True,
-        max_lines = 20000,
+        max_lines = 15000,
+        clean_content = True
     )
